@@ -1,88 +1,58 @@
 ---
-title: "cv"
+title: "Minimal CV"
 author: "Luisa Maria Mimmi"
-date: '`r Sys.Date()`'
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   html_document: 
     keep_md: yes
 ---
 
+# Contacts
+![Me](C:/Users/wb353524/Documents/0_R/cv/Rb77U9hN_400x400.jpg){ width=15% }
 
-***
-title: "CV"
-author: "William Sealy Gosset"
-date: `r Sys.Date()`
-output:
-  pdf_document:
-    toc: true
-    number_sections: true
+[linkedin](https://www.linkedin.com/in/luisa-m-mimmi/) 
 
-
-***
-title: "Demo"
-output:
-  html_document:
-    css: styles.css
-
+[github](https://github.com/Lulander)
 
 # Employment
 
-*Arthur Guinness & Son*
+*WORLD BANK*
+Monitoring & Evaluation Officer - Water and Urban Development (Washington, DC, USA) \hfill 2009-2017
 
-Chief Brewer (Park Royal) \hfill 1935-1937
+*IADB*
+Policy Analyst – Entrepreneurship and vocational training (Washington, DC, USA) \hfill 2008-2009
 
-Researcher (Dublin) \hfill 1899-1935
+*AVSI-CDM*
+Summer Intern – Slum Upgrading and Social Inclusion (Rio de Janeiro & Belo Horizonte, BRAZIL) \hfill 2007
+
+*VALUE PARTNERS S.p.A.*
+Business Intelligence Analyst (Milano, ITALY) \hfill 2001-2006
 
 # Education
 
-*New College, Oxford University*, B.A. Chemistry \hfill 1899
+*Shool of Public Policy, GEORGETOWN UNIVERSITY*, M.P.P. \hfill 2008
 
+*UNIVERSITÀ DEGLI STUDI DI PAVIA *, B.A. Economics \hfill 2001
 
 # Publications
 
-## Books
-
-Pearson, E.S. and John Wishart (eds.). 1943. *"Student's" Collected Papers* London: Biometrika Office.
 
 ## Journal Articles
 
-Student. 1938. "Comparison between Balanced and Random Arrangements on Field Plots." *Biometrika* 29(3-4): 363--378.
+Luisa M. Mimmi. 2014. *From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*. Energy for Sustainable Development, Vol. 21, pages 66--80.
 
-Student. 1936. "Co-operation in Large Scale Experiments." *Supplement to Journal of the Royal Statistical Society* 3(2): 115--136.
+Luisa M. Mimmi, Sencer Ecer. 2010. *An econometric study of illegal electricity connections in the urban favelas of Belo Horizonte, Brazil*. Energy Policy, Vol. 38(9), pages 5081--5097.
 
-Student. 1931. "On the *z* Test." *Biometrika* 23(3-4): 407-408.
 
-Student. 1931. "The Lanarkshire Milk Experiment." *Biometrika* 23(3-4): 398--406.
-
-Student. 1929. "Statistics in Biological Research." *Nature* 124: 93
-
-Student. 1927. "Errors of Routine Analysis." *Biometrika* 19(1-2): 151--164.
-
-Student. 1926. "Mathematics and Agronomy." *Journal of the American Society of Agronomy* 18.
-
-Student. 1925. "New Tables for Testing the Significance of Observations." *Metron* 5(3): 105--108.
-
-Student. 1923. "On Testing Varieties of Cereals." *Biometrika* 15(3-4): 271--293.
-
-Student. 1921. "An Experimental Determination of the Probable Error of Dr. Spearman's Correlation Co-efficient" *Biometrika* 13(2-3): 263--282.
-
-Student. 1917. "Tables for Estimating the Probability That the Given Mean of a Unique Sample of Observations Lies between $-\infty$ and Any Given Distance of the Mean of the Population from Which the Sample Is Drawn." *Biometrika* 11(4): 414--417.
-
-Student. 1909. "The Distribution of the Means of Samples Which Are Not Drawn at Random." *Biometrika* 7(1-2): 210--214.
-
-Student. 1908. "Probable Error of a Correlation Coefficient." *Biometrika* 6(2-3): 302--310.
-
-Student. 1908. "The Probable Error of a Mean." *Biometrika* 6(1): 1--25.
-
-Student. 1907. "On the Error of Counting with a Haemacytometer." *Biometrika* 5(3): 351--360.
 
 ## Other Publications
 
-Student. 1905. "The Pearson Co-efficient of Correlation." Supplement to Report of 1904, Arthur Guinness Son & Company.
+Rodriguez, Diego J.; Suardi, Mario A.; Ham, Marcel; Mimmi, Luisa M.; Goksu, Amanda J.. 2014. *Applying results-based financing in water investments*. Water partnership program (WPP); Water papers. Washington DC, World Bank.
 
-Student. 1904. "The Application of the 'Law of Error' to the Work of the Brewery." Report, Arthur Guinness Son & Company.
+Luisa M. Mimmi. 2012. *Should we re-evaluate what to evaluate (and how)?* GPOBA evaluation notes; no. 1. Washington DC, World Bank.
 
+Luisa M. Mimmi. 2009. *Youth Employment and Entrepreneurship Programs: A Review of Eight Best Practices*. Policy Working Paper. Washington DC, Social Protection and Health Division, IADB.
 
 # References
 
-Available upon request, though likely would include Karl Pearson and Ronald A. Fisher. Please send corrections, feedback, or details of missed publications (of which there are probably a few) to svmille@clemson.edu.
+Available upon request.
