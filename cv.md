@@ -6,7 +6,7 @@ Luisa Maria Mimmi
 ***
 title: "CV"
 author: "William Sealy Gosset"
-date: '2017-09-09'
+date: 2017-09-09
 output:
   pdf_document:
     toc: true
