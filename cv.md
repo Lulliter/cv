@@ -2,6 +2,8 @@
 Luisa Maria Mimmi  
 `r format(Sys.time(), '%d %B, %Y')`  
 
+
+
 # Contacts
 ![Me](C:/Users/wb353524/Documents/0_R/cv/Rb77U9hN_400x400.jpg){ width=15% }
 
