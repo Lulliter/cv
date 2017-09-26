@@ -1,0 +1,68 @@
+---
+title: "LongCV"
+author: "Luisa Maria Mimmi"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  html_document: 
+    keep_md: yes
+---
+## Find me here
+[Linkedin](https://twitter.com/LuisaMimmi/)  
+[Researchgate](https://www.researchgate.net/profile/Luisa_Mimmi)  
+[Twitter](https://www.linkedin.com/in/luisa-m-mimmi/)  
+[Github](https://github.com/Lulander)  
+
+##  Research Interests
+* poverty alleviation
+* urban development 
+* data for social good
+
+##  Employment
+**WORLD BANK**
+Monitoring & Evaluation Officer - Water and Urban Development (Washington, DC, USA) \hfill 2009-2017
+
+**IADB**
+Policy Analyst – Entrepreneurship and vocational training (Washington, DC, USA) \hfill 2008-2009
+
+**AVSI-CDM**
+Summer Intern – Slum Upgrading and Social Inclusion (Rio de Janeiro & Belo Horizonte, BRAZIL) \hfill 2007
+
+**VALUE PARTNERS S.p.A.**
+Business Intelligence Analyst (Milano, ITALY) \hfill 2001-2006
+
+##  Education
+
+Shool of Public Policy, **GEORGETOWN UNIVERSITY**, M.P.P. \hfill 2008
+
+**UNIVERSITÀ DEGLI STUDI DI PAVIA**, B.A. Economics \hfill 2001
+
+##  Publications
+* Luisa M., Mimmi. 2014. *"From Informal to Authorized Electricity Service in Urban Slums: Findings from a Household Level Survey in Mumbai."* Energy for Sustainable Development 21 (August): 66–80. doi:10.1016/j.esd.2014.05.008.
+* Rodriguez, Diego, Mario Suardi, Marcel Ham, Luisa M. Mimmi, and Amanda Goksu. 2014. *"Applying Results-Based Financing in Water Investments."* World Bank. Washington, D.C. 
+* Luisa M., Mimmi. 2012b. *“Assessing the Demand for Improved Electricity in Urban Slums: Findings from a Baseline Household Survey in Mumbai.”* Impact Evaluation: Baseline Study. World Bank - GPOBA. Washington, D.C. 
+* Mimmi, Luisa M., and Sencer Ecer. 2010. “An Econometric Study of Illegal Electricity Connections in the Urban Favelas of Belo Horizonte, Brazil.” Energy Policy 38 (9): 5081–97. doi:10.1016/j.enpol.2010.04.037.
+* Johannes, Lars, Luisa M. Mimmi, and Yogita Mumssen. 2010. *"A Snapshot of the OBA Universe."* World Bank. Washington, D.C. 
+* Luisa M., Mimmi. 2008. *“DEMAND-DRIVEN SOLUTIONS TO ILLEGAL ELECTRICITY CONNECTIONSA PRELIMINARY EVALUATION OF THE ‘CONVIVER’ PROGRAM IN THE URBAN FAVELAS OF BELO HORIZONTE, BRAZIL.”* Master’s Thesis. Georgetown University. Washington, D.C. 
+
+## Policy Notes and Technical Blogs
+* Luisa M., Mimmi. 2012a. *“Should We Re-Evaluate What to Evaluate (and How)?”* Policy Brief 83174. World Bank - GPOBA. Washington, D.C. 
+* Luisa M., Mimmi. 2016. *"Open Spatial Data for Resilience in Tanzania: Lessons Learned from “Dar Ramani Huria.”* Post prepared for SocialCops. 
+
+## Presentations
+* Luisa M. Mimmi. 2017. *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”* World Bank. Washington D.C.
+* Luisa M. Mimmi. 2014. *“WPP Database Design.”* World Bank. Washington, D.C.  
+* Luisa M. Mimmi. 2012. *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”* World Bank. Washington, D.C.  
+* Luisa M. Mimmi and Josses Mugabi. 2011. *“OBAdata Website Launch.”* World Bank. Washington, D.C.  * Luisa M. Mimmi. 2011. *“EnergyLab, Milano.”* Milano, Italy. 
+* Luisa M. Mimmi. 2009. *“Youth Employment and Entrepreneurship Programs:  A Review of Eight Best Practices.”* Working Paper. Inter-American Development Bank. Washington, D.C.  
+
+##  Software Skills
+* **Data and Statistics** (R, MS Excel, SAS, Stata) 
+* **Database** (MS SQL Server, MS Access) 
+* **GIS Software** (ArcGIS, QGis)
+
+##  Languages
+**Italian** (native), **English** (fluent), **Spanish** (fluent), **Portuguese** (conversational)  
+
+##  References
+
+Available upon request.
