@@ -1,0 +1,88 @@
+---
+title: "Resume"
+author: "Luisa Maria Mimmi"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+      html_document
+---
+
+```{r echo=FALSE, eval =FALSE}
+format(Sys.time(), "%a %b %d %X %Y")
+```
+  
+## Find me here
+[Linkedin](https://twitter.com/LuisaMimmi/)  
+[Researchgate](https://www.researchgate.net/profile/Luisa_Mimmi)  
+[Twitter](https://www.linkedin.com/in/luisa-m-mimmi/)  
+[Github](https://github.com/Lulander)  
+
+![](C:/Users/wb353524/Documents/0_R/cv/Rb77U9hN_400x400.jpg){ width=15% }
+
+
+
+##  Research Interests
+* poverty alleviation
+* urban development 
+* data for social good
+
+##  Employment
+
+**WORLD BANK**
+Monitoring & Evaluation Officer - Water and Urban Development (Washington, DC, USA) \hfill 2009-2017
+
+**IADB**
+Policy Analyst – Entrepreneurship and vocational training (Washington, DC, USA) \hfill 2008-2009
+
+**AVSI-CDM**
+Summer Intern – Slum Upgrading and Social Inclusion (Rio de Janeiro & Belo Horizonte, BRAZIL) \hfill 2007
+
+**VALUE PARTNERS S.p.A.**
+Business Intelligence Analyst (Milano, ITALY) \hfill 2001-2006
+
+##  Education
+
+Shool of Public Policy, **GEORGETOWN UNIVERSITY**, M.P.P. \hfill 2008
+
+**UNIVERSITÀ DEGLI STUDI DI PAVIA**, B.A. Economics \hfill 2001
+
+##  Selected Publications
+
+
+```{r echo=FALSE, eval =FALSE}
+# manca BetterBibLatex in Zotero 5
+# bibtex entry []
+
+library("citr")
+md_cite("foo 2016", bib_file = "LuisaPublications.bib")
+
+ md_cite_zotero(in_paren = TRUE,  bib_file = options("LuisaPublications.bib")) 
+```
+
+
+
+
+
+
+* Luisa M. Mimmi. 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66--80.
+
+* Luisa M. Mimmi, Sencer Ecer. 2010. [*An econometric study of illegal electricity connections in the urban favelas of Belo Horizonte, Brazil*](http://linkinghub.elsevier.com/retrieve/pii/S0301421510003113). Energy Policy, Vol. 38(9), pages 5081--5097.
+
+* Rodriguez, Diego J.; Suardi, Mario A.; Ham, Marcel; Mimmi, Luisa M.; Goksu, Amanda J.. 2014. [*Applying results-based financing in water investments*](http://documents.worldbank.org/curated/en/862681468326999086/Applying-results-based-financing-in-water-investments). Water partnership program (WPP); Water papers. Washington DC, World Bank.
+
+* Luisa M. Mimmi. 2012. [*Should we re-evaluate what to evaluate (and how)?*](http://documents.worldbank.org/curated/en/252381468317944978/pdf/831740NWP0P1040Box0382076B00PUBLIC0.pdf) GPOBA evaluation notes; no. 1. Washington DC, World Bank.
+
+* Johannes, L, Mimmi, L.M., Mumssen Y. 2010. [*A Snapshot of the OBA Universe*](https://openknowledge.worldbank.org/bitstream/handle/10986/10934/548520BRI0OBA010Box349431B01PUBLIC1.pdf?sequence=1&isAllowed=y). World Bank, April 2010. 
+
+* Luisa M. Mimmi. 2009. [*Youth Employment and Entrepreneurship Programs: A Review of Eight Best Practices*](https://www.researchgate.net/publication/320044319_Youth_Employment_and_Entrepreneurship_Programs_A_Review_of_Eight_Best_Practices). Policy Working Paper. Washington DC, Social Protection and Health Division, IADB.
+
+##  Software Skills
+* **Data and Statistics** (R, MS Excel, SAS, Stata) 
+* **Database** (MS SQL Server, MS Access) 
+* **GIS Software** (ArcGIS, QGis)
+
+##  Languages
+**Italian** (native), **English** (fluent), **Spanish** (fluent), **Portuguese** (conversational)  
+
+##  References
+
+Available upon request.
