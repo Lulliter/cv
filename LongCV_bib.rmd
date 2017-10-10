@@ -1,0 +1,61 @@
+---
+title: "LongCV" 
+author: "Luisa Maria Mimmi" 
+date: "`r format(Sys.time(), '%B %d, %Y')`" 
+output:  
+  html_document:  
+    keep_md: yes 
+bibliography: CV.bib
+nocite: |
+  @mimmi_informal_2014, @rodriguez_applying_2014, @mimmi_should_2012,@mimmi_assessing_2012, @mimmi_econometric_2010,  @johannes_snapshot_2010,  @mimmi_demand-driven_2008, @mimmi_youth_2009, @mimmi_linternazionalizzazione_2001
+
+---
+
+
+## Find me here
+[Linkedin](https://twitter.com/LuisaMimmi/)  
+[Researchgate](https://www.researchgate.net/profile/Luisa_Mimmi)  
+[Twitter](https://www.linkedin.com/in/luisa-m-mimmi/)  
+[Github](https://github.com/Lulander)  
+
+##  Research Interests
+* poverty alleviation
+* urban development 
+* data for social good
+
+##  Employment
+**WORLD BANK**
+Monitoring & Evaluation Officer - Water and Urban Development (Washington, DC, USA) \hfill 2009-2017
+
+**IADB**
+Policy Analyst – Entrepreneurship and vocational training (Washington, DC, USA) \hfill 2008-2009
+
+**AVSI-CDM**
+Summer Intern – Slum Upgrading and Social Inclusion (Rio de Janeiro & Belo Horizonte, BRAZIL) \hfill 2007
+
+**VALUE PARTNERS S.p.A.**
+Business Intelligence Analyst (Milano, ITALY) \hfill 2001-2006
+
+##  Education
+
+Shool of Public Policy, **GEORGETOWN UNIVERSITY**, M.P.P. \hfill 2008
+
+**UNIVERSITÀ DEGLI STUDI DI PAVIA**, B.A. Economics \hfill 2001
+
+
+##  Software Skills
+* **Data and Statistics** (R, MS Excel, SAS, Stata) 
+* **Database** (MS SQL Server, MS Access) 
+* **GIS Software** (ArcGIS, QGis)
+
+##  Languages
+**Italian** (native), **English** (fluent), **Spanish** (fluent), **Portuguese** (conversational)  
+
+## Presentations
+* Luisa M. Mimmi. 2017. *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”* World Bank. Washington D.C.
+* Luisa M. Mimmi. 2014. *“WPP Database Design.”* World Bank. Washington, D.C.  
+* Luisa M. Mimmi. 2012. *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”* World Bank. Washington, D.C.  
+* Luisa M. Mimmi and Josses Mugabi. 2011. *“OBAdata Website Launch.”* World Bank. Washington, D.C.  * Luisa M. Mimmi. 2011. *“EnergyLab, Milano.”* Milano, Italy. 
+* Luisa M. Mimmi. 2009. *“Youth Employment and Entrepreneurship Programs:  A Review of Eight Best Practices.”* Working Paper. Inter-American Development Bank. Washington, D.C.  
+
+## Selected Publications
