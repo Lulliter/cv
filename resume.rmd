@@ -3,8 +3,7 @@ title: "Resume"
 author: "Luisa Maria Mimmi"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: 
-  html_document: 
-    keep_md: yes
+  html_document
 ---
 
 ```{r echo=FALSE, eval =FALSE}
@@ -16,8 +15,6 @@ format(Sys.time(), "%a %b %d %X %Y")
 [Researchgate](https://www.researchgate.net/profile/Luisa_Mimmi)  
 [Twitter](https://www.linkedin.com/in/luisa-m-mimmi/)  
 [Github](https://github.com/Lulander)  
-
-![](C:/Users/wb353524/Documents/0_R/cv/Rb77U9hN_400x400.jpg){ width=15% }
 
 
 

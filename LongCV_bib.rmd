@@ -1,19 +1,21 @@
 ---
-title: "LongCV"
+title: "Curriculum Vitae"
 author: "Luisa Maria Mimmi"
+date: "`r format(Sys.Date())`"
+nocite: |
+  @mimmi_predicting_2017, @rodriguez_applying_2014, @mimmi_informal_2014, @mimmi_should_2012, @mimmi_assessing_2012,  @mimmi_econometric_2010, mimmi_youth_2009
 output:
+  pdf_document:
+    keep_tex: true
   html_document: default
-  pdf_document: 
-    keep_md: yes
 bibliography: LulasPublications.bib
 ---
 
 
 ## Find me here
-[Linkedin](https://twitter.com/LuisaMimmi/)  
+[Linkedin](https://www.linkedin.com/in/luisa-m-mimmi/) [Twitter](https://twitter.com/Lulliter/)  
 [Researchgate](https://www.researchgate.net/profile/Luisa_Mimmi)  
-[Twitter](https://www.linkedin.com/in/luisa-m-mimmi/)  
-[Github](https://github.com/Lulander)  
+[Github](https://github.com/Lulliter)  
 
 ##  Research Interests
 * poverty alleviation
@@ -21,10 +23,11 @@ bibliography: LulasPublications.bib
 * data for social good
 
 ##  Employment
-**WORLD BANK**
-Monitoring & Evaluation Officer - Water and Urban Development (Washington, DC, USA) \hfill 2009-2017
+**IADB**
+Research Fellow - Infrastructure, Water  (Washington, DC, USA) \hfill 2018-Present
 
-*Key accomplishments*: @mimmi_informal_2014; @mimmi_should_2012.
+**WORLD BANK**
+Monitoring & Evaluation Officer - Water and Urban Development (Washington, DC, USA) \hfill 2009-2018
 
 **IADB**
 Policy Analyst – Entrepreneurship and vocational training (Washington, DC, USA) \hfill 2008-2009
@@ -38,14 +41,18 @@ Business Intelligence Analyst (Milano, ITALY) \hfill 2001-2006
 ##  Education
 
 Shool of Public Policy, **GEORGETOWN UNIVERSITY**, M.P.P. \hfill 2008
+  
+  + Master Thesis on "Preliminary Evaluation of the _"Conviver"_ Program in the Urban _Favelas_ of Belo Horizonte, Brazil" [@mimmi_demand-driven_2008]
 
-**UNIVERSITÀ DEGLI STUDI DI PAVIA**, B.A. Economics \hfill 2001
+School of Economics, **UNIVERSITÀ DEGLI STUDI DI PAVIA**, B.A. Economics \hfill 2001
+  
+  + Undergraduate Thesis on "Internalization of Italian SMEs within the Euro-Mediterranean Partnership" [@mimmi_linternazionalizzazione_2001]
 
-
-##  Software Skills
-* **Data and Statistics** (R, MS Excel, SAS, Stata) 
-* **Database** (MS SQL Server, MS Access) 
+##  Analytical & Software Skills
+* **Data and Statistics** (R, Stata, MS Excel) 
+* **Database** (MS SQL Server, MS Access, Salesforce) 
 * **GIS Software** (ArcGIS, QGis)
+* **Misc** (Git, Github, Unix Shell)
 
 ##  Languages
 **Italian** (native), **English** (fluent), **Spanish** (fluent), **Portuguese** (conversational)  
@@ -54,7 +61,8 @@ Shool of Public Policy, **GEORGETOWN UNIVERSITY**, M.P.P. \hfill 2008
 * Luisa M. Mimmi. 2017. *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”* World Bank. Washington D.C.
 * Luisa M. Mimmi. 2014. *“WPP Database Design.”* World Bank. Washington, D.C.  
 * Luisa M. Mimmi. 2012. *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”* World Bank. Washington, D.C.  
-* Luisa M. Mimmi and Josses Mugabi. 2011. *“OBAdata Website Launch.”* World Bank. Washington, D.C.  * Luisa M. Mimmi. 2011. *“EnergyLab, Milano.”* Milano, Italy. 
+* Luisa M. Mimmi and Josses Mugabi. 2011. *“OBAdata Website Launch.”* World Bank. Washington, D.C.  
+* Luisa M. Mimmi. 2011. *“EnergyLab, Milano.”* Milano, Italy. 
 * Luisa M. Mimmi. 2009. *“Youth Employment and Entrepreneurship Programs:  A Review of Eight Best Practices.”* Working Paper. Inter-American Development Bank. Washington, D.C.  
 
-# Reference
+# Selected Publications 
