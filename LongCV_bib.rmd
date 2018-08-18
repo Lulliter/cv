@@ -1,21 +1,22 @@
 ---
 title: "Curriculum Vitae"
 author: "Luisa Maria Mimmi"
-date: "`r format(Sys.Date())`"
-nocite: |
-  @mimmi_predicting_2017, @rodriguez_applying_2014, @mimmi_informal_2014, @mimmi_should_2012, @mimmi_assessing_2012,  @mimmi_econometric_2010, mimmi_youth_2009
+date: '`r format(Sys.Date())`'
 output:
   pdf_document:
-    keep_tex: true
+    keep_tex: yes
   html_document: default
+nocite: |
+  @mimmi_predicting_2017, @rodriguez_applying_2014, @mimmi_informal_2014, @mimmi_should_2012, @mimmi_assessing_2012,  @mimmi_econometric_2010, mimmi_youth_2009
 bibliography: LulasPublications.bib
 ---
 
 
 ## Find me here
-[Linkedin](https://www.linkedin.com/in/luisa-m-mimmi/) [Twitter](https://twitter.com/Lulliter/)  
-[Researchgate](https://www.researchgate.net/profile/Luisa_Mimmi)  
-[Github](https://github.com/Lulliter)  
+- [Twitter](https://twitter.com/Lulliter/) 
+- [Linkedin](https://www.linkedin.com/in/luisa-m-mimmi/)
+- [ResearchGate](https://www.researchgate.net/profile/Luisa_Mimmi)  
+- [Github](https://github.com/Lulliter)  
 
 ##  Research Interests
 * poverty alleviation
@@ -63,6 +64,15 @@ School of Economics, **UNIVERSITÀ DEGLI STUDI DI PAVIA**, B.A. Economics \hfill
 * Luisa M. Mimmi. 2012. *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”* World Bank. Washington, D.C.  
 * Luisa M. Mimmi and Josses Mugabi. 2011. *“OBAdata Website Launch.”* World Bank. Washington, D.C.  
 * Luisa M. Mimmi. 2011. *“EnergyLab, Milano.”* Milano, Italy. 
-* Luisa M. Mimmi. 2009. *“Youth Employment and Entrepreneurship Programs:  A Review of Eight Best Practices.”* Working Paper. Inter-American Development Bank. Washington, D.C.  
+* Luisa M. Mimmi. 2009. *“Youth Employment and Entrepreneurship Programs:  A Review of Eight Best Practices.”* Working Paper. Inter-American Development Bank. Washington, D.C.
+
+
+## Blog Posts
+
+* Mimmi, Luisa M., Christian Borja-Vega, and Amit Patel. 2017. “Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.” November 15, 2017. [The WaterBlog](http://blogs.worldbank.org/water/node/789)
+* Mimmi, Luisa M. 2016. “Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’” Https://Blog.Socialcops.Com/ (blog). November 15, 2016.
+* Mimmi, Luisa M. 2009. “Sussidiarietà e Sviluppo: L’elettricità Nelle Favelas Dell’America Latina.” Http://www.Ilsussidiario.Net/ (blog). February 28, 2009.
+
+
 
 # Selected Publications 
