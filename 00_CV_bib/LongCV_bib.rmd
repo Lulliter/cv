@@ -3,9 +3,9 @@ title: "Curriculum Vitae"
 author: "Luisa Maria Mimmi"
 date: '`r format(Sys.Date())`'
 output:
+  html_document: default
   pdf_document:
     keep_tex: yes
-  html_document: default
 nocite: |
   @mimmi_predicting_2017, @rodriguez_applying_2014, @mimmi_informal_2014, @mimmi_should_2012, @mimmi_assessing_2012,  @mimmi_econometric_2010, mimmi_youth_2009
 bibliography: LulasPublications.bib

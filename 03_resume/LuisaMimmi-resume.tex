@@ -1,0 +1,218 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
+% Vel (vel@LaTeXTemplates.com)
+%
+% Adapted to be an Rmarkdown template by Rob J Hyndman
+% 23 November 2018
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,]{twentysecondcv}
+
+\usepackage[scaled=0.86]{DejaVuSansMono}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{csquotes}
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+
+\usepackage{booktabs}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+% Profile pic
+\profilepic{LulaSalvador2015.jpg}
+
+\cvname{Luisa M. Mimmi} % Your name
+
+\cvjobtitle{Policy \& Data Analyst} % Job title/career
+\cvdate{September 2019} % Date of birth or date of CV??
+\cvaddress{EU citizen \textbar{} Green card holder (based in Washington DC, USA)} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{} % Phone number
+\cvsite{\href{http://lulliter.github.io}{lulliter.github.io}} % Personal website
+\cvmail{\href{mailto:lmm76@georgetown.edu}{\nolinkurl{lmm76@georgetown.edu}}} % Email address
+\cvtwitter{\href{https://twitter.com/lulliter}{lulliter}}
+\cvgithub{\href{https://github.com/lulliter}{lulliter}}
+\cvlinkedin{\href{https://www.linkedin.com/in/luisa-m-mimmi}{luisa-m-mimmi}}
+
+% Templates for detailed entries
+% Arguments: what when with where why
+\usepackage{etoolbox}
+\def\detaileditem#1#2#3#4#5{
+\twentyitem{#2}{#1}{#3}{\ifx#4\empty\else#4\par\fi\ifx#5\empty\else{\begin{minipage}{0.7\textwidth}\begin{itemize}#5\end{itemize}\end{minipage}}\fi}}
+\def\detailedsection#1{\nopagebreak\begin{twenty}#1\end{twenty}}
+
+% Templates for brief entries
+% Arguments: what when with
+\def\briefitem#1#2#3{\twentyitemshort{#2}{#1. #3}}
+\def\briefsection#1{\nopagebreak\begin{twentyshort}#1\end{twentyshort}}
+
+\lfoot{\sf Curriculum Vitae: Luisa M. Mimmi}
+\rfoot{\sf\thepage}
+
+\begin{document}
+\aboutme{I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health).
+
+I would like to further explore integration of survey data with other sources --including social media, GIS and satellite imagery-- to uncover various dimensions of poverty in vulnerable contexts.}
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+%\skills{{pursuer of rabbits/5.8},{good manners/4},{outgoing/4.3},{polite/4},{Java/0.01}}
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+\makeprofile % Print the sidebar
+
+
+
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\detailedsection{\detaileditem
+{M.P.P. International Policy \& Development}
+{2008}
+{Washington, DC}
+{Georgetown University}
+{\empty}\detaileditem
+{B.S. Economics \& Business Administration}
+{2001}
+{Pavia, Italy}
+{Università di Pavia}
+{\empty}}
+
+\hypertarget{r-projects}{%
+\section{R projects}\label{r-projects}}
+
+\detailedsection{\detaileditem
+{Brazil Water Suppliers}
+{2018/2019}
+{Ongoing survey analysis @ IADB}
+{\href{https://lulliter.github.io/BrazilWaterSurvey/}{https://lulliter.github.io/BrazilWaterSurvey/}}
+{\empty}\detaileditem
+{Personal Blog}
+{2018/2019}
+{Side projects, R code, miscellaneous thoughts...}
+{\href{https://lulliter.github.io}{https://lulliter.github.io}}
+{\empty}\detaileditem
+{Green Card processing time under Trump}
+{2019}
+{Analysis of public US data}
+{\href{https://lulliter.github.io/project/greencard_analysis/}{https://lulliter.github.io/project/greencard_analysis/}}
+{\empty}\detaileditem
+{New York Encounter's Donors}
+{2019}
+{Fundraising data analysis}
+{\href{https://lulliter.github.io/project/nye-fundraising/}{https://lulliter.github.io/project/nye-fundraising/}}
+{\empty}\detaileditem
+{Job Migrants and Competitive Cities}
+{2018}
+{Analysis of LinkedIn data}
+{\href{https://lulliter.github.io/project/linkedinanalysis/}{https://lulliter.github.io/project/linkedinanalysis/}}
+{\empty}\detaileditem
+{Life expectancy over time}
+{2018}
+{Analysis of WDI indicator}
+{\href{https://lulliter.github.io/project/wdianalysis/}{https://lulliter.github.io/project/wdianalysis/}}
+{\empty}}
+
+\hypertarget{employment-history}{%
+\section{Employment history}\label{employment-history}}
+
+\detailedsection{\detaileditem
+{Research Fellow}
+{2018:...}
+{}
+{Inter-American Development Bank, (Washington DC)}
+{\empty}\detaileditem
+{Fundraising Data Analyst (Pro bono)}
+{2018:...}
+{}
+{New York Encounter, (remote)}
+{\empty}\detaileditem
+{Senior M\&E Specialist}
+{2009:2018}
+{}
+{World Bank, Sustainable Development VP, (Washington DC)}
+{\empty}\detaileditem
+{Policy Analyst}
+{2008}
+{}
+{Inter-American Development Bank, (Washington DC)}
+{\empty}\detaileditem
+{Summer Intern}
+{2007}
+{}
+{AVSI International (Brazil)}
+{\empty}\detaileditem
+{Business Intelligence Analyst}
+{2001:2006}
+{}
+{Value Partners (Italy)}
+{\empty}}
+
+\hypertarget{software}{%
+\section{Software}\label{software}}
+
+\textbf{Statistics} (R, Stata, MS Excel)
+
+\textbf{Databases} (SQL Server, MS Access, Salesforce)
+
+\textbf{GIS} - \emph{basic} (ArcGIS, QGis, GeoDa)
+
+\textbf{Development tools} - \emph{basic} (Git, Github, Unix Shell, AWS services)
+
+\hypertarget{languages}{%
+\section{Languages}\label{languages}}
+
+\textbf{Italian} (native), \textbf{English} (fluent), \textbf{Spanish} (fluent), \textbf{Portuguese} (conversational)
+
+\hypertarget{articles-in-public-media}{%
+\section{Articles in Public Media}\label{articles-in-public-media}}
+
+Mimmi, Luisa M. and Fabiana Machado. 2019. \enquote{\emph{Technological disruption: a look into the future innovation in water and sanitation.}} January 21, 2019. \href{https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/}{IADB Water Blog}
+
+Mimmi, Luisa M., Borja-Vega Christian, and Amit Patel. 2017. \enquote{\emph{Predicting Slum Dwellers' Deprivations from Space: A Pilot Study on Dhaka.}} November 15, 2017. \href{https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka}{World Bank Water Blog}
+
+Mimmi, Luisa M. 2016. \enquote{\emph{Open Spatial Data for Resilience in Tanzania: Lessons Learned from \enquote{Dar Ramani Huria.}}} November 15, 2016. \href{https://lulliter.github.io/post/2016-11-15_ramani-huria/}{Personal Blog}
+
+Mimmi, Luisa M. 2009. \enquote{\emph{Sussidiarietà e Sviluppo: L'elettricità nelle \emph{Favelas} dell'America Latina.}} February 28, 2009. (in Italian) \href{https://lulliter.github.io/post/sussidiariet\%C3\%A0-e-sviluppo/}{Personal Blog}.
+
+\hypertarget{peer-reviewed-technical-publications}{%
+\section{Peer-Reviewed \& Technical Publications}\label{peer-reviewed-technical-publications}}
+
+\href{https://scholar.google.com/citations?user=OBYla5gAAAAJ\&hl=en\&oi=ao}{Detailed list on \textbf{Google Scholar Profile}}
+
+\endfirstpage
+
+
+
+\end{document}
