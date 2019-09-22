@@ -81,7 +81,7 @@ detailed_entries(
     when =  date,
     with = description,
     where = link,
-        .protect = FALSE,
+        .protect = FALSE, # to turn link in LATEX, but error
   )
 
 

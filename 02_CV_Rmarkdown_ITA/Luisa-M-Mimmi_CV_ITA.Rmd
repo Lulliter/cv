@@ -196,10 +196,11 @@ Mimmi, Luisa M. 2009. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Fav
 here::here()
 
 # ObjectiFY SubDirs	
-from.dir <- "./content/cv/cv_making/CV_Rmarkdown"
+from.dir <- "./02_CV_Rmarkdown_ITA"
 fs::path_abs(from.dir)
 
-to.dir   <- "./content/cv"
+ 
+to.dir   <- "/Users/luisamimmi/GoogleDrive/source/content/cv" # sporca ma OK!
 fs::path_abs(to.dir)
 
 # List Files 
@@ -221,9 +222,3 @@ class(files)
 for (f in files) file.copy(from = f, to = to.dir,	 overwrite = T, copy.date = T)
 
 ```
-
-
-
-
-
-
