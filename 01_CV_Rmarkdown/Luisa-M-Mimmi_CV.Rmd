@@ -28,38 +28,39 @@ urlcolor: blue
 ---
 
 
-> Experienced Policy Analyst with a strong background in statistical and econometric analysis applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health). 
-My core technical skills are: designing and implementing surveys, statistical analyses and impact evaluations, but I have also demonstrated leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources analytical tools to uncover various dimensions of poverty and inequality. \hfill
+> Experienced Policy Analyst with a strong background in statistical and econometric analyses applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health).
+
+> My core technical skills are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources analytical tools to uncover various dimensions of poverty and inequality. \hfill
 
 
 
 # WORK
 
-•	*Inter-American Development Bank (Infrastructure - Water Div.):*
+•	*Inter-American Development Bank (Infrastructure - Water Div.) - Washington, DC:*
 
  > **Research Fellow** \hfill 2018-Present
  
  >  Surveys and analysis of supply and demand of Water and Sanitation in Latin America | Key contributor to preparation of 2020 IADB flagship publication on Infrastructure in LAC
 
-•	*World Bank (Sustainable Development - two Multilateral Trust Funds):*
+•	*World Bank (Sustainable Development - two Multilateral Trust Funds) - Washington, DC:*
 
  > **Sr. Monitoring & Evaluation Specialist** \hfill 2009-2018
  
  >  Several feasibility and impact evaluation studies of housing and infrastructure poverty dimensions in rural and urban areas (with special focus on slums) | Design and management of M&E frameworks for multi-donor trust funds (WPP and GPOBA) 
 
-•	*Inter-American Development Bank (Social Protection & Health Div.):*
+•	*Inter-American Development Bank (Social Protection & Health Div.) - Washington, DC:*
 
  >  **Policy Analyst** \hfill 2008-2009
 
  >  Comparative policy paper on best practices in vocational training and entrepreneurship promotion policies 
 
-•	*AVSI (Social Inclusion and Education) - in Brazil:*
+•	*AVSI (Social Inclusion and Education) - Belo Horizonte, Brazil:*
 
  > **Summer Intern** \hfill summer 2007 
  
  >  Initiated empirical study of slum electrification project _“Conviver”_ (Belo Horizonte) | Advised on data sharing among AVSI inter-city operations
 
-•	*Value Partners S.p.A - in Italy:*
+•	*Value Partners S.p.A - Milan, Italy:*
 
  > **Business Intelligence Analyst** \hfill 2001-2006
 
@@ -180,7 +181,7 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 ## **Public Media**
 
-Mimmi, L.M. July 9, 2019 “*s President Trump holding on to his electoral promiseto“hire American”?*” . [Personal Blog](https://lulliter.github.io/project/GreenCard_Article.pdf) 
+Mimmi, L.M. July 9, 2019 “*Is President Trump holding on to his electoral promiseto“hire American”?*” . [Personal Blog](https://lulliter.github.io/project/GreenCard_Article.pdf) 
 
 Mimmi, L.M. and Fabiana Machado. 2019. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
 

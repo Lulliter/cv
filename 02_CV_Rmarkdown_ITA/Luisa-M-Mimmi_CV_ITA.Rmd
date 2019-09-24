@@ -27,8 +27,8 @@ updated: yes
 
 
 > Economista dello sviluppo con Master in Politiche Pubbliche (Georgetown University) e solida formazione in econometria e statistica. Esperienza professionale di oltre 10 anni presso Banche Multilaterali di Sviluppo con specializzazione nel disegno e implementazione di studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo in America Latina, Africa e Sud-Est Asiatico. 
-Area di specializzazione: politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base (abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.). 
-Conoscenza approfondita e competenza nell'uso di dati aperti, piattaforme open source, software e algoritmi per analisi avanzata di dati applicati alla cooperazione e allo sviluppo.  
+
+> Area di specializzazione: politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base (abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.). Conoscenza approfondita e competenza nell'uso di dati aperti, piattaforme open source, software e algoritmi per analisi avanzata di dati applicati alla cooperazione e allo sviluppo.  
  
 
 # ESPERIENZA PROFESSIONALE
@@ -181,6 +181,8 @@ Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-
 
 
 ## **Articoli Divulgativi**
+Mimmi, Luisa M. 2019 “*Is President Trump holding on to his electoral promiseto“hire American”?*” . [Personal Blog](https://lulliter.github.io/project/GreenCard_Article.pdf) 
+
 
 Mimmi, Luisa M. and Fabiana Machado. 2019. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
 
