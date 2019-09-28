@@ -201,8 +201,9 @@ here::here()
 from.dir <- "./02_CV_Rmarkdown_ITA"
 fs::path_abs(from.dir)
 
- 
-to.dir   <- "/Users/luisamimmi/GoogleDrive/source/content/cv" # sporca ma OK!
+# sporca ma OK!
+to.dir   <- "/Users/luisamimmi/GoogleDrive/Github/blog/static/cv_files" # "/Users/luisamimmi/GoogleDrive/source/content/cv",
+
 fs::path_abs(to.dir)
 
 # List Files 
