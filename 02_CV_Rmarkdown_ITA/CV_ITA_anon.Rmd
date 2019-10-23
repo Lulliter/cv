@@ -196,35 +196,7 @@ __ . 2009. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell�
 
 
 
-```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}
-here::here()
-
-# ObjectiFY SubDirs	
-from.dir <- "./content/cv/cv_making/CV_Rmarkdown"
-fs::path_abs(from.dir)
-
-to.dir   <- "./content/cv"
-fs::path_abs(to.dir)
-
-# List Files 
-files <- list.files(path = from.dir, 
-						  pattern='\\.pdf$', # an optional regular expression. (ends with
-						  full.names = TRUE, # If TRUE, the directory path is prepended to the file names 
-						  recursive = FALSE) # Should the listing recurse into directories?
-	
-# all_munge <- list.files(path = "./03_Munge/", pattern = '\\.R$' , 
-#                         all.files = FALSE,  # def (= only visible)
-#                         full.names = FALSE, # def (= no dir name prepended)
-#                         recursive = FALSE,  # def  (= no inside sub-dir )
-#                         ignore.case = TRUE, #    (= pattern-matching be case-insensitive)
-#                         include.dirs = FALSE, # def (subdirectory names NOT be included in recursive listings)
-#                         no.. = FALSE) # def (both "." and ".." be excluded also from non-recursive listings)
-class(files) 
-
-# function to MOVE
-for (f in files) file.copy(from = f, to = to.dir,	 overwrite = T, copy.date = T)
-
-```
+ 
 
 
 

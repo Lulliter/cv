@@ -15,9 +15,9 @@ linkcolor: blue
 
 email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
-github: Lulliter
+#github: Lulliter
 #twitter: Lulliter
-#web: lulliter.github.io/blog
+web: luisamimmi.com
 updated: yes
 
 fontfamily: mathpazo
@@ -30,7 +30,7 @@ urlcolor: blue
 
 > Experienced Policy Analyst with a strong background in statistical and econometric analyses applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health).
 
-> My core technical skills are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources analytical tools to uncover various dimensions of poverty and inequality. \hfill
+> My core technical skills are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges. \hfill
 
 
 
@@ -181,15 +181,15 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 ## **Public Media**
 
-Mimmi, L.M. July 9, 2019 “*Is President Trump holding on to his electoral promiseto“hire American”?*” . [Personal Blog](https://lulliter.github.io/blog/post/green-card-processing-time_files/GreenCard_Article.pdf) 
+Mimmi, L.M. “*Is President Trump holding on to his electoral promiseto“hire American”?*”. July 9, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
 
-Mimmi, L.M. and Fabiana Machado. 2019. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
+Mimmi, L.M. and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
 
-Mimmi, L.M., Borja-Vega Christian, and Amit Patel. 2017. “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” November 15, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
+Mimmi, L.M., Borja-Vega Christian, and Amit Patel.  “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” November 15, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
 
-Mimmi, L.M. 2016. “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" November 15, 2016. [Personal Blog](https://lulliter.github.io/blog/post/2016/11/15/2016-11-15_ramani-huria/) 
+Mimmi, L.M.  “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" November 15, 2016. [Personal Blog](https://luisamimmi.com/post/2016/11/15/2016-11-15_ramani-huria/) 
 
-Mimmi, L.M. 2009. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Blog](https://lulliter.github.io/blog/post/2009/02/21/sussidiariet%C3%A0-e-sviluppo/).
+Mimmi, L.M.  “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Blog](https://luisamimmi.com/post/2009/02/21/sussidiariet%C3%A0-e-sviluppo/).
 
 
 
