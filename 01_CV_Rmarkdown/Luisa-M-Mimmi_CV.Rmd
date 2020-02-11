@@ -9,7 +9,7 @@ output:
   html_document:
     df_print: paged
 
-jobtitle: Data and Policy Analyst
+jobtitle: Economic Advisor - Infrastructure & Development Economics
 keywords: RMarkdown, academic CV, template
 linkcolor: blue
 
@@ -28,17 +28,23 @@ urlcolor: blue
 ---
 
 
-> Experienced Policy Analyst with a strong background in statistical and econometric analyses applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health).
+> Experienced Policy Analyst with a strong background in statistical and econometric analysis applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health).
 
 > My core technical skills are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges. \hfill
 
 
 
 # WORK
+•	*Ministry of Economics and Finance - Rome:*
+
+ > **Sr. Economic Advisor** \hfill 2020-present
+ 
+ >  Member of a task force supporting the preparation of Italy's upcoming G20 Presidency (in 2021)
+
 
 •	*Inter-American Development Bank (Infrastructure - Water Div.) - Washington, DC:*
 
- > **Research Fellow** \hfill 2018-Present
+ > **Research Fellow** \hfill 2018-2019
  
  >  Surveys and analysis of supply and demand of Water and Sanitation in Latin America | Key contributor to preparation of 2020 IADB flagship publication on Infrastructure in LAC
 
