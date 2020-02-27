@@ -5,7 +5,8 @@ In this this R project I  created 4 versions of my CV
 0. (A long academic style CV (Eng) + .bib)
 1. **A long academic style CV (Eng)**
 2. **A long academic style CV (ITA)**
-3. Short "Data-Sciencey" resume + pic
+3. **A long academic style CV (Eng) + Project list at the end**
+4. Short "Data-Sciencey" resume + pic
    + (issue with LAtex --> must go to .....tex & compile PDF from there)
 
 
