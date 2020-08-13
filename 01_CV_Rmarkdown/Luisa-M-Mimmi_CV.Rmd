@@ -46,7 +46,7 @@ urlcolor: blue
 
  > **Research Fellow** \hfill 2018-2019
  
- >  Surveys and analysis of supply and demand of Water and Sanitation in Latin America | Key contributor to preparation of 2020 IADB flagship publication on Infrastructure in LAC
+ >  Surveys and analysis of supply and demand of Water and Sanitation in Latin America | Contributor to preparation of 2020 IADB flagship publication on Infrastructure [*"From Structures to Services - The Path to Better Infrastructure in Latin America and the Caribbean"*](https://publications.iadb.org/publications/english/document/From-Structures-to-Services-The-Path-to-Better-Infrastructure-in-Latin-America-and-the-Caribbean.pdf)
 
 •	*World Bank (Sustainable Development - two Multilateral Trust Funds) - Washington, DC:*
 
@@ -152,7 +152,7 @@ Mimmi, L.M., and S. Ecer. 2010. [*An econometric study of illegal electricity co
 
 ## **Technical Reports**
 
-Mimmi, L.M., Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2017. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank.
+Mimmi, L.M., Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2018. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank.
 
 Rodriguez, D. J.; Suardi, M. A.; Ham, M.; Mimmi, L.M.; Goksu, A. J. 2014. ["*Applying results-based financing in water investments*"](http://documents.worldbank.org/curated/en/862681468326999086/pdf/893260WP0Box380ng0Water0Investments.pdf). Water partnership program (WPP); Water papers. Washington DC, World Bank.
 
@@ -170,6 +170,8 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 
 ## **Invited Presentations**
+**2020** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presented at session _"Case Studies on the impact of Earth Observation"_. At XVIII Milan European Economy Workshop. Milano. 
+
 **2019** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presented at session _"Drawing policy advice from land data analysis"_. At Annual World Bank Conference on Land and Poverty. Washington D.C.
 
 **2017** *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”*. World Bank. Washington D.C.
