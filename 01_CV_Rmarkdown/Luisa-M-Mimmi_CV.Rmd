@@ -35,11 +35,11 @@ urlcolor: blue
 
 
 # WORK
-•	*Ministry of Economics and Finance - Rome:*
+•	*Ministry of Economics and Finance (Treasury, G7/G20 office) - Rome:*
 
  > **Sr. Economic Advisor** \hfill 2020-present
  
- >  Member of a task force supporting the preparation of Italy's upcoming G20 Presidency (in 2021)
+ >  Member of a task force supporting Italy's G20 Presidency (in 2021), in particular the Infrastructure Working Group. Coordinator of the "resilience and maintenance" workstream, which culminated in the endorsement of a [_"G20 Policy Agenda on Infrastructure Maintenance"_](https://www.g20.org/wp-content/uploads/2021/07/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
 
 
 •	*Inter-American Development Bank (Infrastructure - Water Div.) - Washington, DC:*
@@ -104,6 +104,8 @@ urlcolor: blue
 
 
 # COURSES AND JOB TRAINING
+
+•	Statistical Horizons: **Multilevel and Mixed Models Using R** (4 days) \hfill 2021
 
 •	Inter-American Development Bank: **Machine Learning (ML)** (7 weeks) \hfill 2019
 
@@ -191,7 +193,9 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 ## **Public Media**
 
-Mimmi, L.M. “*Is President Trump holding on to his electoral promiseto“hire American”?*”. July 9, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
+[Mimmi, L. M.] *Infrastructure maintenance among G20 top priorities* [G20 website](https://www.g20.org/infrastructure-maintenance-among-g20-top-priorities.html)
+
+Mimmi, L.M. “*Is President Trump holding on to his electoral promise to“hire American”?*”. July 9, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
 
 Mimmi, L.M. and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
 

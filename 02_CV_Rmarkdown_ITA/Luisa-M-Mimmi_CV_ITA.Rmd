@@ -36,8 +36,8 @@ urlcolor: blue
 
  > **Sr. Economic Advisor - dossier infrastrutture** \hfill 2020-Oggi
  
- >  Supporto alla preparazione della Presidenza Italiana del G20 (prevista per il 2021). 
-
+ >  Supporto alla preparazione della Presidenza Italiana del G20 (2021) - Gruppo di Lavoro Infrastrutture - e coordinamento del lavoro su resilienza e manutenzione delle infrastrutture, culminata con l'approvazione (_endorsement_) della [_"G20 Policy Agenda on Infrastructure Maintenance"_](https://www.g20.org/wp-content/uploads/2021/07/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
+ 
 •	*Banca Inter-Americana dello Sviluppo (Div. Infrastruttura - Washington, DC):*
 
  > **Research Fellow** \hfill 2018-2019
@@ -95,6 +95,8 @@ urlcolor: blue
 
 
 # CORSI E CERTIFICAZIONI
+
+•	Statistical Horizons: **Multilevel and Mixed Models Using R** (4 days) \hfill 2021
 
 •	Banca Inter-Americana dello Sviluppo: **Machine Learning (ML)** (7 weeks) \hfill 2019
 
@@ -189,6 +191,9 @@ Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-
 
 
 ## **Articoli Divulgativi**
+
+[Mimmi, Luisa M.] *Infrastructure maintenance among G20 top priorities* [G20 website](https://www.g20.org/infrastructure-maintenance-among-g20-top-priorities.html)
+
 Mimmi, Luisa M. “*Is President Trump holding on to his electoral promiseto“hire American”?*” Luglio, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
 
 

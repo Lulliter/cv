@@ -10,7 +10,7 @@ linkedin: luisa-m-mimmi
 twitter: lulliter
 github: lulliter
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health).\n\nI would like to further explore integration of survey data with other sources –including social media, GIS and satellite imagery– to uncover various dimensions of poverty in vulnerable contexts."
+aboutme: "I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health).\nI would like to further explore integration of survey data with other sources –including social media, GIS and satellite imagery– to uncover various dimensions of poverty in vulnerable contexts."
 output: vitae::twentyseconds
 ---
 
@@ -61,21 +61,20 @@ tribble(
 # R projects
  
 ```{r rpkgs}
-tibble::tribble(
-  ~name, ~date, ~description , ~link,
+tibble::tribble(~name, ~date, ~description , ~link,
   "Brazil Water Suppliers", '2018/2019', "Ongoing survey analysis @ IADB", "\\href{https://lulliter.github.io/BrazilWaterSurvey/}{https://lulliter.github.io/BrazilWaterSurvey/}" ,
   
   "Personal Blog",   '2018/2019', "Side projects, R code, miscellaneous thoughts...", "\\href{https://lulliter.github.io}{https://lulliter.github.io}" ,
 
-  "Green Card processing time under Trump", 2019, "Analysis of public US data",
+  "Green Card processing time under Trump", "2019", "Analysis of public US data",
   "\\href{https://lulliter.github.io/project/greencard_analysis/}{https://lulliter.github.io/project/greencard_analysis/}" ,
   
-  "New York Encounter's Donors", 2019, "Fundraising data analysis",
+  "New York Encounter's Donors", "2019", "Fundraising data analysis",
   "\\href{https://lulliter.github.io/project/nye-fundraising/}{https://lulliter.github.io/project/nye-fundraising/}" ,
 
-  "Job Migrants and Competitive Cities", 2018, "Analysis of LinkedIn data", "\\href{https://lulliter.github.io/project/linkedinanalysis/}{https://lulliter.github.io/project/linkedinanalysis/}" ,
+  "Job Migrants and Competitive Cities", "2018", "Analysis of LinkedIn data", "\\href{https://lulliter.github.io/project/linkedinanalysis/}{https://lulliter.github.io/project/linkedinanalysis/}" ,
   
-  "Life expectancy over time",   2018, "Analysis of WDI indicator", "\\href{https://lulliter.github.io/project/wdianalysis/}{https://lulliter.github.io/project/wdianalysis/}") %>%
+  "Life expectancy over time",   "2018", "Analysis of WDI indicator", "\\href{https://lulliter.github.io/project/wdianalysis/}{https://lulliter.github.io/project/wdianalysis/}") %>%
 detailed_entries(
     what = name, 
     when =  date,
@@ -97,8 +96,8 @@ tribble(
   '2018:...', "Research Fellow", "Inter-American Development Bank, (Washington DC)",
   '2018:...', "Fundraising Data Analyst (Pro bono)", "New York Encounter, (remote)",
   '2009:2018', "Senior M&E Specialist", "World Bank, Sustainable Development VP, (Washington DC)",
-  2008 , "Policy Analyst", "Inter-American Development Bank, (Washington DC)",
-  2007 , "Summer Intern", "AVSI International (Brazil)",
+  '2008' , "Policy Analyst", "Inter-American Development Bank, (Washington DC)",
+  '2007' , "Summer Intern", "AVSI International (Brazil)",
   '2001:2006', "Business Intelligence Analyst", "Value Partners (Italy)",
    ) %>%
   # arrange(-Years) %>%
