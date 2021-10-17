@@ -9,7 +9,7 @@ output:
   html_document:
     df_print: paged
 
-jobtitle: Economic Advisor - Infrastructure & Development Economics
+jobtitle: Policy & Data Analyst
 keywords: RMarkdown, academic CV, template
 linkcolor: blue
 
@@ -27,26 +27,22 @@ geometry: margin=1in
 urlcolor: blue
 ---
 
-
-> Experienced Policy Analyst with a strong background in statistical and econometric analysis applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health).
-
-> My core technical skills are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges. \hfill
-
-
+> I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations, especially applied to economic development and  access to infrastructure. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health). 
+As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges.
 
 # WORK
-•	*Ministry of Economics and Finance - Rome:*
+•	*Ministry of Economics and Finance (Treasury, G7/G20 office) - Rome:*
 
  > **Sr. Economic Advisor** \hfill 2020-present
  
- >  Member of a task force supporting the preparation of Italy's upcoming G20 Presidency (in 2021)
+ >  Member of a task force supporting Italy's G20 Presidency (in 2021), in particular the Infrastructure Working Group. Coordinator of the "resilience and maintenance" workstream, which culminated in the endorsement of a [_"G20 Policy Agenda on Infrastructure Maintenance"_](https://www.g20.org/wp-content/uploads/2021/07/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
 
 
 •	*Inter-American Development Bank (Infrastructure - Water Div.) - Washington, DC:*
 
  > **Research Fellow** \hfill 2018-2019
  
- >  Surveys and analysis of supply and demand of Water and Sanitation in Latin America | Key contributor to preparation of 2020 IADB flagship publication on Infrastructure in LAC
+ >  Surveys and analysis of supply and demand of Water and Sanitation in Latin America | Contributor to preparation of 2020 IADB flagship publication on Infrastructure [*"From Structures to Services - The Path to Better Infrastructure in Latin America and the Caribbean"*](https://publications.iadb.org/publications/english/document/From-Structures-to-Services-The-Path-to-Better-Infrastructure-in-Latin-America-and-the-Caribbean.pdf)
 
 •	*World Bank (Sustainable Development - two Multilateral Trust Funds) - Washington, DC:*
 
@@ -152,7 +148,7 @@ Mimmi, L.M., and S. Ecer. 2010. [*An econometric study of illegal electricity co
 
 ## **Technical Reports**
 
-Mimmi, L.M., Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2017. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank.
+Mimmi, L.M., Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2018. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank.
 
 Rodriguez, D. J.; Suardi, M. A.; Ham, M.; Mimmi, L.M.; Goksu, A. J. 2014. ["*Applying results-based financing in water investments*"](http://documents.worldbank.org/curated/en/862681468326999086/pdf/893260WP0Box380ng0Water0Investments.pdf). Water partnership program (WPP); Water papers. Washington DC, World Bank.
 
@@ -170,7 +166,11 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 
 ## **Invited Presentations**
-**2019** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presented at session _"Drawing policy advice from land data analysis"_. At Annual World Bank Conference on Land and Poverty. Washington D.C.
+**2020** *“Introducing the 2021 G20 Infrastructure priorities"* intervention during Day 1, Session I _"Infrastructure resilience in light of covid-19"_. At OECD High-level Seminar on Quality Infrastructure Investment. Milano. 
+
+**2020** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presented during session _"Case Studies on the impact of Earth Observation"_. At XVIII Milan European Economy Workshop. Milano. 
+
+**2019** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presented during session _"Drawing policy advice from land data analysis"_. At Annual World Bank Conference on Land and Poverty. Washington D.C.
 
 **2017** *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”*. World Bank. Washington D.C.
 
@@ -187,6 +187,8 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 ## **Public Media**
 
+[Mimmi, L.M.] *Infrastructure maintenance among G20 top priorities* [Italian Ministry of Economy and Finance Publications](http://www.dt.mef.gov.it/en/news/2021/manutenzione_g20.html)
+
 Mimmi, L.M. “*Is President Trump holding on to his electoral promiseto“hire American”?*”. July 9, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
 
 Mimmi, L.M. and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
@@ -197,24 +199,6 @@ Mimmi, L.M.  “*Open Spatial Data for Resilience in Tanzania: Lessons Learned f
 
 Mimmi, L.M.  “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Blog](https://luisamimmi.com/post/2009/02/21/sussidiariet%C3%A0-e-sviluppo/).
 
-
-# SELECTED EMPIRICAL RESEARCH PROJECTS
-
-  • Coordinator: Survey of Water & Sanitation Providers in Brazil and Mexico – 2018/2019 – IADB & PoPa Research
-  
-  • Principal Investigator: Pilot study Combining satellite imagery and survey data to study poverty dimensions in the slums of Dhaka (Bangladesh) - 2015/2018 - WORLD BANK & ESA
-  
-  • Researcher: Applying results-based financing (RBF) in water investments - 2014 - WORLD BANK-Water Partnership Program 
-  
-  • Principal Investigator: Household-level survey for project on Improved Electricity Access for Slum Dwellers in Mumbai (India) - 2012/2013 - WORLD BANK-GPOBA 
-  
-  •  Project Coordinator: Impact Evaluation of "Bangladesh rural electrification and renewable energy development – Solar Homes System (SHS)" Project - 2011/2012 - WORLD BANK-GPOBA
-
-  •  Project Coordinator: Impact Evaluation: OBA in Kampala – Water Connections for the poor - 2010/2011 - WORLD BANK-GPOBA
-
-  •  Researcher: Comparative study of Youth Employment and Entrepreneurship Programs: A Review of Eight Best Practices - 2008 - IADB
-
-  • Researcher (thesis): Econometric study on “Conviver” slum electrification and regularization project in Belo Horizonte (Brazil) - 2007/2008 - Cemig & AVSI-CDM
 
 
 ```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}

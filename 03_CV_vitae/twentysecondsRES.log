@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.3)  3 SEP 2021 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.10.15)  17 OCT 2021 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**LuisaMimmi-resume.tex
-(./LuisaMimmi-resume.tex
+**twentysecondsRES.tex
+(./twentysecondsRES.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-08-27> (./twentysecondcv.cls
+L3 programming layer <2021-10-12> (./twentysecondcv.cls
 Document Class: twentysecondcv 2018/11/24 CV class
 (/Users/luisamimmi/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -709,12 +709,11 @@ Package csquotes Info: ... none found.
 
 (/Users/luisamimmi/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdf
 tex.def
-File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-10-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count306
 \l__pdf_internal_box=\box63
-)
-No file LuisaMimmi-resume.aux.
-\openout1 = `LuisaMimmi-resume.aux'.
+) (./twentysecondsRES.aux)
+\openout1 = `twentysecondsRES.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
 LaTeX Font Info:    ... okay on input line 93.
@@ -797,39 +796,40 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 93.
 LaTeX Info: Redefining \pageref on input line 93.
 LaTeX Info: Redefining \nameref on input line 93.
+(./twentysecondsRES.out) (./twentysecondsRES.out)
 \@outlinefile=\write4
-\openout4 = `LuisaMimmi-resume.out'.
+\openout4 = `twentysecondsRES.out'.
 
-<LulaSalvador2015.jpg, id=7, 557.08125pt x 719.68875pt>
-File: LulaSalvador2015.jpg Graphic file (type jpg)
-<use LulaSalvador2015.jpg>
-Package pdftex.def Info: LulaSalvador2015.jpg  used on input line 110.
+<../foto/LulaSalvador2015.jpg, id=7, 557.08125pt x 719.68875pt>
+File: ../foto/LulaSalvador2015.jpg Graphic file (type jpg)
+<use ../foto/LulaSalvador2015.jpg>
+Package pdftex.def Info: ../foto/LulaSalvador2015.jpg  used on input line 109.
 (pdftex.def)             Requested size: 142.26378pt x 183.78725pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <20.74> not avail
 able
 (Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on in
-put line 110.
+put line 109.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 110.
+(Font)              scaled to size 20.74pt on input line 109.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <14.4> not availa
 ble
 (Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on in
-put line 110.
+put line 109.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 110.
+(Font)              scaled to size 14.4pt on input line 109.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 110.
+(Font)              <7> on input line 109.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 110.
+(Font)              <5> on input line 109.
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 110.
+ut line 109.
 
 (/Users/luisamimmi/Library/TinyTeX/texmf-dist/tex/latex/fontawesome/ufontawesom
 etwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    Trying to load font information for T1+DejaVuSansMono-TLF o
-n input line 110.
+n input line 109.
 
 (/Users/luisamimmi/Library/TinyTeX/texmf-dist/tex/latex/dejavu/T1DejaVuSansMono
 -TLF.fd
@@ -837,9 +837,9 @@ File: T1DejaVuSansMono-TLF.fd 2011/06/01 Font definitions for T1/DejaVuSansMono
 -TLF.
 )
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 8.6pt on input line 110.
+(Font)              scaled to size 8.6pt on input line 109.
 LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
-nput line 110.
+nput line 109.
 
 (/Users/luisamimmi/Library/TinyTeX/texmf-dist/tex/latex/fontawesome/ufontawesom
 ethree.fd
@@ -848,26 +848,130 @@ File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/n' in size <8> not available
 
 (Font)              Font shape `T1/ClearSans-TLF/regular/n' tried instead on in
-put line 121.
+put line 120.
 LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 121.
+(Font)              scaled to size 8.0pt on input line 120.
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+Underfull \hbox (badness 10000) in paragraph at lines 119--123
 
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.133 ...o/project/greencard_analysis/}\par\empty}
-                                                   
-Here is how much of TeX's memory you used:
- 22456 strings out of 480559
- 407601 string characters out of 5902200
- 688596 words of memory out of 5000000
- 39695 multiletter control sequences out of 15000+600000
- 426163 words of font info for 34 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 117i,10n,122p,595b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-!  ==> Fatal error occurred, no output PDF file produced!
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]\T1/ClearSans-TLF/regular/n/10 https://luisamimmi.com/post/2019/07/07/green-c
+ard-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]\T1/ClearSans-TLF/regular/n/10 https://luisamimmi.com/post/2019/04/14/nye-fun
+draising-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--151
+
+ []
+
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/it' in size <10> not availab
+le
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on i
+nput line 159.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 159.
+[1
+
+{/Users/luisamimmi/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+} <../foto/LulaSalvador2015.jpg>]
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/m/sl' in size <10> not availab
+le
+(Font)              Font shape `T1/ClearSans-TLF/regular/sl' tried instead on i
+nput line 203.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/sl' in size <10> not a
+vailable
+(Font)              Font shape `T1/ClearSans-TLF/regular/it' tried instead on i
+nput line 203.
+LaTeX Font Info:    Font shape `T1/ClearSans-TLF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 203.
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 15.4pt, for example:
+(fancyhdr)                \setlength{\footskip}{15.4pt}.
+
+[2]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=759.6886pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-29.59087pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=0.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(./twentysecondsRES.aux)
+Package rerunfilecheck Info: File `twentysecondsRES.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ )
+(\end occurred when \ifnum on line 31 was incomplete) 
+Here is how much of TeX's memory you used:
+ 22499 strings out of 480559
+ 408449 string characters out of 5902198
+ 721706 words of memory out of 5000000
+ 39711 multiletter control sequences out of 15000+600000
+ 433888 words of font info for 41 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 117i,11n,122p,594b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/luisamimmi/Library
+/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/Users/lu
+isamimmi/Library/TinyTeX/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.
+enc}{/Users/luisamimmi/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/f
+ontawesometwo.enc}{/Users/luisamimmi/Library/TinyTeX/texmf-dist/fonts/enc/dvips
+/clearsans/clr_zxbkm4.enc}</Users/luisamimmi/Library/TinyTeX/texmf-dist/fonts/t
+ype1/intel/clearsans/ClearSans-Italic.pfb></Users/luisamimmi/Library/TinyTeX/te
+xmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></Users/luisamimmi/L
+ibrary/TinyTeX/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></Users/
+luisamimmi/Library/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
+e.pfb>
+Output written on twentysecondsRES.pdf (2 pages, 127388 bytes).
+PDF statistics:
+ 76 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+

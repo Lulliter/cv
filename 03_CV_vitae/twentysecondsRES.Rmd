@@ -3,7 +3,7 @@ name: Luisa M. Mimmi
 position: "Policy & Data Analyst"
 address: "EU citizen | Green card holder (based in Washington DC, USA)"
 #phone: +1 22 3333 4444
-profilepic: LulaSalvador2015.jpg
+profilepic: ../foto/LulaSalvador2015.jpg
 www: lulliter.github.io
 email: "lmm76@georgetown.edu"
 linkedin: luisa-m-mimmi
@@ -64,13 +64,13 @@ tribble(
 tibble::tribble(~name, ~date, ~description , ~link,
   "Brazil Water Suppliers", '2018/2019', "Ongoing survey analysis @ IADB", "\\href{https://lulliter.github.io/BrazilWaterSurvey/}{https://lulliter.github.io/BrazilWaterSurvey/}" ,
   
-  "Personal Blog",   '2018/2019', "Side projects, R code, miscellaneous thoughts...", "\\href{https://lulliter.github.io}{https://lulliter.github.io}" ,
+  "Personal Blog",   '2018/2019', "Side projects, R code, miscellaneous thoughts...", "\\href{https://luisamimmi.com/}{https://luisamimmi.com/}" ,
 
   "Green Card processing time under Trump", "2019", "Analysis of public US data",
-  "\\href{https://lulliter.github.io/project/greencard_analysis/}{https://lulliter.github.io/project/greencard_analysis/}" ,
-  
+  "\\href{https://luisamimmi.com/post/2019/07/07/green-card-processing-time/}{https://luisamimmi.com/post/2019/07/07/green-card-processing-time/}" ,
+
   "New York Encounter's Donors", "2019", "Fundraising data analysis",
-  "\\href{https://lulliter.github.io/project/nye-fundraising/}{https://lulliter.github.io/project/nye-fundraising/}" ,
+  "\\href{https://luisamimmi.com/post/2019/04/14/nye-fundraising-data-analysis/}{https://luisamimmi.com/post/2019/04/14/nye-fundraising-data-analysis/}" ,
 
   "Job Migrants and Competitive Cities", "2018", "Analysis of LinkedIn data", "\\href{https://lulliter.github.io/project/linkedinanalysis/}{https://lulliter.github.io/project/linkedinanalysis/}" ,
   

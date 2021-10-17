@@ -1,0 +1,335 @@
+---
+name: Luisa M.
+surname: Mimmi
+position: Policy & Data Analyst
+address: EU citizen (Italy) | Green card holder
+www: luisamimmi.com
+email: lmm76@georgetown.edu
+linkedin: luisa-m-mimmi
+twitter: lulliter
+github: lulliter
+headcolor: cc0066 # 0088cc #0073e6 #990000
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: |-
+  I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health).
+  I would like to further explore integration of survey data with other sources –including social media, GIS and satellite imagery– to uncover various dimensions of poverty in vulnerable contexts.
+profilepic: ../foto/LulaSalvador2015.jpg
+docname: Curriculum Vitae
+output:
+  vitae::awesomecv: default
+  vitae::twentyseconds: default 
+  vitae::latexcv: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+# if (cond) expr
+if (!require("pacman")) install.packages("pacman")
+p_load('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data structure for tribbles
+             ,'dplyr' 
+             ,'lubridate'
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative File Paths
+             ,'readr'     # Data Loading
+             ,'glue'      # String Manipulation
+             ,'rorcid'
+             ,'RefManageR'
+             ,'scholar'
+             )
+
+# require(xfun)
+# packages <- c('vitae'     # The CV's LaTeX Template
+#              ,'tibble'    # Data structure for tribbles
+#              ,'dplyr' 
+#              ,'lubridate'
+#              ,'magrittr'  # The Pipe %>%
+#              ,'here'      # Relative File Paths
+#              ,'readr'     # Data Loading
+#              ,'glue'      # String Manipulation
+#              ,'rorcid'
+#              ,'RefManageR'
+#              ,'scholar'
+#              )
+# xfun::pkg_attach2(packages, message = FALSE)
+ 
+# data input 
+source(file = here("data", "data_Lula.r")) # "data.r"
+
+
+
+# rorcid_app <- httr::oauth_app(
+#   appname = "rorcid",
+#   key = "APP-7E02XXWNQBFNMG1B",
+#   secret = "74c15780-e323-48a0-9296-ecceaf46e447"
+# )
+
+# ORCID_TOKEN <- Sys.getenv("ORCID_TOKEN") 
+```
+
+
+<!-- # Education -->
+```{r education}
+# edu <- rorcid::orcid_works("0000-0002-2244-8282")
+# edu$`0000-0002-2244-8282`$`education-summary` %>%
+#   detailed_entries(
+#     what = `role-title`,
+#     when = glue::glue("{`start-date.year.value`} - {`end-date.year.value`}"),
+#     with = organization.name,
+#     where = organization.address.city
+#   )
+```
+
+# Education
+```{r EDUCATION}
+edu %>% 
+  vitae::detailed_entries( with = inst,
+    what = degree,
+    why = detail,
+    when =  ifelse(is.na(startYear),
+                   endYear, glue::glue("{startYear}-{endYear}",.na = "")),
+    where = where)
+```
+
+
+# Employment history
+```{r employment, results='asis'}
+# tribble(
+#   ~Years, ~Position, ~Company,
+#   '2018:...', "Research Fellow", "Inter-American Development Bank, (Washington DC)",
+#   '2018:...', "Fundraising Data Analyst (Pro bono)", "New York Encounter, (remote)",
+#   '2009:2018', "Senior M&E Specialist", "World Bank, Sustainable Development VP, (Washington DC)",
+#   '2008' , "Policy Analyst", "Inter-American Development Bank, (Washington DC)",
+#   '2007' , "Summer Intern", "AVSI International (Brazil)",
+#   '2001:2006', "Business Intelligence Analyst", "Value Partners (Italy)",
+#    ) %>%
+#   # arrange(-Years) %>%
+#    #filter(Start > 2000) %>%
+#   # mutate(End = replace_na(End, "")) %>%
+#   # mutate(Years = paste(Start, "--", End, sep = "")) %>%
+#   select(Years, Position, Company ) %>%
+#   detailed_entries(
+#     when = Years, 
+#     what = Position, 
+#     where = Company )
+
+
+work %>%
+  vitae::detailed_entries(
+    with =  unit , #scambiati x spazio
+    what = title,
+     why = detail,
+    when = glue::glue("{startMonth} {startYear}-{endMonth} {endYear}",.na = ""),
+    where = where #scambiati x spazio
+  )
+
+```
+
+# Professional Service
+```{r}
+# service <- tribble( ~what, ~when, ~with,
+#   "Peer Reviewer",                "ongoing",                   "Energy Policy & Journal of the Association of Environmental 
+  
+  service %>%
+  vitae::detailed_entries(
+  what = what, 
+  when =  when,
+  why = why  
+  )
+  
+```
+
+
+
+# Data Science Projects
+```{r PROJECTS}
+# ~area,  ~year, ~accomplishment, ~where, ~link,
+# projects %>%
+# detailed_entries(
+#     with = area,
+#     when =  year,
+#     what = accomplishment, 
+#     # where = where,
+#         why = link,
+#         .protect = FALSE, # to turn link in LATEX 
+#   )
+
+
+#projects2 <- tibble::tribble(~name,  ~year, ~explain,
+projects2 %>%
+vitae::detailed_entries(
+    what = name,
+    when = year,
+    #with = NA_character_,
+    why = explain,
+    #where = NA_character_,
+    .protect = FALSE
+  )
+
+ 
+```
+
+
+
+#  Software
+```{r}
+software %>%
+   vitae::detailed_entries(
+   what  = skills ,
+    with =  area,
+    where = detail #
+  )
+ 
+
+```
+
+
+#  Languages
+```{r}
+languages %>% 
+  vitae::brief_entries(
+    what = area,
+    with = skills
+    
+  )
+```
+
+
+# Courses and Training 
+```{r}
+#courses <- tribble( ~area, ~accomplishment, ~year, ~whereNA, ~detail,
+    
+courses %>% 
+  vitae::brief_entries(
+    with = area,
+    what = accomplishment,
+    when = year#,
+    #why = detail
+    
+  )
+    
+```
+
+
+# Talks 
+```{r talks}
+# tibble::tribble(
+#   ~name, ~event, ~location, ~year,
+#   "Empowering people with community, software, and peer review", "**RUCK: R Users Conference Korea (Invited Keynote speaker)**", "Seoul, Korea", 2018,
+#   "Now you see it?  Now you don’t?  The role of graphics in identifying MCMC convergence (Awarded Runner up Pitman Prize for Young Statistician)", "ISCB-ASC", "Melbourne, Australia", 2018,
+#   "Find the best locations for facilities using `maxcovr`", "UseR! 2018", "Brisbane, Australia", 2018
+# ) %>%
+#   detailed_entries(
+#     what = name,
+#     when = year,
+#     with = event,
+#     where = location
+#   )
+```
+
+# Honors
+```{r}
+
+```
+
+
+# Publications 
+```{r PUBgooglesch}
+# from Google Scholar
+publicationsGSL  %>%
+  vitae::detailed_entries(
+    what = title,
+    when = year,
+    with = author,
+    where = journal #,
+    #why = glue::glue("citations: {cites}")
+  )
+    
+```
+
+```{r PUBzotero}
+# # from .bib (Zotero)
+# author, title, type, issued, journal
+ publicationsZOT2 %>%
+  vitae::detailed_entries(
+    what = title,
+    when = issued,
+    with = author,
+    where = journal,
+    why =  type)
+  )
+
+```
+
+
+# Articles in Public Media 
+
+Mimmi, Luisa M. and Fabiana Machado. 2019. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
+
+Mimmi, Luisa M., Borja-Vega Christian, and Amit Patel. 2017. “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” November 15, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
+
+Mimmi, Luisa M. 2016. “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" November 15, 2016. [Personal Blog](https://lulliter.github.io/post/2016-11-15_ramani-huria/) 
+
+Mimmi, Luisa M. 2009. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Blog](https://lulliter.github.io/post/sussidiariet%C3%A0-e-sviluppo/).
+
+# Peer-Reviewed & Technical Publications
+
+[Detailed list on **Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)
+
+
+
+
+
+ 
+```{r publicationsGOOGSCHOLAR}
+# 
+# scholar::get_publications("OBYla5gAAAAJ&hl") %>%
+#   detailed_entries(
+#     what = title,
+#     when = year,
+#     with = author,
+#     where = journal,
+#     why = glue::glue("citations: {cites}")
+#   )
+```
+
+```{r bibfiles}
+# Read any bib files
+# pubs <- ReadBib("rjhpubs.bib", check = FALSE)
+# reports <- ReadBib("rjhreports.bib", check = FALSE)
+# packages <- ReadBib("Rpackages.bib", check = FALSE)
+
+#  ReadBib("Lula-4CV.bib", check = FALSE)
+
+```
+
+```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}
+# here::here()
+# 
+# # ObjectiFY SubDirs	
+# from.dir <- "./content/cv/cv_making/resume_twentysecond"
+# fs::path_abs(from.dir)
+# 
+# to.dir   <- "./content/cv"
+# fs::path_abs(to.dir)
+# 
+# # List Files 
+# files <- list.files(path = from.dir, 
+# 						  pattern='\\.pdf$', # an optional regular expression. (ends with
+# 						  full.names = TRUE, # If TRUE, the directory path is prepended to the file names 
+# 						  recursive = FALSE) # Should the listing recurse into directories?
+# 	
+# # all_munge <- list.files(path = "./03_Munge/", pattern = '\\.R$' , 
+# #                         all.files = FALSE,  # def (= only visible)
+# #                         full.names = FALSE, # def (= no dir name prepended)
+# #                         recursive = FALSE,  # def  (= no inside sub-dir )
+# #                         ignore.case = TRUE, #    (= pattern-matching be case-insensitive)
+# #                         include.dirs = FALSE, # def (subdirectory names NOT be included in recursive listings)
+# #                         no.. = FALSE) # def (both "." and ".." be excluded also from non-recursive listings)
+# class(files) 
+# 
+# # function to MOVE
+# for (f in files) file.copy(from = f, to = to.dir,	 overwrite = T, copy.date = T)
+
+```
