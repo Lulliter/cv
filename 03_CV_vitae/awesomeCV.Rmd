@@ -126,6 +126,20 @@ work %>%
 
 ```
 
+# Honors
+```{r}
+# ~area, ~accomplishment, ~year, ~where, ~detail,
+
+honors %>% 
+  vitae::detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
 # Professional Service
 ```{r}
 # service <- tribble( ~what, ~when, ~with,
@@ -199,7 +213,7 @@ languages %>%
 # Courses and Training 
 ```{r}
 #courses <- tribble( ~area, ~accomplishment, ~year, ~whereNA, ~detail,
-    
+
 courses %>% 
   vitae::brief_entries(
     with = area,
@@ -212,97 +226,47 @@ courses %>%
 ```
 
 
+
 # Talks 
-```{r talks}
-# tibble::tribble(
-#   ~name, ~event, ~location, ~year,
-#   "Empowering people with community, software, and peer review", "**RUCK: R Users Conference Korea (Invited Keynote speaker)**", "Seoul, Korea", 2018,
-#   "Now you see it?  Now you don’t?  The role of graphics in identifying MCMC convergence (Awarded Runner up Pitman Prize for Young Statistician)", "ISCB-ASC", "Melbourne, Australia", 2018,
-#   "Find the best locations for facilities using `maxcovr`", "UseR! 2018", "Brisbane, Australia", 2018
-# ) %>%
-#   detailed_entries(
-#     what = name,
-#     when = year,
-#     with = event,
-#     where = location
-#   )
-```
-
-# Honors
-```{r}
-
-```
-
-
-# Publications 
-```{r PUBgooglesch}
-# from Google Scholar
-publicationsGSL  %>%
-  vitae::detailed_entries(
-    what = title,
-    when = year,
-    with = author,
-    where = journal #,
-    #why = glue::glue("citations: {cites}")
-  )
-    
-```
-
-```{r PUBzotero}
-# # from .bib (Zotero)
+```{r TALKzoteroRefMAn}
+# # from Synched Lula-MyTalks.bib (in Zotero)
 # author, title, type, issued, journal
- publicationsZOT2 %>%
-  vitae::detailed_entries(
-    what = title,
-    when = issued,
-    with = author,
-    where = journal,
-    why =  type)
-  )
+ 
+  vitae::bibliography_entries(file = here::here("data", "Lula-MyTalks.bib")
+                             # ,sorting="ydnt"
+                              ) %>% 
+  arrange(desc(issued))
 
 ```
 
-
-# Articles in Public Media 
-
-Mimmi, Luisa M. and Fabiana Machado. 2019. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
-
-Mimmi, Luisa M., Borja-Vega Christian, and Amit Patel. 2017. “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” November 15, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
-
-Mimmi, Luisa M. 2016. “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" November 15, 2016. [Personal Blog](https://lulliter.github.io/post/2016-11-15_ramani-huria/) 
-
-Mimmi, Luisa M. 2009. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Blog](https://lulliter.github.io/post/sussidiariet%C3%A0-e-sviluppo/).
 
 # Peer-Reviewed & Technical Publications
-
-[Detailed list on **Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)
-
-
-
-
-
- 
-```{r publicationsGOOGSCHOLAR}
-# 
-# scholar::get_publications("OBYla5gAAAAJ&hl") %>%
-#   detailed_entries(
+```{r PUBgooglesch}
+# # from Google Scholar
+# publicationsGSL  %>%
+#   vitae::detailed_entries(
 #     what = title,
 #     when = year,
 #     with = author,
-#     where = journal,
-#     why = glue::glue("citations: {cites}")
+#     where = journal #,
+#     #why = glue::glue("citations: {cites}")
 #   )
+#     
 ```
 
-```{r bibfiles}
-# Read any bib files
-# pubs <- ReadBib("rjhpubs.bib", check = FALSE)
-# reports <- ReadBib("rjhreports.bib", check = FALSE)
-# packages <- ReadBib("Rpackages.bib", check = FALSE)
-
-#  ReadBib("Lula-4CV.bib", check = FALSE)
+```{r PUBzoteroRefMAn}
+# # from Synched Lula-MyPublications-Narrow.bib (in Zotero)
+# author, title, type, issued, journal
+ 
+  vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
+                             # ,sorting="ydnt"
+                              ) %>% 
+  arrange(desc(issued))
 
 ```
+
+[Detailed list on **Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)
+
 
 ```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}
 # here::here()
@@ -331,5 +295,7 @@ Mimmi, Luisa M. 2009. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Fav
 # 
 # # function to MOVE
 # for (f in files) file.copy(from = f, to = to.dir,	 overwrite = T, copy.date = T)
-
 ```
+
+
+
