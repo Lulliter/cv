@@ -1,24 +1,33 @@
 ---
 name: Luisa M.
 surname: Mimmi
-position: Policy & Data Analyst
+position: Public Policy & Computational Policy Analysis
 address: EU citizen (Italy) | Green card holder
 www: luisamimmi.com
 email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
 twitter: lulliter
 github: lulliter
-headcolor: cc0066 # 0088cc #0073e6 #990000
+researchgate: Luisa-Mimmi
+headcolor: 0088cc #cc0066 # 0088cc #0073e6 #990000
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: |-
-  I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health).
-  I would like to further explore integration of survey data with other sources –including social media, GIS and satellite imagery– to uncover various dimensions of poverty in vulnerable contexts.
+  I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my research revolves around different policies improving universal access to basic infrastructure services (housing, water and sanitation, energy, education and health). 
+    I am passionate about using data from different sources –including social media, GIS and satellite imagery– to understand and tackle complex public policy issues. 
 profilepic: ../foto/LulaSalvador2015.jpg
 docname: Curriculum Vitae
 output:
-  vitae::awesomecv: default
-  vitae::twentyseconds: default 
-  vitae::latexcv: default
+  vitae::awesomecv: 
+  keep_tex: false
+  latex_engine: "xelatex" # maybe redund bc in awsomecv is already this 
+always_allow_html: yes
+header-includes:
+  \usepackage{float}
+  \usepackage{multicol}
+  \usepackage{colortbl}
+  \arrayrulecolor{white}
+  \usepackage{hhline}
+  \definecolor{light-gray}{gray}{0.95}
 ---
 
 ```{r setup, include=FALSE}
@@ -27,18 +36,40 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 # if (cond) expr
 if (!require("pacman")) install.packages("pacman")
 p_load('vitae'     # The CV's LaTeX Template
-             ,'tibble'    # Data structure for tribbles
-             ,'dplyr' 
-             ,'lubridate'
-             ,'magrittr'  # The Pipe %>%
-             ,'here'      # Relative File Paths
-             ,'readr'     # Data Loading
-             ,'glue'      # String Manipulation
-             ,'rorcid'
-             ,'RefManageR'
-             ,'scholar'
-             )
+       ,'tibble'    # Data structure for tribbles
+       ,'dplyr' , 'ggplot2'
+       ,'lubridate'
+       ,'magrittr'  # The Pipe %>%
+       ,'here'      # Relative File Paths
+       ,'readr'     # Data Loading
+       ,'glue'      # String Manipulation
+       ,'rorcid'
+       ,'RefManageR'
+       ,'scholar'
+       , 'emojifont'
+       #, 'fontawesome'
+       , 'ggrepel' 
+       ,'kableExtra'
+       ,'huxtable'
+       ,'gridExtra'
+)
 
+        # library(vitae)
+        # library(ggplot2)
+        # library(dplyr)
+        # library(sf)
+        # library(rworldmap)
+        # library(stplanr)
+        # library(ggrepel)
+        # library(emojifont)
+        # library(fontawesome)
+        # library(kableExtra)
+        # library(huxtable)
+        # library(gridExtra)
+
+p_load_gh("rstudio", "fontawsome")
+
+ # MODO ALTERNATIVO -----------------------
 # require(xfun)
 # packages <- c('vitae'     # The CV's LaTeX Template
 #              ,'tibble'    # Data structure for tribbles
@@ -68,32 +99,11 @@ source(file = here("data", "data_Lula.r")) # "data.r"
 # ORCID_TOKEN <- Sys.getenv("ORCID_TOKEN") 
 ```
 
+<!-- # Employment history -->
 
-<!-- # Education -->
-```{r education}
-# edu <- rorcid::orcid_works("0000-0002-2244-8282")
-# edu$`0000-0002-2244-8282`$`education-summary` %>%
-#   detailed_entries(
-#     what = `role-title`,
-#     when = glue::glue("{`start-date.year.value`} - {`end-date.year.value`}"),
-#     with = organization.name,
-#     where = organization.address.city
-#   )
-```
+\faIcon{briefcase} Professional Experience
+============================================
 
-# Education
-```{r EDUCATION}
-edu %>% 
-  vitae::detailed_entries( with = inst,
-    what = degree,
-    why = detail,
-    when =  ifelse(is.na(startYear),
-                   endYear, glue::glue("{startYear}-{endYear}",.na = "")),
-    where = where)
-```
-
-
-# Employment history
 ```{r employment, results='asis'}
 # tribble(
 #   ~Years, ~Position, ~Company,
@@ -126,21 +136,8 @@ work %>%
 
 ```
 
-# Honors
-```{r}
-# ~area, ~accomplishment, ~year, ~where, ~detail,
-
-honors %>% 
-  vitae::detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-```
-
-# Professional Service
+\faIcon{lightbulb}  Other Professional Service
+===================================== 
 ```{r}
 # service <- tribble( ~what, ~when, ~with,
 #   "Peer Reviewer",                "ongoing",                   "Energy Policy & Journal of the Association of Environmental 
@@ -154,9 +151,10 @@ honors %>%
   
 ```
 
+\bigskip
 
-
-# Data Science Projects
+\faIcon{r-project}  Data Science Projects
+===================================== 
 ```{r PROJECTS}
 # ~area,  ~year, ~accomplishment, ~where, ~link,
 # projects %>%
@@ -185,38 +183,106 @@ vitae::detailed_entries(
 ```
 
 
+<!-- # Education -->
+```{r education}
+# edu <- rorcid::orcid_works("0000-0002-2244-8282")
+# edu$`0000-0002-2244-8282`$`education-summary` %>%
+#   detailed_entries(
+#     what = `role-title`,
+#     when = glue::glue("{`start-date.year.value`} - {`end-date.year.value`}"),
+#     with = organization.name,
+#     where = organization.address.city
+#   )
+```
 
-#  Software
+\faIcon{graduation-cap} Education
+==================================
+<!--  \faIcon{university} -->
+```{r EDUCATION}
+edu %>% 
+  vitae::detailed_entries( with = inst,
+    what = degree,
+    why = detail,
+    when =  ifelse(is.na(startYear),
+                   endYear, glue::glue("{startYear}-{endYear}",.na = "")),
+    where = where)
+```
+
+
+<!-- \endfirstpage -->
+
+\faIcon{medal} Academic Honors
+=============================== 
 ```{r}
+# ~area, ~accomplishment, ~year, ~where, [~detail],
+honors %>%
+  vitae::detailed_entries(
+    # with = area,
+    # what = accomplishment,
+    what = where   ,
+    when = year,
+    with =glue::glue("{area}: {accomplishment}",.na = "" )
+  )
+
+# # try to make it less pompous
+# honors %>% 
+#   vitae::brief_entries(
+#     #with = area,
+#     what = glue::glue("{area} - {accomplishment}",.na = "" )  ,
+#     #why = detail,
+#     when = where ,
+#     with = year
+#   )
+```
+
+
+\faIcon{laptop-code} Software
+=============================== 
+<!-- \faIcon{file-code} -->
+  
+```{r}
+# software %>%
+#    vitae::detailed_entries(
+#    what  = skills ,
+#     with =  area,
+#     where = detail #
+#   )
+#  
 software %>%
    vitae::detailed_entries(
-   what  = skills ,
-    with =  area,
-    where = detail #
+   what  = glue::glue("  {area}: [{skills}]")
+    #,where = detail #
   )
- 
 
+# software %>%
+#    vitae::brief_entries(
+#    what  = area ,
+#     with =  skills
+#      
+#   )
 ```
 
 
-#  Languages
+\faIcon{globe} Languages
+==================================
 ```{r}
 languages %>% 
-  vitae::brief_entries(
-    what = area,
-    with = skills
-    
-  )
+  vitae::detailed_entries(
+    what = glue::glue("{area}: [{skills}]") 
+    )
 ```
 
+\newpage
 
-# Courses and Training 
+\faIcon*{pencil} Courses and Training
+===========================
+ 
 ```{r}
-#courses <- tribble( ~area, ~accomplishment, ~year, ~whereNA, ~detail,
+#courses <- tribble( ~area, ~accomplishment, ~year, [~where], [~detail],
 
 courses %>% 
-  vitae::brief_entries(
-    with = area,
+  vitae::detailed_entries(
+    why = area ,
     what = accomplishment,
     when = year#,
     #why = detail
@@ -226,9 +292,12 @@ courses %>%
 ```
 
 
+<!-- FOR THESE I AM NOT ACTUALLY USING data_Lula.r [I extract from .bib directly using `vitae::bibliography_entries` own function ] -->
 
-# Talks 
-```{r TALKzoteroRefMAn}
+\faIcon*{calendar} Talks
+===========================
+  
+```{r TALKzotero}
 # # from Synched Lula-MyTalks.bib (in Zotero)
 # author, title, type, issued, journal
  
@@ -240,7 +309,13 @@ courses %>%
 ```
 
 
-# Peer-Reviewed & Technical Publications
+\faBook[regular] Publications
+===========================
+[_See detailed list on [**my Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)_]
+
+\faBookOpen[regular] Peer-Reviewed Articles & Technical Reports
+---------------------------
+
 ```{r PUBgooglesch}
 # # from Google Scholar
 # publicationsGSL  %>%
@@ -254,18 +329,48 @@ courses %>%
 #     
 ```
 
-```{r PUBzoteroRefMAn}
+```{r PUBzotero}
 # # from Synched Lula-MyPublications-Narrow.bib (in Zotero)
 # author, title, type, issued, journal
  
-  vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
+ vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
                              # ,sorting="ydnt"
                               ) %>% 
-  arrange(desc(issued))
-
+  arrange(desc(issued)) %>% 
+  filter( stringr::str_detect(type ,"webpage" , negate = TRUE)  )
+ 
 ```
 
-[Detailed list on **Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)
+
+\faIcon{rss} Other Media
+---------------------------
+
+<!-- \faIcon{file-signature} -->
+```{r BLOGzotero}
+# # from Synched Lula-MyPublications-Narrow.bib (in Zotero)
+# author, title, type, issued, journal
+ 
+#print<-  
+vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
+                             # ,sorting="ydnt"
+                              ) %>% 
+     arrange(desc(issued)) %>% 
+  filter( stringr::str_detect(type ,"webpage" )  )
+ 
+
+# --------- names(print)
+#   "URL" "author"  "genre" "id" "issued" "keyword" "language"  "publisher"  "title"            "title-short"  "type" "DOI" "ISSN" "accessed" "container-title"  "issue""page" "volume"           "abstract"  "collection-title" "number" "publisher-place"  "annote"  
+
+# --------- print$type
+# "webpage" "webpage" "report" "webpage" "webpage" "article-journal" "report"         
+#  [8] "report"          "report"          "article-journal" "report"          "webpage"     
+```
+
+
+
+
+
+
 
 
 ```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}

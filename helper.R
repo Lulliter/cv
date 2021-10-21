@@ -19,3 +19,4 @@ credentials::set_github_pat("GITHUB_PAT")
 # Zotero ------------------------------------------------------------------
 
 # Your userID for use in API calls is: 4290898
+# When exporting select BetterBibLaTeX 

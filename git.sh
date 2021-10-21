@@ -12,7 +12,7 @@ git add '03_CV_vitae/'
 git add helper.R
 
 # commit changes 
-git commit -m "new Rmd using vitae packg"
+git commit -m "bib from Zotero"
 
 
 # push 
