@@ -22,5 +22,12 @@ Another evolution of it is in [Julie Jung](https://www.jungjulie.com/2020/01/12/
 + **Steven V. Miller** great blog post and [source code](http://svmiller.com/blog/2016/03/svm-r-markdown-cv/). 
 + **Mitchell O'Hara-Wild** R package `vitae`, along with:
     + Youtube video by **Bryan Jenks** on `vitae` [Free Code Camp Talk: Making A Data Driven CV With RMarkdown](https://www.youtube.com/watch?v=cMlRAiQUdD8&t=113s) 
-    + Some variations on the above seen in **Lorena Abad Crespo**'s version shared [here](https://github.com/loreabad6/R-CV)
+    + Some variations on the above seen in **Lorena Abad Crespo**'s version shared [here](https://github.com/loreabad6/R-CV). To make this version, I had to modify teh `awesome-cv.cls` file
 
+          `% Add fontawesome5 package 
+          \RequirePackage{fontawesome5}
+          \RequirePackage[default,opentype]{sourcesanspro}
+          `
+# Figure Out
+
++ In `data/data_Lula.r` I use `RefManageR::ReadBib` to extract my Zotero collection in the form of dataframes, BUT record remain inaccurate (e.g. Infrastructure Maintenance: Among {{G20}} Top Priorities)
