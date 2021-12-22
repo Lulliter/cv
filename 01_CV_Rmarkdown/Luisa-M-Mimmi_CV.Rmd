@@ -9,7 +9,7 @@ output:
   html_document:
     df_print: paged
 
-jobtitle: Economic Advisor - Infrastructure & Development Economics
+jobtitle: Policy Analyst - Infrastructure & Development Economics
 keywords: RMarkdown, academic CV, template
 linkcolor: blue
 
@@ -39,7 +39,7 @@ urlcolor: blue
 
  > **Sr. Economic Advisor** \hfill 2020-present
  
- >  Member of a task force supporting Italy's G20 Presidency (in 2021), in particular the Infrastructure Working Group. Coordinator of the "resilience and maintenance" workstream, which culminated in the endorsement of a [_"G20 Policy Agenda on Infrastructure Maintenance"_](https://www.g20.org/wp-content/uploads/2021/07/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
+ >  Member of a task force supporting Italy's G20 Presidency (in 2021), in particular the Infrastructure Working Group. Coordinator of the "resilience and maintenance" workstream, which culminated in the endorsement of a [_"G20 Policy Agenda on Infrastructure Maintenance"_](http://www.g20.utoronto.ca/2021/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
 
 
 •	*Inter-American Development Bank (Infrastructure - Water Div.) - Washington, DC:*
@@ -145,7 +145,7 @@ urlcolor: blue
 
 ## **Journal Articles**
 
-Patel, A. Christian Borja-Vega, Mimmi, L.M., Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2019 (Under Review) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
+Patel, A. Christian Borja-Vega, Mimmi, L.M., Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2021 (Under Review) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
 
 Mimmi, L.M. 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
 
@@ -172,7 +172,9 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 
 ## **Invited Presentations**
-**2021, October 27** *Building a more resilient future: Quality Infrastructure for all*, panelist in "BREAKOUT SESSION 2: Resilient infrastructure for the recovery". At OECD 6th Forum on the Governance of infrastructure. Online. 
+**2021, November*)** *Infrastructure maintenance among G20 top priorities*, Lesson for World Bank's online course on “QII and green, resilient and inclusive development”.
+
+**2021, October 27** *Building a more resilient future: Quality Infrastructure for all*, panelist in "Breakout Session 2: Resilient infrastructure for the recovery". At OECD 6th Forum on the Governance of infrastructure. Online. 
 
 **2021, October 6** *Remarks on the IWG’s work under the Italian Presidency*, At "C20 Summit ‐ Reclaiming sustainable infrastructure as a public good". Online. 
 
@@ -197,7 +199,7 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 ## **Public Media**
 
-[Mimmi, L. M.] *Infrastructure maintenance among G20 top priorities* [G20 website](https://www.g20.org/infrastructure-maintenance-among-g20-top-priorities.html)
+[Mimmi, L. M.] *Infrastructure maintenance among G20 top priorities* [G20 website, republished by World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
 
 Mimmi, L.M. “*Is President Trump holding on to his electoral promise to“hire American”?*”. July 9, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
 
@@ -219,7 +221,7 @@ from.dir <- "./01_CV_Rmarkdown"
 fs::path_abs(from.dir)
 
  # sporca ma OK!
-to.dir   <- "/Users/luisamimmi/GoogleDrive/Github/blog/static/cv_files" # "/Users/luisamimmi/GoogleDrive/source/content/cv",
+to.dir   <- "/Users/luisamimmi/My Drive/Github/blog/static/cv_files" # "/Users/luisamimmi/GoogleDrive/source/content/cv",
 
 fs::path_abs(to.dir)
 

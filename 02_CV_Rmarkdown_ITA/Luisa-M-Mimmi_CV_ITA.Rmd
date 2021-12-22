@@ -36,7 +36,7 @@ urlcolor: blue
 
  > **Sr. Economic Advisor - dossier infrastrutture** \hfill 2020-Oggi
  
- >  Supporto alla preparazione della Presidenza Italiana del G20 (2021) - Gruppo di Lavoro Infrastrutture - e coordinamento del lavoro su resilienza e manutenzione delle infrastrutture, culminata con l'approvazione (_endorsement_) della [_"G20 Policy Agenda on Infrastructure Maintenance"_](https://www.g20.org/wp-content/uploads/2021/07/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
+ >  Supporto alla preparazione della Presidenza Italiana del G20 (2021) - Gruppo di Lavoro Infrastrutture - e coordinamento del lavoro su resilienza e manutenzione delle infrastrutture, culminata con l'approvazione (_endorsement_) della [_"G20 Policy Agenda on Infrastructure Maintenance"_](http://www.g20.utoronto.ca/2021/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
  
 •	*Banca Inter-Americana dello Sviluppo (Div. Infrastruttura - Washington, DC):*
 
@@ -144,7 +144,7 @@ urlcolor: blue
 
 ## **Riviste Scientifiche**
 
-Patel, A. Christian Borja-Vega, Mimmi, L. M., Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2019 (Under Review) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
+Patel, A. Christian Borja-Vega, Mimmi, L. M., Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2021 (Under Review) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
 
 Mimmi, L. M. 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
 
@@ -171,6 +171,8 @@ Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-
 
 
 ## **Presentazioni e Seminari**
+**2021, November*)** *Infrastructure maintenance among G20 top priorities*, Lezione per Corso online di Banca Mondiale su “QII and green, resilient and inclusive development”
+
 **2021, October 27** *Building a more resilient future: Quality Infrastructure for all*, intervento alla  Sessione 2 su _"Resilient infrastructure for the recovery"_. OECD 6th Forum on the Governance of infrastructure. Online. 
 
 **2021, October 6** *Remarks on the IWG’s work under the Italian Presidency*, presentazione al _"C20 Summit ‐ Reclaiming sustainable infrastructure as a public good"_. Online. 
@@ -196,7 +198,7 @@ Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-
 
 ## **Articoli Divulgativi**
 
-[Mimmi, Luisa M.] *Infrastructure maintenance among G20 top priorities* [G20 website](https://www.g20.org/infrastructure-maintenance-among-g20-top-priorities.html)
+[Mimmi, Luisa M.] *Infrastructure maintenance among G20 top priorities* [G20 website, ripreso da World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
 
 Mimmi, Luisa M. “*Is President Trump holding on to his electoral promiseto“hire American”?*” Luglio, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
 
@@ -219,7 +221,7 @@ from.dir <- "./02_CV_Rmarkdown_ITA"
 fs::path_abs(from.dir)
 
 # sporca ma OK!
-to.dir   <- "/Users/luisamimmi/GoogleDrive/Github/blog/static/cv_files" # "/Users/luisamimmi/GoogleDrive/source/content/cv",
+to.dir   <- "/Users/luisamimmi/My Drive/Github/blog/static/cv_files" # "/Users/luisamimmi/GoogleDrive/source/content/cv",
 
 fs::path_abs(to.dir)
 

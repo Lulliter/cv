@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.10.20)  28 OCT 2021 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.10.20)  22 DEC 2021 09:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -530,11 +530,11 @@ Package rerunfilecheck Info: File `Luisa-M-Mimmi_CV.out' has not changed.
 (rerunfilecheck)             Checksum: 91D8F033B1AF9C6260FDA7E5572D4D11;1494.
  ) 
 Here is how much of TeX's memory you used:
- 13847 strings out of 480539
- 205755 string characters out of 5901555
+ 13857 strings out of 480539
+ 205850 string characters out of 5901555
  548367 words of memory out of 5000000
  30919 multiletter control sequences out of 15000+600000
- 454744 words of font info for 311 fonts, out of 8000000 for 9000
+ 455213 words of font info for 319 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,12n,66p,1205b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/luisamimmi/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc} </
@@ -549,10 +549,10 @@ xmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/luisamimmi/Library/TinyTeX
 /texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/luisamimmi/Library/Tin
 yTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/luisamimmi/Library/
 TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Luisa-M-Mimmi_CV.pdf (4 pages, 150695 bytes).
+Output written on Luisa-M-Mimmi_CV.pdf (4 pages, 151326 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 193 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  29 named destinations out of 1000 (max. 500000)
  67681 words of extra memory for PDF output out of 74296 (max. 10000000)
 
