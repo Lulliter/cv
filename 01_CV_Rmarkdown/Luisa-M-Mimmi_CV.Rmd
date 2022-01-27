@@ -9,7 +9,7 @@ output:
   html_document:
     df_print: paged
 
-jobtitle: Policy Analyst - Infrastructure & Development Economics
+jobtitle: "Policy Analyst - Infrastructure & Development Economics"
 keywords: RMarkdown, academic CV, template
 linkcolor: blue
 
@@ -32,6 +32,7 @@ urlcolor: blue
 
 > My core technical skills are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges. \hfill
 
+> _(Italian Citizen & US Permanent Lawful Resident)_
 
 
 # WORK
@@ -172,7 +173,8 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 
 ## **Invited Presentations**
-**2021, November*)** *Infrastructure maintenance among G20 top priorities*, Lesson for World Bank's online course on “QII and green, resilient and inclusive development”.
+
+**2021, November** *Infrastructure maintenance among G20 top priorities*, Lesson for World Bank's online course on [“QII and green, resilient and inclusive development”](https://learning.edx.org/course/course-v1:WBGx+IQI01x+1T2022/home).
 
 **2021, October 27** *Building a more resilient future: Quality Infrastructure for all*, panelist in "Breakout Session 2: Resilient infrastructure for the recovery". At OECD 6th Forum on the Governance of infrastructure. Online. 
 

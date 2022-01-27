@@ -11,3 +11,8 @@ cv.rmd
 data/
 foto/
 zzz_scarto/
+
+
+# Output files from R CMD build
+/02_CV_Rmarkdown_ITA/*.log
+/02_CV_Rmarkdown/*.log

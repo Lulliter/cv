@@ -1,7 +1,7 @@
 ---
 name: Luisa M.
 surname: Mimmi
-position: Public Policy & Computational Policy Analysis
+position: Public Policy & Data Analysis
 address: EU citizen (Italy) | Green card holder
 www: luisamimmi.com
 email: lmm76@georgetown.edu
@@ -29,6 +29,8 @@ header-includes:
   \usepackage{hhline}
   \definecolor{light-gray}{gray}{0.95}
 ---
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
@@ -85,7 +87,7 @@ p_load_gh("rstudio", "fontawsome")
 #              )
 # xfun::pkg_attach2(packages, message = FALSE)
  
-# data input 
+# data input (in "./data/data_Lula.r")
 source(file = here("data", "data_Lula.r")) # "data.r"
 
 

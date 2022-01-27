@@ -12,7 +12,7 @@ git add '03_CV_vitae/'
 git add helper.R
 
 # commit changes 
-git commit -m "changed 01_... and 02_... to.dir Users/luisamimmi/My Drive/Github/blog/static/cv_files"
+git commit -m "small upd CV files "
 
 
 # push 
