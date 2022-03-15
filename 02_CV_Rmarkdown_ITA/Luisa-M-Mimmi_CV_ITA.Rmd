@@ -11,7 +11,7 @@ fontfamily: mathpazo
 fontfamilyoptions: sc, osf
 fontsize: 10pt
 geometry: margin=1in
-jobtitle: Esperta in gestione e monitoraggio di politiche per lo sviluppo
+jobtitle: Esperta in economia e politiche per lo sviluppo
 keywords: RMarkdown, academic CV, template
 linkcolor: blue
 email: lmm76@georgetown.edu

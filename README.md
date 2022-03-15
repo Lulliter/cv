@@ -4,8 +4,11 @@ In this this R project I  created 3 (+1 old) versions of my CV
 
 0. (A long academic style CV (Eng) + .bib) [added like in bookdown]
 1. **A long academic style CV (Eng)** [based on _Steven V. Miller_'s example]
+  + & version flavor "data/journalist"
 2. **A long academic style CV (ITA)** [based on _Steven V. Miller_'s example]
-3. **A long academic style CV (Eng)** based on R package `vitae` 
+  + & version flavor "data/journalist"
+3. **A short resume (Eng)** based on R package `vitae` 
+  + & version flavor "data/journalist"
 
 
 ## NOTES

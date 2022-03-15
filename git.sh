@@ -1,4 +1,3 @@
-
 # check 
 git status
 
@@ -17,3 +16,4 @@ git commit -m "small upd CV files "
 
 # push 
 git push origin master
+

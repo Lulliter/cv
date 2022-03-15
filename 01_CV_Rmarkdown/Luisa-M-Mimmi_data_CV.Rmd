@@ -130,7 +130,7 @@ As a life-long learner, I am passionate about exploring new data sources and ana
 
 **GIS** _basic knowledge_ (ArcGIS, QGis, GeoDa)
 
-**Misc. development tools** _basic knowledge_ (Git, Github, Unix Shell, AWS services)
+**Misc. development tools** _basic knowledge_ (Git, Github, Unix Shell, HTML, CSS)
 
 
 
