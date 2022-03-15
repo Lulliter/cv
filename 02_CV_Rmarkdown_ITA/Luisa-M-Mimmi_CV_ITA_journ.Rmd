@@ -1,0 +1,243 @@
+---
+title: "Curriculum Vitae"
+author: "Luisa M. Mimmi"
+fontawesome: yes
+output:
+  pdf_document:
+    template: rap-latex-cv.tex
+  html_document:
+    df_print: paged
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 10pt
+geometry: margin=1in
+jobtitle: Esperta in economia e politiche per lo sviluppo
+keywords: RMarkdown, academic CV, template
+linkcolor: blue
+email: lmm76@georgetown.edu
+linkedin: luisa-m-mimmi
+#github: Lulliter
+#twitter: Lulliter
+web: luisamimmi.com
+updated: yes
+urlcolor: blue
+ 
+---
+
+
+> Economista con Master in Politiche Pubbliche (Georgetown University) e solida formazione in economia e politiche dello sviluppo, con specializzazione nell'accesso universale alle infrastrutture ed oltre 15 anni di esperienza professionale di presso Banche Multilaterali di Sviluppo e Pubblica Amministrazione. Ottima padronanza della lingua inglese (scritta e parlata) e eccellenti capacità di comunicazione, comprovate da svariate pubblicazioni tecniche - dal _blog post_ di carattere divulgativo fino ad articoli di carattere accademico.   
+
+# ESPERIENZA PROFESSIONALE
+
+•	*Ministero dell'Economia e delle Finanze (MEF, Dir. III) - Roma:*
+
+ > **Sr. Economic Advisor - dossier infrastrutture** \hfill 2020-Oggi
+ 
+ >  Supporto alla preparazione della Presidenza Italiana del G20 (2021) - Gruppo di Lavoro Infrastrutture - e coordinamento del lavoro su resilienza e manutenzione delle infrastrutture, culminata con l'approvazione (_endorsement_) della [_"G20 Policy Agenda on Infrastructure Maintenance"_](http://www.g20.utoronto.ca/2021/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
+ 
+•	*Banca Inter-Americana dello Sviluppo (Div. Infrastruttura - Washington, DC):*
+
+ > **Research Fellow** \hfill 2018-2019
+ 
+ >  Indagini multi-paese ed analisi sui dati relativi a offerta e domanda di acqua e servizi igienico-sanitari in America Latina | Contributo alla stesura del [*Rapporto Annuale 2020 di IADB sulle Infrastrutture*](https://publications.iadb.org/publications/english/document/From-Structures-to-Services-The-Path-to-Better-Infrastructure-in-Latin-America-and-the-Caribbean.pdf)
+
+•	*Banca Mondiale (presso 2 Fondi Fiduciari, Settore Sviluppo Sostenibile - Washington, DC):*
+
+ > **Sr. Monitoring & Evaluation Specialist** \hfill 2009-2018
+ 
+ > Coordinazione tecnica di prestiti e sovvenzioni per l’accesso inclusivo e sostenibile a servizi di base (abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti) in vari paesi in via di sviluppo | Supervisione di studi sul campo e redazione di vari rapport periodici, articoli e presentazioni
+
+•	*Banca Inter-Americana dello Sviluppo (Div. Promozione Sociale, Washington, DC):*
+
+ >  **Research Assistant** \hfill 2008-2009
+
+>	Supporto a cooperazione tecnica per prestito al Municipio di Fortaleza (Brasile) sul “Programma Integrato di Inclusione Sociale per i Giovani” | Analisi comparata di 8 casi internazionali di promozione della imprenditorialità giovanile e microcredito in contesti svantaggiati
+
+•	*AVSI (Nonprofit per Inclusione Sociale - Rio de Janeiro e Belo Horizonte, Brasile):*
+
+ > **Summer Intern** \hfill Estate 2007 
+ 
+ >  Partecipazione ad attività sul campo e compilazione dei dati sul progetto _“Conviver”_ promosso da AVSI e dalla locale utilità CEMIG per l'accesso legale e sostenibile all’energia elettrica dei residenti in varie _favelas_ (baraccopoli) di Belo Horizonte 
+
+•	*Value Partners S.p.A - (Milano):*
+
+ > **Business Intelligence Analyst** \hfill 2001-2006
+
+ >  Valutazione posizionamento competitivo e business intelligence per clienti pubblici e privati attivi in Italia, Europa, America Latina, Asia Sud-Orientale e Nord Africa  | Analisi della fattibilità e profittabilità di iniziative di Corporate Social Responsability per vari clienti in diversi settori
+
+
+# ALTRE ESPERIENZE EDITORIALI 
+
+**Revisore** per riviste specializzate: _"Energy Policy"_; _"Journal of the Association of Environmental and Resource Economists"_
+
+<!-- **Relatore** alla conferenza: "The Regulation of Public Utilities of the Future in Latin America and the Caribbean" - Banca Inter-Americana dello Sviluppo. 5-6 Settembre, 2018 -->
+
+<!-- **Coordinatore per la Global Water Practice** nella preparazione del primo "Geospatial Day" alla Banca Mondiale - 1 Novembre, 2016 -->
+
+<!-- **Delegato** alla conferenza "World Water Week" - Stoccolma, Svezia. 26-31 Agosto, 2012 -->
+
+<!-- **Moderatore Esperto** al "Workshop Regional sulla Valuatazione d'Impatto _Turning Promises into Evidence_" co-organizzato da organized by Banca Mondiale e Spanish Impact Evaluation Fund (SIEF) - Dhaka, Bangladesh. Ottobre 2011 -->
+
+<!-- **Analista di dati di Fundraising (pro bono)** per Organizzazione Nonprofit *[New York Encounter](http://www.newyorkencounter.org/)* -->
+<!-- > Analisi ETL --usando programmazione in SQL e R-- volti ad integrare informazioni relative al fundraising contenute in varie piattaforme di dati (Salesforce, Square, e SendGrid)    --> 
+
+
+# ISTRUZIONE E FORMAZIONE
+
+*Georgetown University (Washington DC, USA)*, **Master in Politiche Pubbliche** - 2 anni \hfill 2008
+
+*Università degli Studi di Pavia (Italia)*, **Laurea in Economia e Commercio** - 4 anni  \hfill 2001
+
+*Lice Scientifico T. Olivelli (Pavia, Italia)*, **Maturità Scientifica** \hfill 1994
+
+
+<!-- # CORSI E CERTIFICAZIONI -->
+
+<!-- •	Statistical Horizons: **Multilevel and Mixed Models Using R** (4 days) \hfill 2021 -->
+
+<!-- •	Banca Inter-Americana dello Sviluppo: **Machine Learning (ML)** (7 weeks) \hfill 2019 -->
+
+<!-- •	Banca Mondiale: **Household Surveys in the Post-2015 Development Agenda** (2 days) \hfill 2018 -->
+
+<!-- •	MIT-JPAL (_online_ EdX): **Evaluating Social Programs** (4 weeks) \hfill 2017 -->
+
+<!-- •	Duke (_online_ Coursera): **Managing Big Data with MySQL** (5 weeks) \hfill 2017 -->
+
+<!-- •	MIT-JPAL (_online_ EdX): **The Analytics Edge** (9 weeks) \hfill 2016 -->
+
+<!-- •	UC-Davis (_online_ Coursera): **Fundamentals of GIS** (4 weeks) \hfill 2016 -->
+
+<!-- •	General Assembly: **SQL Bootcamp** (1 day) \hfill 2016 -->
+
+<!-- •	Duke (_online_ Coursera): **Data Analysis and Statistical Inference** (10 weeks) \hfill 2015 -->
+
+
+
+#  CAPACITÀ LINGUISTICHE
+**Italiano** (madrelingua), **Inglese** (C2), **Spagnolo** (C1), **Portoghese** (B2)  
+
+
+#  CAPACITÀ INFORMATICHE
+**Scrittura, Analisi Dati e Statistica** (MS Office Suite, R, Stata, SQL) 
+
+**Linguaggi programmazione _livello base_** (Git, SEO copywriting, HTML, CSS) 
+
+<!-- **GIS** _livello base_ (ArcGIS, QGis, GeoDa) -->
+
+<!-- **Altre Piattaforme/Software** _livello base_ (Git, Github, Unix Shell, AWS services) -->
+
+
+# BORSE DI STUDIO
+
+**2007/2008**	  Borsa di studio “Ingenio” per ricercatori all'estero - Regione Lombardia (Italy)
+
+**2006/2007**	  Borsa di studio "Ambassadors of Goodwill" per studi post-grado - Rotary Foundation International
+
+**1997/98**   Borsa di studio “Socrates-Erasmus” per anno accademico alla Universidad Autonoma de Madrid (Spagna) - European Union (EU)
+
+
+
+# PUBBLICAZIONI
+
+## **Riviste Scientifiche**
+
+Patel, A. Christian Borja-Vega, Mimmi, L. M., Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2021 (Under Review) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
+
+Mimmi, L. M. 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
+
+Mimmi, L. M., and S. Ecer. 2010. [*An econometric study of illegal electricity connections in the urban favelas of Belo Horizonte, Brazil*](http://linkinghub.elsevier.com/retrieve/pii/S0301421510003113). Energy Policy, Vol. 38(9), pages 5081-5097.
+
+
+## **Report Tecnici**
+
+Mimmi L. M., Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2018. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank.
+
+Rodriguez, D. J.; Suardi, M. A.; Ham, M.; Mimmi, L. M.; Goksu, A. J. 2014. ["*Applying results-based financing in water investments*"](http://documents.worldbank.org/curated/en/862681468326999086/pdf/893260WP0Box380ng0Water0Investments.pdf). Water partnership program (WPP); Water papers. Washington DC, World Bank.
+
+Mimmi, L. M. 2012. ["*Assessing the Demand for Improved Electricity in Urban Slums: Findings from a Baseline Household Survey in Mumbai*"](https://www.researchgate.net/publication/319839905_Assessing_the_demand_for_improved_electricity_in_urban_slums_findings_from_a_baseline_household_Survey_in_Mumbai). Working Paper. Washington DC, World Bank.
+
+Mimmi, L. M. 2012. ["*Should we re-evaluate what to evaluate (and how)?*"](http://documents.worldbank.org/curated/en/252381468317944978/pdf/831740NWP0P1040Box0382076B00PUBLIC0.pdf) GPOBA evaluation notes; no. 1. Washington DC, World Bank.
+
+Johannes, L, Mimmi, L.M., Mumssen Y. 2010. ["*A Snapshot of the OBA Universe*"](https://openknowledge.worldbank.org/bitstream/handle/10986/10934/548520BRI0OBA010Box349431B01PUBLIC1.pdf?sequence=1&isAllowed=y). World Bank, April 2010. 
+
+Mimmi, L. M. 2009. ["*Youth Employment and Entrepreneurship Programs: A Review of Eight Best Practices*"](https://www.researchgate.net/publication/320044319_Youth_Employment_and_Entrepreneurship_Programs_A_Review_of_Eight_Best_Practices). Washington DC, Social Protection and Health Division, IADB.
+
+Mimmi, L. M. 2008. ["*Demand-driven solutions to illegal electricity connections - A preliminary evaluation of the “Conviver” program in the urban favelas of Belo Horizonte, Brazil (Master’s Thesis)*"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.4369&rep=rep1&type=pdf). Georgetown Public Policy Institute; Washington, DC.
+
+Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-Mediterranean Partnership. (Tesi di Laurea)*". Università di Pavia, Italy.
+
+
+## **Articoli Divulgativi**
+
+[Mimmi, Luisa M.] *Infrastructure maintenance among G20 top priorities* [G20 website, ripreso da World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
+
+Mimmi, Luisa M. “*Is President Trump holding on to his electoral promiseto“hire American”?*” Luglio, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
+
+
+Mimmi, Luisa M. and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” Gennaio, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
+
+Mimmi, Luisa M., Borja-Vega Christian, and Amit Patel. “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” Novembre, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
+
+Mimmi, Luisa M. “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" Novembre, 2016. [Personal Blog](https://luisamimmi.com/post/2016/11/15/2016-11-15_ramani-huria/) 
+
+Mimmi, Luisa M. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” Febbraio, 2009. [Personal Blog](https://luisamimmi.com/post/2009/02/21/sussidiariet%C3%A0-e-sviluppo/)
+
+
+## **Presentazioni e Seminari**
+**2021, November** *Infrastructure maintenance among G20 top priorities*, Lezione per Corso online di Banca Mondiale su [“QII and green, resilient and inclusive development”](https://learning.edx.org/course/course-v1:WBGx+IQI01x+1T2022/home).
+
+**2021, October 27** *Building a more resilient future: Quality Infrastructure for all*, intervento alla  Sessione 2 su _"Resilient infrastructure for the recovery"_. OECD 6th Forum on the Governance of infrastructure. Online. 
+
+**2021, October 6** *Remarks on the IWG’s work under the Italian Presidency*, presentazione al _"C20 Summit ‐ Reclaiming sustainable infrastructure as a public good"_. Online. 
+
+**2020** *“Introducing the 2021 G20 Infrastructure priorities"* intervento durante la Sessione I/Giorno I _"Infrastructure resilience in light of covid-19"_. OECD High-level Seminar on Quality Infrastructure Investment. Milano. 
+
+**2020** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presentato durante la sessione _"Case Studies on the impact of Earth Observation"_. XVIII Milan European Economy Workshop. Milano. 
+
+**2019** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, durante la sessione _"Drawing policy advice from land data analysis"_. Annual Conference on Land and Poverty. Banca Mondiale. Washington D.C.
+
+**2017** *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”*. Banca Mondiale. Washington D.C.
+
+**2014** *“The Water Partnership Program M&E Framework: Lessons Learned”*. Banca Mondiale. Washington, D.C.  
+
+**2012**  *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”*. Banca Mondiale. Washington, D.C.  
+
+**2011**  *“OBAdata Website Launch.”*. Banca Mondiale. Washington, D.C.  
+
+**2011** *“Result-Based Financing: energy applications around the world”*. EnergyLab. Milano, Italia. 
+
+**2009** *“Youth Employment and Entrepreneurship Programs: Eight Best Practices.”*. Banca Inter-Americana dello Sviluppo. Washington, D.C.
+
+
+
+```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}
+here::here()
+
+# ObjectiFY SubDirs	
+from.dir <- "./02_CV_Rmarkdown_ITA"
+fs::path_abs(from.dir)
+
+# sporca ma OK!
+to.dir   <- "/Users/luisamimmi/My Drive/Github/blog/static/cv_files" # "/Users/luisamimmi/GoogleDrive/source/content/cv",
+
+fs::path_abs(to.dir)
+
+# List Files 
+files <- list.files(path = from.dir, 
+						  pattern='\\.pdf$', # an optional regular expression. (ends with
+						  full.names = TRUE, # If TRUE, the directory path is prepended to the file names 
+						  recursive = FALSE) # Should the listing recurse into directories?
+	
+# all_munge <- list.files(path = "./03_Munge/", pattern = '\\.R$' , 
+#                         all.files = FALSE,  # def (= only visible)
+#                         full.names = FALSE, # def (= no dir name prepended)
+#                         recursive = FALSE,  # def  (= no inside sub-dir )
+#                         ignore.case = TRUE, #    (= pattern-matching be case-insensitive)
+#                         include.dirs = FALSE, # def (subdirectory names NOT be included in recursive listings)
+#                         no.. = FALSE) # def (both "." and ".." be excluded also from non-recursive listings)
+class(files) 
+
+# function to MOVE
+for (f in files) file.copy(from = f, to = to.dir,	 overwrite = T, copy.date = T)
+
+```
