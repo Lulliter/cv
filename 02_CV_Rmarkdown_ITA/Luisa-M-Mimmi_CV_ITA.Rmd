@@ -3,7 +3,7 @@ title: "Curriculum Vitae"
 author: "Luisa M. Mimmi"
 fontawesome: yes
 output:
-  pdf_document:
+  pdf_document: 
     template: rap-latex-cv.tex
   html_document:
     df_print: paged
@@ -171,29 +171,30 @@ Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-
 
 
 ## **Presentazioni e Seminari**
-**2021, November** *Infrastructure maintenance among G20 top priorities*, Lezione per Corso online di Banca Mondiale su [“QII and green, resilient and inclusive development”](https://learning.edx.org/course/course-v1:WBGx+IQI01x+1T2022/home).
 
-**2021, October 27** *Building a more resilient future: Quality Infrastructure for all*, intervento alla  Sessione 2 su _"Resilient infrastructure for the recovery"_. OECD 6th Forum on the Governance of infrastructure. Online. 
+**2021, Novembre** *Infrastructure maintenance among G20 top priorities*, Lezione per Corso online di Banca Mondiale su [“QII and green, resilient and inclusive development”](https://learning.edx.org/course/course-v1:WBGx+IQI01x+1T2022/home).
 
-**2021, October 6** *Remarks on the IWG’s work under the Italian Presidency*, presentazione al _"C20 Summit ‐ Reclaiming sustainable infrastructure as a public good"_. Online. 
+**2021, Ottobre 27** *Building a more resilient future: Quality Infrastructure for all*, intervento alla  Sessione 2 su _"Resilient infrastructure for the recovery"_. OECD 6th Forum on the Governance of infrastructure. Online. 
 
-**2020** *“Introducing the 2021 G20 Infrastructure priorities"* intervento durante la Sessione I/Giorno I _"Infrastructure resilience in light of covid-19"_. OECD High-level Seminar on Quality Infrastructure Investment. Milano. 
+**2021, Ottobre 6** *Remarks on the IWG’s work under the Italian Presidency*, presentazione al _"C20 Summit ‐ Reclaiming sustainable infrastructure as a public good"_. Online. 
 
-**2020** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presentato durante la sessione _"Case Studies on the impact of Earth Observation"_. XVIII Milan European Economy Workshop. Milano. 
+**2020, Dicembre 15** *“Introducing the 2021 G20 Infrastructure priorities"* intervento durante la Sessione I/Giorno I _"Infrastructure resilience in light of Covid-19"_. OECD High-level Seminar on Quality Infrastructure Investment. Milano. 
 
-**2019** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, durante la sessione _"Drawing policy advice from land data analysis"_. Annual Conference on Land and Poverty. Banca Mondiale. Washington D.C.
+**2020, Giugno 26** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presentato durante la sessione _"Case Studies on the impact of Earth Observation"_. XVIII Milan European Economy Workshop. Milano. 
 
-**2017** *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”*. Banca Mondiale. Washington D.C.
+**2019, Marzo 25-29** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, durante la sessione _"Drawing policy advice from land data analysis"_. Annual Conference on Land and Poverty. Banca Mondiale. Washington D.C.
 
-**2014** *“The Water Partnership Program M&E Framework: Lessons Learned”*. Banca Mondiale. Washington, D.C.  
+**2017, Settembre 14** *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”*. Banca Mondiale. Washington D.C.
 
-**2012**  *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”*. Banca Mondiale. Washington, D.C.  
+**2015, Maggio 27** *“The Water Partnership Program M&E Framework: Lessons Learned”*. Banca Mondiale. Washington, D.C.  
 
-**2011**  *“OBAdata Website Launch.”*. Banca Mondiale. Washington, D.C.  
+**2012, Aprile 11**  *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”*. Banca Mondiale. Washington, D.C.  
 
-**2011** *“Result-Based Financing: energy applications around the world”*. EnergyLab. Milano, Italia. 
+**2011, Gennaio 26**  *“OBAdata Website Launch.”*. Banca Mondiale. Washington, D.C.  
 
-**2009** *“Youth Employment and Entrepreneurship Programs: Eight Best Practices.”*. Banca Inter-Americana dello Sviluppo. Washington, D.C.
+**2011, Aprile 18-19** *“Result-Based Financing: energy applications around the world”*. EnergyLab. Milano, Italia. 
+
+**2009, Marzo 17** *“Youth Employment and Entrepreneurship Programs: Eight Best Practices.”*. Banca Inter-Americana dello Sviluppo. Washington, D.C.
 
 
 ## **Articoli Divulgativi**

@@ -11,7 +11,7 @@ git add '03_CV_vitae/'
 git add helper.R
 
 # commit changes 
-git commit -m "small upd CV files "
+git commit -m "Upd exacts dates in data_Lula.r [private]"
 
 
 # push 
