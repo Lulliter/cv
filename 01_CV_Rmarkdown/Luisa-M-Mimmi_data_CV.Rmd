@@ -17,7 +17,7 @@ email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
 #github: Lulliter
 #twitter: Lulliter
-web: luisamimmi.com
+web: lulliter.com
 updated: yes
 
 fontfamily: mathpazo
@@ -92,7 +92,7 @@ As a life-long learner, I am passionate about exploring new data sources and ana
 
 **Focal Point for Water Practice** at the World Bank 1st "Geospatial Day". World Bank headquarters. November 1, 2016
 
-**Program Delegate** at "World Water Week" conference. Stockolm, Sweden. August 26 - 31, 2012
+**Water Partnership Program Delegate** at "World Water Week" conference. Stockolm, Sweden. August 26 - 31, 2012
 
 **Expert Moderator** at "Regional Impact Evaluation Workshop _Turning Promises into Evidence_" organized by World Bank South Asia Region and the Spanish Impact Evaluation Fund (SIEF). Dhaka, Bangladesh. October 2011 
 
@@ -130,10 +130,8 @@ As a life-long learner, I am passionate about exploring new data sources and ana
 
 **GIS** _basic knowledge_ (ArcGIS, QGis, GeoDa)
 
-**Misc. development tools** _basic knowledge_ (Git, Github, Unix Shell, HTML, CSS)
-
-
-
+**Misc. development tools** _basic knowledge_ (Git, Github, Unix Shell, GNU make, AWS, HTML, CSS)
+ 
 
 # PUBLICATIONS
 
@@ -166,38 +164,44 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 
 ## **Invited Presentations**
-**2020** *“Introducing the 2021 G20 Infrastructure priorities"* intervention during Day 1, Session I _"Infrastructure resilience in light of covid-19"_. At OECD High-level Seminar on Quality Infrastructure Investment. Milano. 
+**2021, November** *Infrastructure maintenance among G20 top priorities*, Lesson for World Bank's online course on [“QII and green, resilient and inclusive development”](https://www.edx.org/course/investing-in-quality-infrastructure-for-a-green-inclusive-and-resilient-recovery?index=product&queryID=a9e2b434945673bf39977fc059573b96&position=1).
 
-**2020** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presented during session _"Case Studies on the impact of Earth Observation"_. At XVIII Milan European Economy Workshop. Milano. 
+**2021, October 27** *Building a more resilient future: Quality Infrastructure for all*, panelist in "Breakout Session 2: Resilient infrastructure for the recovery". At OECD 6th Forum on the Governance of infrastructure. Online. 
 
-**2019** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presented during session _"Drawing policy advice from land data analysis"_. At Annual World Bank Conference on Land and Poverty. Washington D.C.
+**2021, October 6** *Remarks on the IWG’s work under the Italian Presidency*, At "C20 Summit ‐ Reclaiming sustainable infrastructure as a public good". Online. 
 
-**2017** *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”*. World Bank. Washington D.C.
+**2020, December 5** *“Introducing the 2021 G20 Infrastructure priorities"* intervention during Day 1, Session I _"Infrastructure resilience in light of covid-19"_. At OECD High-level Seminar on Quality Infrastructure Investment. Milano. 
 
-**2014** *“The Water Partnership Program M&E Framework: Lessons Learned”*. World Bank. Washington, D.C.  
+**2020, June 26** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presented during session _"Case Studies on the impact of Earth Observation"_. At XVIII Milan European Economy Workshop. Milano. 
 
-**2012**  *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”*. World Bank. Washington, D.C.  
+**2019, March 25-29** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presented during session _"Drawing policy advice from land data analysis"_. At Annual World Bank Conference on Land and Poverty. Washington D.C.
 
-**2011**  *“OBAdata Website Launch.”*. World Bank. Washington, D.C.  
+**2017, September 14** *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”*. World Bank. Washington D.C.
 
-**2011** *“Result-Based Financing: energy applications around the world”*. EnergyLab. Milano, Italy. 
+**2015, May 27** *“The Water Partnership Program M&E Framework: Lessons Learned”*. World Bank. Washington, D.C.  
 
-**2009** *“Youth Employment and Entrepreneurship Programs: Eight Best Practices.”*. Inter-American Development Bank. Washington, D.C.
+**2012, April 11**  *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”*. World Bank. Washington, D.C.  
+
+**2011, January 26**  *“OBAdata Website Launch.”*. World Bank. Washington, D.C.  
+
+**2011, April 18-19 ** *“Result-Based Financing: energy applications around the world”*. EnergyLab. Milano, Italy. 
+
+**2009, March 17** *“Youth Employment and Entrepreneurship Programs: Eight Best Practices.”*. Inter-American Development Bank. Washington, D.C.
 
 
 ## **Public Media**
 
-[Mimmi, L.M.] *Infrastructure maintenance among G20 top priorities* [Italian Ministry of Economy and Finance Publications](http://www.dt.mef.gov.it/en/news/2021/manutenzione_g20.html)
+[Mimmi, L. M.] *Infrastructure maintenance among G20 top priorities* [G20 website, republished by World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
 
-Mimmi, L.M. “*Is President Trump holding on to his electoral promiseto“hire American”?*”. July 9, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
+Mimmi, L.M. “*Is President Trump holding on to his electoral promise to“hire American”?*”. July 9, 2019. [GiHub page](https://raw.githubusercontent.com/Lulliter/GreenCard/master/05_Analysis.pdf) 
 
 Mimmi, L.M. and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
 
 Mimmi, L.M., Borja-Vega Christian, and Amit Patel.  “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” November 15, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
 
-Mimmi, L.M.  “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" November 15, 2016. [Personal Blog](https://luisamimmi.com/post/2016/11/15/2016-11-15_ramani-huria/) 
+Mimmi, L.M.  “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" November 15, 2016. [Personal Website](https://lulliter.com/posts/2016-11-15-ramani-huria/) 
 
-Mimmi, L.M.  “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Blog](https://luisamimmi.com/post/2009/02/21/sussidiariet%C3%A0-e-sviluppo/).
+Mimmi, L.M.  “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Website](https://lulliter.com/posts/2009-02-21-2009-02-21-sussidiar/)
 
 
 
@@ -209,7 +213,7 @@ from.dir <- "./01_CV_Rmarkdown"
 fs::path_abs(from.dir)
 
  # sporca ma OK!
-to.dir   <- "/Users/luisamimmi/GoogleDrive/Github/blog/static/cv_files" # "/Users/luisamimmi/GoogleDrive/source/content/cv",
+to.dir   <- "/Users/luisamimmi/My Drive/Github/blog/static/cv_files" # "/Users/luisamimmi/My Drive/source/content/cv",
 
 fs::path_abs(to.dir)
 

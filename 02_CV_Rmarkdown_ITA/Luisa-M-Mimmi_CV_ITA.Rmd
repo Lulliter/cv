@@ -18,10 +18,9 @@ email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
 #github: Lulliter
 #twitter: Lulliter
-web: luisamimmi.com
+web: lulliter.com
 updated: yes
 urlcolor: blue
- 
 ---
 
 
@@ -34,25 +33,25 @@ urlcolor: blue
 
 •	*Ministero dell'Economia e delle Finanze (MEF, Dir. III) - Roma:*
 
- > **Sr. Economic Advisor - dossier infrastrutture** \hfill 2020-Oggi
+ > **Sr. Economic Advisor - dossier infrastrutture** \hfill Feb2020-Dic2021
  
  >  Supporto alla preparazione della Presidenza Italiana del G20 (2021) - Gruppo di Lavoro Infrastrutture - e coordinamento del lavoro su resilienza e manutenzione delle infrastrutture, culminata con l'approvazione (_endorsement_) della [_"G20 Policy Agenda on Infrastructure Maintenance"_](http://www.g20.utoronto.ca/2021/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
  
 •	*Banca Inter-Americana dello Sviluppo (Div. Infrastruttura - Washington, DC):*
 
- > **Research Fellow** \hfill 2018-2019
+ > **Research Fellow** \hfill Mag2018-Ott2019
  
  >  Indagini statistiche multi-paese ed analisi sui dati relativi a offerta e domanda di acqua e servizi igienico-sanitari in America Latina | Contributo alla preparazione del Rapporto Annuale 2020 di IADB sulle Infrastrutture: [*"From Structures to Services - The Path to Better Infrastructure in Latin America and the Caribbean"*](https://publications.iadb.org/publications/english/document/From-Structures-to-Services-The-Path-to-Better-Infrastructure-in-Latin-America-and-the-Caribbean.pdf)
 
 •	*Banca Mondiale (presso 2 Fondi Fiduciari, Settore Sviluppo Sostenibile - Washington, DC):*
 
- > **Sr. Monitoring & Evaluation Specialist** \hfill 2009-2018
+ > **Sr. Monitoring & Evaluation Specialist** \hfill Mar2009-Apr2018
  
  > Coordinazione tecnica di prestiti e sovvenzioni per l’accesso inclusivo e sostenibile a servizi di base (abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti) in vari paesi in via di sviluppo | Supervisione di un portafoglio di valutazioni di impatto condotte con analisi sul campo a Mumbai (India), Nairobi (Kenya), Kampala (Uganda) e di villaggi rurali della periferia di Dhaka (Bangladesh) | Redazione di vari rapport periodici, articoli e presentazioni per i finanziatori Europei dei Fondi Fiduciari Multilaterali
 
 •	*Banca Inter-Americana dello Sviluppo (Div. Promozione Sociale, Washington, DC):*
 
- >  **Research Assistant** \hfill 2008-2009
+ >  **Research Assistant** \hfill Ott2008-Feb2009
 
 >	Supporto a cooperazione tecnica con il Municipio di Fortaleza (Brasile) sul “Programma Integrato di Inclusione Sociale per i Giovani” e preparazione di successivo prestito finalizzato | Analisi comparata di 8 casi internazionali di promozione della imprenditorialità giovanile e microcredito in contesti svantaggiati
 
@@ -64,7 +63,7 @@ urlcolor: blue
 
 •	*Value Partners S.p.A - (Milano):*
 
- > **Business Intelligence Analyst** \hfill 2001-2006
+ > **Business Intelligence Analyst** \hfill Ott2001-Giu2006
 
  >  Valutazione posizionamento competitivo e business intelligence per clienti pubblici e privati attivi in Italia, Europa, America Latina, Asia Sud-Orientale e Nord Africa  | Analisi della fattibilità e profittabilità di iniziative di Corporate Social Responsability per vari clienti in diversi settori
 
@@ -77,7 +76,7 @@ urlcolor: blue
 
 **Coordinatore per la Global Water Practice** nella preparazione del primo "Geospatial Day" alla Banca Mondiale - 1 Novembre, 2016
 
-**Delegato** alla conferenza "World Water Week" - Stoccolma, Svezia. 26-31 Agosto, 2012
+**Delegato** per il Water Partnership Program alla conferenza "World Water Week" - Stoccolma, Svezia. 26-31 Agosto, 2012
 
 **Moderatore Esperto** al "Workshop Regional sulla Valuatazione d'Impatto _Turning Promises into Evidence_" co-organizzato da organized by Banca Mondiale e Spanish Impact Evaluation Fund (SIEF) - Dhaka, Bangladesh. Ottobre 2011 
 
@@ -127,7 +126,7 @@ urlcolor: blue
 
 **GIS** _livello base_ (ArcGIS, QGis, GeoDa)
 
-**Altre Piattaforme/Software** _livello base_ (Git, Github, Unix Shell, AWS services)
+**Altre Piattaforme/Software** _livello base_ (Git, Github, Unix Shell, GNU make, AWS services)
 
 
 # BORSE DI STUDIO
@@ -172,7 +171,7 @@ Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-
 
 ## **Presentazioni e Seminari**
 
-**2021, Novembre** *Infrastructure maintenance among G20 top priorities*, Lezione per Corso online di Banca Mondiale su [“QII and green, resilient and inclusive development”](https://learning.edx.org/course/course-v1:WBGx+IQI01x+1T2022/home).
+**2021, Novembre** *Infrastructure maintenance among G20 top priorities*, Lezione per Corso online di Banca Mondiale su [“QII and green, resilient and inclusive development”](https://www.edx.org/course/investing-in-quality-infrastructure-for-a-green-inclusive-and-resilient-recovery?index=product&queryID=a9e2b434945673bf39977fc059573b96&position=1).
 
 **2021, Ottobre 27** *Building a more resilient future: Quality Infrastructure for all*, intervento alla  Sessione 2 su _"Resilient infrastructure for the recovery"_. OECD 6th Forum on the Governance of infrastructure. Online. 
 
@@ -201,17 +200,15 @@ Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-
 
 [Mimmi, Luisa M.] *Infrastructure maintenance among G20 top priorities* [G20 website, ripreso da World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
 
-Mimmi, Luisa M. “*Is President Trump holding on to his electoral promiseto“hire American”?*” Luglio, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
-
+Mimmi, Luisa M. “*Is President Trump holding on to his electoral promiseto“hire American”?*” Luglio, 2019. [GiHub page](https://raw.githubusercontent.com/Lulliter/GreenCard/master/05_Analysis.pdf) 
 
 Mimmi, Luisa M. and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” Gennaio, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
 
 Mimmi, Luisa M., Borja-Vega Christian, and Amit Patel. “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” Novembre, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
 
-Mimmi, Luisa M. “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" Novembre, 2016. [Personal Blog](https://luisamimmi.com/post/2016/11/15/2016-11-15_ramani-huria/) 
+Mimmi, Luisa M. “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" Novembre, 2016. [Personal Website](https://lulliter.com/posts/2016-11-15-ramani-huria/) 
 
-Mimmi, Luisa M. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” Febbraio, 2009. [Personal Blog](https://luisamimmi.com/post/2009/02/21/sussidiariet%C3%A0-e-sviluppo/)
-
+Mimmi, Luisa M. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” Febbraio, 2009. [Personal Website](https://lulliter.com/posts/2009-02-21-2009-02-21-sussidiar/)
 
 
 ```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}

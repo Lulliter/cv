@@ -3,7 +3,7 @@ name: Luisa M.
 surname: Mimmi
 position: Public Policy & Data Analysis
 address: EU citizen (Italy) | Green card holder
-www: luisamimmi.com
+www: lulliter.com
 email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
 twitter: lulliter

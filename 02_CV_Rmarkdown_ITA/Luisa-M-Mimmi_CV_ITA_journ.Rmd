@@ -18,12 +18,11 @@ email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
 #github: Lulliter
 #twitter: Lulliter
-web: luisamimmi.com
+web: lulliter.com
 updated: yes
 urlcolor: blue
  
 ---
-
 
 > Economista con Master in Politiche Pubbliche (Georgetown University) e solida formazione in economia e politiche dello sviluppo, con specializzazione nell'accesso universale alle infrastrutture ed oltre 15 anni di esperienza professionale di presso Banche Multilaterali di Sviluppo e Pubblica Amministrazione. Ottima padronanza della lingua inglese (scritta e parlata) e eccellenti capacità di comunicazione, comprovate da svariate pubblicazioni tecniche - dal _blog post_ di carattere divulgativo fino ad articoli di carattere accademico.   
 
@@ -31,27 +30,27 @@ urlcolor: blue
 
 •	*Ministero dell'Economia e delle Finanze (MEF, Dir. III) - Roma:*
 
- > **Sr. Economic Advisor - dossier infrastrutture** \hfill 2020-Oggi
+ > **Sr. Economic Advisor - dossier infrastrutture** \hfill Feb2020-Dic2021
  
  >  Supporto alla preparazione della Presidenza Italiana del G20 (2021) - Gruppo di Lavoro Infrastrutture - e coordinamento del lavoro su resilienza e manutenzione delle infrastrutture, culminata con l'approvazione (_endorsement_) della [_"G20 Policy Agenda on Infrastructure Maintenance"_](http://www.g20.utoronto.ca/2021/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
  
 •	*Banca Inter-Americana dello Sviluppo (Div. Infrastruttura - Washington, DC):*
 
- > **Research Fellow** \hfill 2018-2019
+ > **Research Fellow** \hfill Mag2018-Ott2019
  
- >  Indagini multi-paese ed analisi sui dati relativi a offerta e domanda di acqua e servizi igienico-sanitari in America Latina | Contributo alla stesura del [*Rapporto Annuale 2020 di IADB sulle Infrastrutture*](https://publications.iadb.org/publications/english/document/From-Structures-to-Services-The-Path-to-Better-Infrastructure-in-Latin-America-and-the-Caribbean.pdf)
+ >  Indagini statistiche multi-paese ed analisi sui dati relativi a offerta e domanda di acqua e servizi igienico-sanitari in America Latina | Contributo alla preparazione del Rapporto Annuale 2020 di IADB sulle Infrastrutture: [*"From Structures to Services - The Path to Better Infrastructure in Latin America and the Caribbean"*](https://publications.iadb.org/publications/english/document/From-Structures-to-Services-The-Path-to-Better-Infrastructure-in-Latin-America-and-the-Caribbean.pdf)
 
 •	*Banca Mondiale (presso 2 Fondi Fiduciari, Settore Sviluppo Sostenibile - Washington, DC):*
 
- > **Sr. Monitoring & Evaluation Specialist** \hfill 2009-2018
+ > **Sr. Monitoring & Evaluation Specialist** \hfill Mar2009-Apr2018
  
- > Coordinazione tecnica di prestiti e sovvenzioni per l’accesso inclusivo e sostenibile a servizi di base (abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti) in vari paesi in via di sviluppo | Supervisione di studi sul campo e redazione di vari rapport periodici, articoli e presentazioni
+ > Coordinazione tecnica di prestiti e sovvenzioni per l’accesso inclusivo e sostenibile a servizi di base (abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti) in vari paesi in via di sviluppo | Supervisione di un portafoglio di valutazioni di impatto condotte con analisi sul campo a Mumbai (India), Nairobi (Kenya), Kampala (Uganda) e di villaggi rurali della periferia di Dhaka (Bangladesh) | Redazione di vari rapport periodici, articoli e presentazioni per i finanziatori Europei dei Fondi Fiduciari Multilaterali
 
 •	*Banca Inter-Americana dello Sviluppo (Div. Promozione Sociale, Washington, DC):*
 
- >  **Research Assistant** \hfill 2008-2009
+ >  **Research Assistant** \hfill Ott2008-Feb2009
 
->	Supporto a cooperazione tecnica per prestito al Municipio di Fortaleza (Brasile) sul “Programma Integrato di Inclusione Sociale per i Giovani” | Analisi comparata di 8 casi internazionali di promozione della imprenditorialità giovanile e microcredito in contesti svantaggiati
+>	Supporto a cooperazione tecnica con il Municipio di Fortaleza (Brasile) sul “Programma Integrato di Inclusione Sociale per i Giovani” e preparazione di successivo prestito finalizzato | Analisi comparata di 8 casi internazionali di promozione della imprenditorialità giovanile e microcredito in contesti svantaggiati
 
 •	*AVSI (Nonprofit per Inclusione Sociale - Rio de Janeiro e Belo Horizonte, Brasile):*
 
@@ -61,9 +60,10 @@ urlcolor: blue
 
 •	*Value Partners S.p.A - (Milano):*
 
- > **Business Intelligence Analyst** \hfill 2001-2006
+ > **Business Intelligence Analyst** \hfill Ott2001-Giu2006
 
  >  Valutazione posizionamento competitivo e business intelligence per clienti pubblici e privati attivi in Italia, Europa, America Latina, Asia Sud-Orientale e Nord Africa  | Analisi della fattibilità e profittabilità di iniziative di Corporate Social Responsability per vari clienti in diversi settori
+
 
 
 # ALTRE ESPERIENZE EDITORIALI 
@@ -120,7 +120,7 @@ urlcolor: blue
 #  CAPACITÀ INFORMATICHE
 **Scrittura, Analisi Dati e Statistica** (MS Office Suite, R, Stata, SQL) 
 
-**Linguaggi programmazione _livello base_** (Git, SEO copywriting, HTML, CSS) 
+**Linguaggi programmazione _livello base_** (Git, Unix Shell, GNU make, SEO copywriting, HTML, CSS) 
 
 <!-- **GIS** _livello base_ (ArcGIS, QGis, GeoDa) -->
 
@@ -134,6 +134,7 @@ urlcolor: blue
 **2006/2007**	  Borsa di studio "Ambassadors of Goodwill" per studi post-grado - Rotary Foundation International
 
 **1997/98**   Borsa di studio “Socrates-Erasmus” per anno accademico alla Universidad Autonoma de Madrid (Spagna) - European Union (EU)
+
 
 
 
@@ -167,46 +168,46 @@ Mimmi, L. M. 2008. ["*Demand-driven solutions to illegal electricity connections
 Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-Mediterranean Partnership. (Tesi di Laurea)*". Università di Pavia, Italy.
 
 
+## **Presentazioni e Seminari**
+
+**2021, Novembre** *Infrastructure maintenance among G20 top priorities*, Lezione per Corso online di Banca Mondiale su [“QII and green, resilient and inclusive development”](https://www.edx.org/course/investing-in-quality-infrastructure-for-a-green-inclusive-and-resilient-recovery?index=product&queryID=a9e2b434945673bf39977fc059573b96&position=1).
+
+**2021, Ottobre 27** *Building a more resilient future: Quality Infrastructure for all*, intervento alla  Sessione 2 su _"Resilient infrastructure for the recovery"_. OECD 6th Forum on the Governance of infrastructure. Online. 
+
+**2021, Ottobre 6** *Remarks on the IWG’s work under the Italian Presidency*, presentazione al _"C20 Summit ‐ Reclaiming sustainable infrastructure as a public good"_. Online. 
+
+**2020, Dicembre 15** *“Introducing the 2021 G20 Infrastructure priorities"* intervento durante la Sessione I/Giorno I _"Infrastructure resilience in light of Covid-19"_. OECD High-level Seminar on Quality Infrastructure Investment. Milano. 
+
+**2020, Giugno 26** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presentato durante la sessione _"Case Studies on the impact of Earth Observation"_. XVIII Milan European Economy Workshop. Milano. 
+
+**2019, Marzo 25-29** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, durante la sessione _"Drawing policy advice from land data analysis"_. Annual Conference on Land and Poverty. Banca Mondiale. Washington D.C.
+
+**2017, Settembre 14** *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”*. Banca Mondiale. Washington D.C.
+
+**2015, Maggio 27** *“The Water Partnership Program M&E Framework: Lessons Learned”*. Banca Mondiale. Washington, D.C.  
+
+**2012, Aprile 11**  *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”*. Banca Mondiale. Washington, D.C.  
+
+**2011, Gennaio 26**  *“OBAdata Website Launch.”*. Banca Mondiale. Washington, D.C.  
+
+**2011, Aprile 18-19** *“Result-Based Financing: energy applications around the world”*. EnergyLab. Milano, Italia. 
+
+**2009, Marzo 17** *“Youth Employment and Entrepreneurship Programs: Eight Best Practices.”*. Banca Inter-Americana dello Sviluppo. Washington, D.C.
+
+
 ## **Articoli Divulgativi**
 
 [Mimmi, Luisa M.] *Infrastructure maintenance among G20 top priorities* [G20 website, ripreso da World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
 
-Mimmi, Luisa M. “*Is President Trump holding on to his electoral promiseto“hire American”?*” Luglio, 2019. [Personal Blog](https://luisamimmi.com/post/green-card-processing-time_files/GreenCard_Article.pdf) 
-
+Mimmi, Luisa M. “*Is President Trump holding on to his electoral promiseto“hire American”?*” Luglio, 2019. [GiHub page](https://raw.githubusercontent.com/Lulliter/GreenCard/master/05_Analysis.pdf) 
 
 Mimmi, Luisa M. and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” Gennaio, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
 
 Mimmi, Luisa M., Borja-Vega Christian, and Amit Patel. “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” Novembre, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
 
-Mimmi, Luisa M. “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" Novembre, 2016. [Personal Blog](https://luisamimmi.com/post/2016/11/15/2016-11-15_ramani-huria/) 
+Mimmi, Luisa M. “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" Novembre, 2016. [Personal Website](https://lulliter.com/posts/2016-11-15-ramani-huria/) 
 
-Mimmi, Luisa M. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” Febbraio, 2009. [Personal Blog](https://luisamimmi.com/post/2009/02/21/sussidiariet%C3%A0-e-sviluppo/)
-
-
-## **Presentazioni e Seminari**
-**2021, November** *Infrastructure maintenance among G20 top priorities*, Lezione per Corso online di Banca Mondiale su [“QII and green, resilient and inclusive development”](https://learning.edx.org/course/course-v1:WBGx+IQI01x+1T2022/home).
-
-**2021, October 27** *Building a more resilient future: Quality Infrastructure for all*, intervento alla  Sessione 2 su _"Resilient infrastructure for the recovery"_. OECD 6th Forum on the Governance of infrastructure. Online. 
-
-**2021, October 6** *Remarks on the IWG’s work under the Italian Presidency*, presentazione al _"C20 Summit ‐ Reclaiming sustainable infrastructure as a public good"_. Online. 
-
-**2020** *“Introducing the 2021 G20 Infrastructure priorities"* intervento durante la Sessione I/Giorno I _"Infrastructure resilience in light of covid-19"_. OECD High-level Seminar on Quality Infrastructure Investment. Milano. 
-
-**2020** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presentato durante la sessione _"Case Studies on the impact of Earth Observation"_. XVIII Milan European Economy Workshop. Milano. 
-
-**2019** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, durante la sessione _"Drawing policy advice from land data analysis"_. Annual Conference on Land and Poverty. Banca Mondiale. Washington D.C.
-
-**2017** *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”*. Banca Mondiale. Washington D.C.
-
-**2014** *“The Water Partnership Program M&E Framework: Lessons Learned”*. Banca Mondiale. Washington, D.C.  
-
-**2012**  *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”*. Banca Mondiale. Washington, D.C.  
-
-**2011**  *“OBAdata Website Launch.”*. Banca Mondiale. Washington, D.C.  
-
-**2011** *“Result-Based Financing: energy applications around the world”*. EnergyLab. Milano, Italia. 
-
-**2009** *“Youth Employment and Entrepreneurship Programs: Eight Best Practices.”*. Banca Inter-Americana dello Sviluppo. Washington, D.C.
+Mimmi, Luisa M. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” Febbraio, 2009. [Personal Website](https://lulliter.com/posts/2009-02-21-2009-02-21-sussidiar/)
 
 
 
