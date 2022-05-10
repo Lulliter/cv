@@ -21,8 +21,10 @@ linkedin: luisa-m-mimmi
 web: lulliter.com
 updated: yes
 urlcolor: blue
- 
+
 ---
+
+
 
 > Economista con Master in Politiche Pubbliche (Georgetown University) e solida formazione in economia e politiche dello sviluppo, con specializzazione nell'accesso universale alle infrastrutture ed oltre 15 anni di esperienza professionale di presso Banche Multilaterali di Sviluppo e Pubblica Amministrazione. Ottima padronanza della lingua inglese (scritta e parlata) e eccellenti capacità di comunicazione, comprovate da svariate pubblicazioni tecniche - dal _blog post_ di carattere divulgativo fino ad articoli di carattere accademico.   
 

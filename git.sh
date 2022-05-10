@@ -6,12 +6,12 @@ git status
 git add -u
 
 git add "01_CV_Rmarkdown/"
-git add '03_CV_vitae/[ORIGINAL]awesome-cv.cls'
-git add '03_CV_vitae/'
+git add '02_CV_Rmarkdown_ITA/Luisa-M-Mimmi_CV_ITA_no_id.Rmd'
+git add '02_CV_Rmarkdown_ITA/Luisa-M-Mimmi_CV_ITA_no_id.pdf'
 git add helper.R
 
 # commit changes 
-git commit -m "Upd with lulliter.com links"
+git commit -m "New CV_ITA_no_id + small fixes"
 
 
 # push 

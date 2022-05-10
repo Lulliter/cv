@@ -146,30 +146,33 @@ urlcolor: blue
 
 ## **Journal Articles**
 
-Patel, A. Christian Borja-Vega, Mimmi, L.M., Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2021 (Under Review) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
+**Mimmi L.M.**. 2022 (Under Review) *‘Caution: road work ahead’: Italy in front of the challenge of infrastructure maintenance: existing issues and promising responses*.
 
-Mimmi, L.M. 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
+Patel, A. Christian Borja-Vega, **Mimmi L.M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2021 (Under Review) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
 
-Mimmi, L.M., and S. Ecer. 2010. [*An econometric study of illegal electricity connections in the urban favelas of Belo Horizonte, Brazil*](http://linkinghub.elsevier.com/retrieve/pii/S0301421510003113). Energy Policy, Vol. 38(9), pages 5081-5097.
+**Mimmi L.M.** 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
+
+**Mimmi L.M.**, and S. Ecer. 2010. [*An econometric study of illegal electricity connections in the urban favelas of Belo Horizonte, Brazil*](http://linkinghub.elsevier.com/retrieve/pii/S0301421510003113). Energy Policy, Vol. 38(9), pages 5081-5097.
 
 
 ## **Technical Reports**
 
-Mimmi, L.M., Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2018. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank.
+**Mimmi, L.M.**, Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2018. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank.
 
-Rodriguez, D. J.; Suardi, M. A.; Ham, M.; Mimmi, L.M.; Goksu, A. J. 2014. ["*Applying results-based financing in water investments*"](http://documents.worldbank.org/curated/en/862681468326999086/pdf/893260WP0Box380ng0Water0Investments.pdf). Water partnership program (WPP); Water papers. Washington DC, World Bank.
+Rodriguez, D. J.; Suardi, M. A.; Ham, M.; **Mimmi L.M.**; Goksu, A. J. 2014. ["*Applying results-based financing in water investments*"](http://documents.worldbank.org/curated/en/862681468326999086/pdf/893260WP0Box380ng0Water0Investments.pdf). Water partnership program (WPP); Water papers. Washington DC, World Bank.
 
-Mimmi, L.M. 2012. ["*Assessing the Demand for Improved Electricity in Urban Slums: Findings from a Baseline Household Survey in Mumbai*"](https://www.researchgate.net/publication/319839905_Assessing_the_demand_for_improved_electricity_in_urban_slums_findings_from_a_baseline_household_Survey_in_Mumbai). Working Paper. Washington DC, World Bank.
+**Mimmi L.M.** 2012. ["*Assessing the Demand for Improved Electricity in Urban Slums: Findings from a Baseline Household Survey in Mumbai*"](https://www.researchgate.net/publication/319839905_Assessing_the_demand_for_improved_electricity_in_urban_slums_findings_from_a_baseline_household_Survey_in_Mumbai). Working Paper. Washington DC, World Bank.
 
-Mimmi, L.M. 2012. ["*Should we re-evaluate what to evaluate (and how)?*"](http://documents.worldbank.org/curated/en/252381468317944978/pdf/831740NWP0P1040Box0382076B00PUBLIC0.pdf) GPOBA evaluation notes; no. 1. Washington DC, World Bank.
+**Mimmi L.M.** 2012. ["*Should we re-evaluate what to evaluate (and how)?*"](http://documents.worldbank.org/curated/en/252381468317944978/pdf/831740NWP0P1040Box0382076B00PUBLIC0.pdf) GPOBA evaluation notes; no. 1. Washington DC, World Bank.
 
-Johannes, L, Mimmi, L.M., Mumssen Y. 2010. ["*A Snapshot of the OBA Universe*"](https://openknowledge.worldbank.org/bitstream/handle/10986/10934/548520BRI0OBA010Box349431B01PUBLIC1.pdf?sequence=1&isAllowed=y). World Bank, April 2010. 
+Johannes, L, **Mimmi L.M.**, Mumssen Y. 2010. ["*A Snapshot of the OBA Universe*"](https://openknowledge.worldbank.org/bitstream/handle/10986/10934/548520BRI0OBA010Box349431B01PUBLIC1.pdf?sequence=1&isAllowed=y). World Bank, April 2010. 
 
-Mimmi, L.M. 2009. ["*Youth Employment and Entrepreneurship Programs: A Review of Eight Best Practices*"](https://www.researchgate.net/publication/320044319_Youth_Employment_and_Entrepreneurship_Programs_A_Review_of_Eight_Best_Practices). Washington DC, Social Protection and Health Division, IADB.
+**Mimmi L.M.** 2009. ["*Youth Employment and Entrepreneurship Programs: A Review of Eight Best Practices*"](https://www.researchgate.net/publication/320044319_Youth_Employment_and_Entrepreneurship_Programs_A_Review_of_Eight_Best_Practices). Washington DC, Social Protection and Health Division, IADB.
 
-Mimmi, L.M. 2008. ["*Demand-driven solutions to illegal electricity connections - A preliminary evaluation of the “Conviver” program in the urban favelas of Belo Horizonte, Brazil (Master’s Thesis)*"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.4369&rep=rep1&type=pdf). Georgetown Public Policy Institute; Washington, DC.
+**Mimmi L.M.** 2008. ["*Demand-driven solutions to illegal electricity connections - A preliminary evaluation of the “Conviver” program in the urban favelas of Belo Horizonte, Brazil (Master’s Thesis)*"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.4369&rep=rep1&type=pdf). Georgetown Public Policy Institute; Washington, DC.
 
-Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-Mediterranean Partnership. (BS’s Thesis in Italian)*". Università di Pavia, Italy.
+
+**Mimmi, L.M.** 2001. "*Italian SMEs internationalization patterns within the Euro-Mediterranean Partnership. (BS’s Thesis in Italian)*". Università di Pavia, Italy.
 
 
 ## **Invited Presentations**
@@ -201,17 +204,17 @@ Mimmi, L.M. 2001. "*Italian SMEs internationalization patterns within the Euro-M
 
 ## **Public Media**
 
-[Mimmi, L. M.] *Infrastructure maintenance among G20 top priorities* [G20 website, republished by World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
+[**Mimmi, L.M.**] *Infrastructure maintenance among G20 top priorities* [G20 website, republished by World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
 
-Mimmi, L.M. “*Is President Trump holding on to his electoral promise to“hire American”?*”. July 9, 2019. [GiHub page](https://raw.githubusercontent.com/Lulliter/GreenCard/master/05_Analysis.pdf) 
+**Mimmi, L.M.** “*Is President Trump holding on to his electoral promise to“hire American”?*”. July 9, 2019. [GiHub page](https://raw.githubusercontent.com/Lulliter/GreenCard/master/05_Analysis.pdf) 
 
-Mimmi, L.M. and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
+**Mimmi, L.M.** and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
 
-Mimmi, L.M., Borja-Vega Christian, and Amit Patel.  “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” November 15, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
+**Mimmi, L.M.**, Borja-Vega Christian, and Amit Patel.  “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” November 15, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
 
-Mimmi, L.M.  “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" November 15, 2016. [Personal Website](https://lulliter.com/posts/2016-11-15-ramani-huria/) 
+**Mimmi, L.M.**  “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" November 15, 2016. [Personal Website](https://lulliter.com/posts/2016-11-15-ramani-huria/) 
 
-Mimmi, L.M.  “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Website](https://lulliter.com/posts/2009-02-21-2009-02-21-sussidiar/)
+**Mimmi, L.M.**  “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Website](https://lulliter.com/posts/2009-02-21-sussidiar/)
 
 
 

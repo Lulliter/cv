@@ -11,7 +11,6 @@ fontfamily: mathpazo
 fontfamilyoptions: sc, osf
 fontsize: 10pt
 geometry: margin=1in
-jobtitle: Esperta in economia e politiche per lo sviluppo
 keywords: RMarkdown, academic CV, template
 linkcolor: blue
 email: lmm76@georgetown.edu
@@ -21,12 +20,46 @@ linkedin: luisa-m-mimmi
 web: lulliter.com
 updated: yes
 urlcolor: blue
+params:
+  cv_code: 
+    label: cv_code
+    value: econ
+    input: select
+    choices: ["econ","journ"]  
+  jobtitle:
+    label: Job Title
+    value: "Esperta in economia e politiche pubbliche"
+    input: select
+    choices: ["Esperta in economia e politiche pubbliche", "Esperta in giornalismo economico"]
+  blurb:
+      label: Short Bio
+      value: "Economista dello sviluppo con Master in Politiche Pubbliche da Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo. \nArea di specializzazione: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base -abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.. Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030."
+      input: select
+      choices: ["Economista dello sviluppo con Master in Politiche Pubbliche da Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo. \nArea di specializzazione: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base: abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.. Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030.", 
+      "Analista di Politiche Pubbliche con Master presso la Georgetown University e solida formazione in economia e politiche per lo sviluppo sostenibile, con focus nell'accesso universale alle infrastrutture ed oltre 15 anni di esperienza professionale di presso Banche Multilaterali di Sviluppo e Pubblica Amministrazione. \nOttima padronanza della lingua inglese (scritta e parlata) e eccellenti capacità di comunicazione, comprovate da svariate pubblicazioni tecniche - dal _blog post_ di carattere divulgativo fino ad articoli di carattere accademico."]
+jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 ---
 
+```{r title, include=FALSE}
+render_report = function(jobtitle, blurb, cv_code) {
+  rmarkdown::render(
+      input = here::here("02_CV_Rmarkdown_ITA", "Luisa-M-Mimmi_CV_ITA.Rmd"),
+      params = list(
+        cv_code = cv_code,
+        jobtitle = jobtitle,
+        blurb = blurb
+    ),
+    output_file = paste0("Luisa-M-Mimmi_", cv_code, ".pdf")
+  )
+}
+```
 
-> Economista dello sviluppo con Master in Politiche Pubbliche (Georgetown University) e solida formazione in econometria e statistica. Esperienza professionale di oltre 10 anni presso Banche Multilaterali di Sviluppo con specializzazione nel disegno e implementazione di studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo in America Latina, Africa e Sud-Est Asiatico. 
 
-> Area di specializzazione: politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base (abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.). Conoscenza approfondita e competenza nell'uso di dati aperti, piattaforme open source, software e algoritmi per analisi avanzata di dati applicati alla cooperazione e allo sviluppo.  
+>  `r params$blurb`
+
+<!-- > Economista dello sviluppo con Master in Politiche Pubbliche (Georgetown University) e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU [con specializzazione nel disegno e implementazione di in studi diagnostici], monitoraggio e valutazione di impatto per progetti di sviluppo [in America Latina, Africa e Sud-Est Asiatico]. -->
+
+<!-- > Area di specializzazione: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base (abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.). Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030.   -->
  
 
 # ESPERIENZA PROFESSIONALE
@@ -86,11 +119,11 @@ urlcolor: blue
 
 # ISTRUZIONE E FORMAZIONE
 
-*Georgetown University (Washington DC, USA)*, **Master in Politiche Pubbliche** - 2 anni \hfill 2008
+*Georgetown University (Washington DC, USA)*, **Master in Politiche Pubbliche** - 2 anni \hfill Maggio 2008
 
-*Università degli Studi di Pavia (Italia)*, **Laurea in Economia e Commercio** - 4 anni  \hfill 2001
+*Università degli Studi di Pavia (Italia)*, **Laurea in Economia e Commercio** - 4 anni  \hfill Aprile 2001
 
-*Lice Scientifico T. Olivelli (Pavia, Italia)*, **Maturità Scientifica** \hfill 1994
+*Lice Scientifico T. Olivelli (Pavia, Italia)*, **Maturità Scientifica** \hfill Giugno 1994
 
 
 # CORSI E CERTIFICAZIONI
@@ -143,30 +176,32 @@ urlcolor: blue
 
 ## **Riviste Scientifiche**
 
-Patel, A. Christian Borja-Vega, Mimmi, L. M., Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2021 (Under Review) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
+**Mimmi L. M.**. 2022 (in revisione) *‘Caution: road work ahead’: Italy in front of the challenge of infrastructure maintenance: existing issues and promising responses*.
 
-Mimmi, L. M. 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
+Patel, A. Christian Borja-Vega, **Mimmi L. M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2021 (in revisione) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
 
-Mimmi, L. M., and S. Ecer. 2010. [*An econometric study of illegal electricity connections in the urban favelas of Belo Horizonte, Brazil*](http://linkinghub.elsevier.com/retrieve/pii/S0301421510003113). Energy Policy, Vol. 38(9), pages 5081-5097.
+**Mimmi L. M.** 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
+
+**Mimmi L. M.**, and S. Ecer. 2010. [*An econometric study of illegal electricity connections in the urban favelas of Belo Horizonte, Brazil*](http://linkinghub.elsevier.com/retrieve/pii/S0301421510003113). Energy Policy, Vol. 38(9), pages 5081-5097.
 
 
 ## **Report Tecnici**
 
-Mimmi L. M., Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2018. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank.
+**Mimmi, L. M.**, Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2018. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank.
 
-Rodriguez, D. J.; Suardi, M. A.; Ham, M.; Mimmi, L. M.; Goksu, A. J. 2014. ["*Applying results-based financing in water investments*"](http://documents.worldbank.org/curated/en/862681468326999086/pdf/893260WP0Box380ng0Water0Investments.pdf). Water partnership program (WPP); Water papers. Washington DC, World Bank.
+Rodriguez, D. J.; Suardi, M. A.; Ham, M.; **Mimmi L. M.**; Goksu, A. J. 2014. ["*Applying results-based financing in water investments*"](http://documents.worldbank.org/curated/en/862681468326999086/pdf/893260WP0Box380ng0Water0Investments.pdf). Water partnership program (WPP); Water papers. Washington DC, World Bank.
 
-Mimmi, L. M. 2012. ["*Assessing the Demand for Improved Electricity in Urban Slums: Findings from a Baseline Household Survey in Mumbai*"](https://www.researchgate.net/publication/319839905_Assessing_the_demand_for_improved_electricity_in_urban_slums_findings_from_a_baseline_household_Survey_in_Mumbai). Working Paper. Washington DC, World Bank.
+**Mimmi L. M.** 2012. ["*Assessing the Demand for Improved Electricity in Urban Slums: Findings from a Baseline Household Survey in Mumbai*"](https://www.researchgate.net/publication/319839905_Assessing_the_demand_for_improved_electricity_in_urban_slums_findings_from_a_baseline_household_Survey_in_Mumbai). Working Paper. Washington DC, World Bank.
 
-Mimmi, L. M. 2012. ["*Should we re-evaluate what to evaluate (and how)?*"](http://documents.worldbank.org/curated/en/252381468317944978/pdf/831740NWP0P1040Box0382076B00PUBLIC0.pdf) GPOBA evaluation notes; no. 1. Washington DC, World Bank.
+**Mimmi L. M.** 2012. ["*Should we re-evaluate what to evaluate (and how)?*"](http://documents.worldbank.org/curated/en/252381468317944978/pdf/831740NWP0P1040Box0382076B00PUBLIC0.pdf) GPOBA evaluation notes; no. 1. Washington DC, World Bank.
 
-Johannes, L, Mimmi, L.M., Mumssen Y. 2010. ["*A Snapshot of the OBA Universe*"](https://openknowledge.worldbank.org/bitstream/handle/10986/10934/548520BRI0OBA010Box349431B01PUBLIC1.pdf?sequence=1&isAllowed=y). World Bank, April 2010. 
+Johannes, L, **Mimmi L. M.**, Mumssen Y. 2010. ["*A Snapshot of the OBA Universe*"](https://openknowledge.worldbank.org/bitstream/handle/10986/10934/548520BRI0OBA010Box349431B01PUBLIC1.pdf?sequence=1&isAllowed=y). World Bank, April 2010. 
 
-Mimmi, L. M. 2009. ["*Youth Employment and Entrepreneurship Programs: A Review of Eight Best Practices*"](https://www.researchgate.net/publication/320044319_Youth_Employment_and_Entrepreneurship_Programs_A_Review_of_Eight_Best_Practices). Washington DC, Social Protection and Health Division, IADB.
+**Mimmi L. M.** 2009. ["*Youth Employment and Entrepreneurship Programs: A Review of Eight Best Practices*"](https://www.researchgate.net/publication/320044319_Youth_Employment_and_Entrepreneurship_Programs_A_Review_of_Eight_Best_Practices). Washington DC, Social Protection and Health Division, IADB.
 
-Mimmi, L. M. 2008. ["*Demand-driven solutions to illegal electricity connections - A preliminary evaluation of the “Conviver” program in the urban favelas of Belo Horizonte, Brazil (Master’s Thesis)*"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.4369&rep=rep1&type=pdf). Georgetown Public Policy Institute; Washington, DC.
+**Mimmi L. M.** 2008. ["*Demand-driven solutions to illegal electricity connections - A preliminary evaluation of the “Conviver” program in the urban favelas of Belo Horizonte, Brazil (Master’s Thesis)*"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.4369&rep=rep1&type=pdf). Georgetown Public Policy Institute; Washington, DC.
 
-Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-Mediterranean Partnership. (Tesi di Laurea)*". Università di Pavia, Italy.
+**Mimmi L. M.** 2001. "*Italian SMEs internationalization patterns within the Euro-Mediterranean Partnership. (Tesi di Laurea)*". Università di Pavia, Italy.
 
 
 ## **Presentazioni e Seminari**
@@ -198,17 +233,17 @@ Mimmi, L. M. 2001. "*Italian SMEs internationalization patterns within the Euro-
 
 ## **Articoli Divulgativi**
 
-[Mimmi, Luisa M.] *Infrastructure maintenance among G20 top priorities* [G20 website, ripreso da World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
+[**Mimmi, Luisa M.**] *Infrastructure maintenance among G20 top priorities* [G20 website, ripreso da World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
 
-Mimmi, Luisa M. “*Is President Trump holding on to his electoral promiseto“hire American”?*” Luglio, 2019. [GiHub page](https://raw.githubusercontent.com/Lulliter/GreenCard/master/05_Analysis.pdf) 
+**Mimmi, Luisa M.** “*Is President Trump holding on to his electoral promiseto“hire American”?*” Luglio, 2019. [GiHub page](https://raw.githubusercontent.com/Lulliter/GreenCard/master/05_Analysis.pdf) 
 
-Mimmi, Luisa M. and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” Gennaio, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
+**Mimmi, Luisa M.** and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” Gennaio, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
 
-Mimmi, Luisa M., Borja-Vega Christian, and Amit Patel. “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” Novembre, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
+**Mimmi, Luisa M.**, Borja-Vega Christian, and Amit Patel. “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” Novembre, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
 
-Mimmi, Luisa M. “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" Novembre, 2016. [Personal Website](https://lulliter.com/posts/2016-11-15-ramani-huria/) 
+**Mimmi, Luisa M.** “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" Novembre, 2016. [Personal Website](https://lulliter.com/posts/2016-11-15-ramani-huria/) 
 
-Mimmi, Luisa M. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” Febbraio, 2009. [Personal Website](https://lulliter.com/posts/2009-02-21-2009-02-21-sussidiar/)
+**Mimmi, Luisa M.** “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” Febbraio, 2009. [Personal Website](https://lulliter.com/posts/2009-02-21-sussidiar/)
 
 
 ```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}
