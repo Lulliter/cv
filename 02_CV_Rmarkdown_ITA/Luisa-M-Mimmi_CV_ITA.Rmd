@@ -33,25 +33,30 @@ params:
     choices: ["Esperta in economia e politiche pubbliche", "Esperta in giornalismo economico"]
   blurb:
       label: Short Bio
-      value: "Economista dello sviluppo con Master in Politiche Pubbliche da Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo. \nArea di specializzazione: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base -abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.. Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030."
+      value: "Economista dello sviluppo con Master in Politiche Pubbliche da Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo.<br><br> **Area di specializzazione**: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base -abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.. Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030."
       input: select
-      choices: ["Economista dello sviluppo con Master in Politiche Pubbliche da Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo. \nArea di specializzazione: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base: abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.. Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030.", 
-      "Analista di Politiche Pubbliche con Master presso la Georgetown University e solida formazione in economia e politiche per lo sviluppo sostenibile, con focus nell'accesso universale alle infrastrutture ed oltre 15 anni di esperienza professionale di presso Banche Multilaterali di Sviluppo e Pubblica Amministrazione. \nOttima padronanza della lingua inglese (scritta e parlata) e eccellenti capacità di comunicazione, comprovate da svariate pubblicazioni tecniche - dal _blog post_ di carattere divulgativo fino ad articoli di carattere accademico."]
+      choices: ["Economista dello sviluppo con Master in Politiche Pubbliche da Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo.<br><br> **Area di specializzazione**: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base: abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.. Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030.", 
+      "Analista di Politiche Pubbliche con Master presso la Georgetown University e solida formazione in economia e politiche per lo sviluppo sostenibile, con focus nell'accesso universale alle infrastrutture ed oltre 15 anni di esperienza professionale di presso Banche Multilaterali di Sviluppo e Pubblica Amministrazione.<br><br> Ottima padronanza della lingua inglese (scritta e parlata) e eccellenti capacità di comunicazione, comprovate da svariate pubblicazioni tecniche - dal _blog post_ di carattere divulgativo fino ad articoli di carattere accademico."]
+  it_skills: 
+    label: it_skills
+    value: "**Software development** _livello base_ (Git, Github, Unix Shell, GNU make, AWS)"
+    input: select
+    choices: ["**Software development** _livello base_ (Git, Github, Unix Shell, GNU make, AWS)","**Web design** _livello base_ (HTML, CSS, JavaScript)"] 
 jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 ---
 
 ```{r title, include=FALSE}
-render_report = function(jobtitle, blurb, cv_code) {
-  rmarkdown::render(
-      input = here::here("02_CV_Rmarkdown_ITA", "Luisa-M-Mimmi_CV_ITA.Rmd"),
-      params = list(
-        cv_code = cv_code,
-        jobtitle = jobtitle,
-        blurb = blurb
-    ),
-    output_file = paste0("Luisa-M-Mimmi_", cv_code, ".pdf")
-  )
-}
+# render_report = function(cv_code) {
+#   rmarkdown::render(
+#     input = here::here("02_CV_Rmarkdown_ITA", "Luisa-M-Mimmi_CV_ITA.Rmd"),
+#     params = list(
+#       cv_code = list("econ", "journ")
+#     ),
+#     output_file = paste0("Luisa-M-Mimmi_", params$cv_code, "_ITA.pdf")
+#   )
+# }
+
+# call with function ...
 ```
 
 
@@ -93,6 +98,8 @@ render_report = function(jobtitle, blurb, cv_code) {
  > **Summer Intern** \hfill Estate 2007 
  
  >  Partecipazione ad attività sul campo e compilazione dei dati sul progetto _“Conviver”_ promosso da AVSI e dalla locale utilità CEMIG per l'accesso legale e sostenibile all’energia elettrica dei residenti in varie _favelas_ (baraccopoli) di Belo Horizonte 
+
+\newpage
 
 •	*Value Partners S.p.A - (Milano):*
 
@@ -153,14 +160,11 @@ render_report = function(jobtitle, blurb, cv_code) {
 
 
 #  CAPACITÀ INFORMATICHE
-**Analisi Dati e Statistica** (R, Stata, SAS, MS Excel) 
-
-**Gestione Database** (SQL Server, MS Access, Salesforce) 
-
-**GIS** _livello base_ (ArcGIS, QGis, GeoDa)
-
-**Altre Piattaforme/Software** _livello base_ (Git, Github, Unix Shell, GNU make, AWS services)
-
+<!-- to break the line 2 trailing spaces then enter  -->
+**Analisi Dati e Statistica** (R, Stata, SAS, MS Excel)  
+**Gestione Database** (MS SQL Server, Salesforce)  
+**GIS** _livello base_ (ArcGIS, QGis, GeoDa)  
+`r params$it_skills`
 
 # BORSE DI STUDIO
 

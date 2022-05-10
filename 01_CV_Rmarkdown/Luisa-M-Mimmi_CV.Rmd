@@ -2,14 +2,12 @@
 title: "Curriculum Vitae"
 author: "Luisa M. Mimmi"
 fontawesome: yes
-
 output:
   pdf_document:
     template: rap-latex-cv.tex
   html_document:
     df_print: paged
 
-jobtitle: "Policy Analyst - Infrastructure & Development Economics"
 keywords: RMarkdown, academic CV, template
 linkcolor: blue
 
@@ -25,12 +23,46 @@ fontfamilyoptions: sc, osf
 fontsize: 10pt
 geometry: margin=1in
 urlcolor: blue
+
+params:
+  cv_code: 
+    label: cv_code
+    value: pol
+    input: select
+    choices: ["pol","data"]  
+  jobtitle:
+    label: Job Title
+    value: "Policy Analyst - Infrastructure & Development Economics"
+    input: select
+    choices: ["Policy Analyst - Infrastructure & Development Economics", "Policy & Data Analyst"]
+  blurb:
+      label: Short Bio
+      value: "Experienced Policy Analyst with a strong background in statistical and econometric analysis applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health). <br><br> My **core technical skills** are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges."
+      input: select
+      choices: ["Experienced Policy Analyst with a strong background in statistical and econometric analysis applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health). <br><br> My **core technical skills** are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges.", 
+      "I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations, especially applied to economic development and  access to infrastructure. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health). As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges."]
+  it_skills: 
+    label: it_skills
+    value: "**Misc. development tools** _basic knowledge_ (Git, Github, Unix Shell, GNU make, AWS)"
+    input: select
+    choices: ["**Misc. development tools** _basic knowledge_ (Git, Github, Unix Shell, GNU make, AWS)","**Web design** _basic knowledge_ (HTML, CSS, JavaScript)"] 
+jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 ---
+```{r title, include=FALSE}
+# render_report = function(cv_code) {
+#   rmarkdown::render(
+#     input = here::here("01_CV_Rmarkdown", "Luisa-M-Mimmi_CV.Rmd"),
+#     params = list(
+#       cv_code = list("pol", "data")
+#     ),
+#     output_file = paste0("Luisa-M-Mimmi_", params$cv_code, ".pdf")
+#   )
+# }
 
+# call with function ...
+```
 
-> Experienced Policy Analyst with a strong background in statistical and econometric analysis applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health).
-
-> My core technical skills are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges. \hfill
+>  `r params$blurb`
 
 > _(Italian Citizen & US Permanent Lawful Resident)_
 
@@ -131,15 +163,10 @@ urlcolor: blue
 
 
 #  SOFTWARE
-**Statistics** (R, Stata, SAS, MS Excel) 
-
-**Databases** (SQL Server, MS Access, Salesforce) 
-
-**GIS** _basic knowledge_ (ArcGIS, QGis, GeoDa)
-
-**Misc. development tools** _basic knowledge_ (Git, Github, Unix Shell, GNU make, AWS)
-
-
+**Statistics** (R, Stata, SAS, MS Excel)  
+**Databases** (SQL Server, MS Access, Salesforce)  
+**GIS** _basic knowledge_ (ArcGIS, QGis, GeoDa)  
+`r params$it_skills`
 
 
 # PUBLICATIONS
