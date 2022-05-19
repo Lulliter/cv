@@ -1,26 +1,27 @@
 ---
 name: Luisa M. Mimmi
 position: "Policy & Data Analyst"
-address: "EU citizen | Green card holder (based in Washington DC, USA)"
+address: "EU citizen | US permanent resident"
 #phone: +1 22 3333 4444
 profilepic: ../foto/LulaSalvador2015.jpg
-www: lulliter.github.io
+www: lulliter.com
 email: "lmm76@georgetown.edu"
 linkedin: luisa-m-mimmi
 twitter: lulliter
 github: lulliter
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health).\nI would like to further explore integration of survey data with other sources –including social media, GIS and satellite imagery– to uncover various dimensions of poverty in vulnerable contexts."
+aboutme: "I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my empirical research aims at improving universal access to basic infrastructure services (housing, water and sanitation, energy, education and health).\nAs a life-long learner, I cultivate my passion for data science and machine learning and I am interested in devising and implementing data-driven approaches to improve access and availability of high quality infrastructural services." 
+# I would like to further explore integration of survey data with other sources –including social media, GIS and satellite imagery– to uncover various dimensions of poverty in vulnerable contexts."
 output: vitae::twentyseconds
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(tidyverse)
-library(vitae)
-library(rorcid)
-library(lubridate)
-library(RefManageR)
+library(tidyverse) # Easily Install and Load the 'Tidyverse'
+library(vitae) # Curriculum Vitae for R Markdown
+library(rorcid) # Interface to the 'Orcid.org' API
+library(lubridate) # Make Dealing with Dates a Little Easier
+library(RefManageR) # Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management
 
 # rorcid_app <- httr::oauth_app(
 #   appname = "rorcid",
@@ -31,8 +32,8 @@ library(RefManageR)
 ORCID_TOKEN <- Sys.getenv("ORCID_TOKEN") 
 ```
 
-
 <!-- # Education -->
+
 ```{r education}
 # edu <- rorcid::orcid_works("0000-0002-2244-8282")
 # edu$`0000-0002-2244-8282`$`education-summary` %>%
@@ -45,36 +46,28 @@ ORCID_TOKEN <- Sys.getenv("ORCID_TOKEN")
 ```
 
 # Education
+
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, 
-  "M.P.P. International Policy & Development", "Georgetown University", "Washington, DC", "2008", 
+  "M.P.P. International Policy & Development", "Georgetown University", "Washington D.C., US", "2008", 
   # "Exchange Student Year (Economics)", "Universidad Autonoma de Madrid", "Madrid, Spain", "1997/1998" ,
-  "B.S. Economics & Business Administration", "Università di Pavia", "Pavia, Italy", "2001" 
+  "B.Sc. Economics & Business Administration", "Università di Pavia", "Pavia, Italy", "2001" 
 ) %>% 
   detailed_entries(degree, dates, loc ,uni )
 ```
 
+# Data Science projects
 
-
-
-# R projects
- 
 ```{r rpkgs}
 tibble::tribble(~name, ~date, ~description , ~link,
-  "Brazil Water Suppliers", '2018/2019', "Ongoing survey analysis @ IADB", "\\href{https://lulliter.github.io/BrazilWaterSurvey/}{https://lulliter.github.io/BrazilWaterSurvey/}" ,
-  
-  "Personal Blog",   '2018/2019', "Side projects, R code, miscellaneous thoughts...", "\\href{https://luisamimmi.com/}{https://luisamimmi.com/}" ,
-
-  "Green Card processing time under Trump", "2019", "Analysis of public US data",
-  "\\href{https://luisamimmi.com/post/2019/07/07/green-card-processing-time/}{https://luisamimmi.com/post/2019/07/07/green-card-processing-time/}" ,
-
-  "New York Encounter's Donors", "2019", "Fundraising data analysis",
-  "\\href{https://luisamimmi.com/post/2019/04/14/nye-fundraising-data-analysis/}{https://luisamimmi.com/post/2019/04/14/nye-fundraising-data-analysis/}" ,
-
-  "Job Migrants and Competitive Cities", "2018", "Analysis of LinkedIn data", "\\href{https://lulliter.github.io/project/linkedinanalysis/}{https://lulliter.github.io/project/linkedinanalysis/}" ,
-  
-  "Life expectancy over time",   "2018", "Analysis of WDI indicator", "\\href{https://lulliter.github.io/project/wdianalysis/}{https://lulliter.github.io/project/wdianalysis/}") %>%
+                "Personal Website with R distill",   '2018/2022', "Portfolio, R code, ideas", "\\href{https://lulliter.com/}{https://lulliter.com/}",
+                "Brazil Water Suppliers", '2018/2019', "Survey data collection and analysis", "\\href{https://lulliter.github.io/BrazilWaterSurvey/}{Project Webpage}" ,
+                "Green Card processing time", "2019", "Analysis of US immigration data",
+                "\\href{https://github.com/Lulliter/GreenCard}{Project Repo}" ,
+                "New York Encounter's Donors", "2019", "Fundraising data analysis", "\\href{https://lulliter.com/data/NYEPresentation_14April2019.pdf}{Presentation}",
+                "Life expectancy over time",   "2018", "Analysis of WB's WDI indicator", "\\href{https://raw.githubusercontent.com/Lulliter/DECdatascience/master/Part_1_Output.pdf}{Short Study}",
+                "Job Migrants and Competitive Cities", "2017", "Analysis of LinkedIn data", "\\href{https://raw.githubusercontent.com/Lulliter/Linkedin/master/LinkedInPresentation-R_01Dec2017.pdf}{Presentation}") %>%
 detailed_entries(
     what = name, 
     when =  date,
@@ -86,17 +79,16 @@ detailed_entries(
 
 ```
 
-
-
 # Employment history
 
 ```{r employment, results='asis'}
 tribble(
   ~Years, ~Position, ~Company,
-  '2018:...', "Research Fellow", "Inter-American Development Bank, (Washington DC)",
-  '2018:...', "Fundraising Data Analyst (Pro bono)", "New York Encounter, (remote)",
+  '2020:2021', "Sr. Advisor (G20 task force)", "Italian Ministry of Economy & Finance, (Rome)",
+  '2018:2019', "Research Fellow", "Inter-American Development Bank, (Washington DC)",
+  '2018:2021', "Fundraising Data Analyst (Pro bono)", "New York Encounter, (remote)",
   '2009:2018', "Senior M&E Specialist", "World Bank, Sustainable Development VP, (Washington DC)",
-  '2008' , "Policy Analyst", "Inter-American Development Bank, (Washington DC)",
+  '2008:2009' , "Policy Analyst", "Inter-American Development Bank, (Washington DC)",
   '2007' , "Summer Intern", "AVSI International (Brazil)",
   '2001:2006', "Business Intelligence Analyst", "Value Partners (Italy)",
    ) %>%
@@ -113,24 +105,18 @@ tribble(
 
 ```
 
+# Software
 
+**Statistics** (R, Stata, MS Excel)  
+**Databases** (SQL Server, MS Access, Salesforce)  
+**Misc. Development tools** (Markdown, Git, Github, Unix Shell, AWS)  
+**GIS** - *basic* (ArcGIS, QGis, GeoDa)
 
+# Languages
 
+**Italian** (native), **English** (fluent), **Spanish** (fluent), **Portuguese** (conversational)
 
-#  Software
-**Statistics** (R, Stata, MS Excel) 
-
-**Databases** (SQL Server, MS Access, Salesforce) 
-
-**GIS** - _basic_ (ArcGIS, QGis, GeoDa)
-
-**Development tools** - _basic_ (Git, Github, Unix Shell, AWS services)
-
-
-#  Languages
-**Italian** (native), **English** (fluent), **Spanish** (fluent), **Portuguese** (conversational)  
-
-```{r talks}
+```{r talks, eval=FALSE, include=FALSE}
 # tibble::tribble(
 #   ~name, ~event, ~location, ~year,
 #   "Empowering people with community, software, and peer review", "**RUCK: R Users Conference Korea (Invited Keynote speaker)**", "Seoul, Korea", 2018,
@@ -145,27 +131,25 @@ tribble(
 #   )
 ```
 
+<!-- # Articles in Public Media -->
 
+<!-- Mimmi, Luisa M. and Fabiana Machado. 2019. "*Technological disruption: a look into the future innovation in water and sanitation.*" January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/) -->
 
-# Articles in Public Media 
+<!-- Mimmi, Luisa M., Borja-Vega Christian, and Amit Patel. 2017. "*Predicting Slum Dwellers' Deprivations from Space: A Pilot Study on Dhaka.*" November 15, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka) -->
 
-Mimmi, Luisa M. and Fabiana Machado. 2019. “*Technological disruption: a look into the future innovation in water and sanitation.*” January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
+<!-- Mimmi, Luisa M. 2016. "*Open Spatial Data for Resilience in Tanzania: Lessons Learned from 'Dar Ramani Huria.'*" November 15, 2016. [Personal Blog](https://lulliter.github.io/post/2016-11-15_ramani-huria/) -->
 
-Mimmi, Luisa M., Borja-Vega Christian, and Amit Patel. 2017. “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” November 15, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
-
-Mimmi, Luisa M. 2016. “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" November 15, 2016. [Personal Blog](https://lulliter.github.io/post/2016-11-15_ramani-huria/) 
-
-Mimmi, Luisa M. 2009. “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Blog](https://lulliter.github.io/post/sussidiariet%C3%A0-e-sviluppo/).
+<!-- Mimmi, Luisa M. 2009. "*Sussidiarietà e Sviluppo: L'elettricità nelle Favelas* dell'America Latina." February 28, 2009. (in Italian) [Personal Blog](https://lulliter.github.io/post/sussidiariet%C3%A0-e-sviluppo/). -->
 
 # Peer-Reviewed & Technical Publications
 
-[Detailed list on **Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)
+[Selected publications on my **personal website**](https://lulliter.com/publications.html)  
 
+[Extensive list on my **Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)
 
-
+```{=tex}
 \endfirstpage
-
- 
+```
 ```{r publicationsGOOGSCHOLAR}
 # 
 # scholar::get_publications("OBYla5gAAAAJ&hl") %>%
