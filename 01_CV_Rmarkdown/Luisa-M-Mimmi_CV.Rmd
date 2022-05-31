@@ -1,27 +1,34 @@
 ---
+output: stevetemplates::cv
+geometry: margin=1in
+
 title: "Curriculum Vitae"
 author: "Luisa M. Mimmi"
-fontawesome: yes
-output:
-  pdf_document:
-    template: rap-latex-cv.tex
-  html_document:
-    df_print: paged
 
-keywords: RMarkdown, academic CV, template
-linkcolor: blue
+# jobtitle: "Chief Brewer, Arthur Guinness & Son"  #param
+# address: "Guinness Brewery · Park Royal · London NW10 7RR, UK" # no
+
+fontawesome: yes
+# output:
+#   pdf_document:
+#     template: rap-latex-cv.tex
+#   html_document:
+#     df_print: paged
 
 email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
 #github: Lulliter
 #twitter: Lulliter
 web: lulliter.com
-updated: yes
+updated: TRUE
+rdateformat: "`r format(Sys.time(), '%d %b %Y')`"
+
+keywords: RMarkdown, academic CV, template
+linkcolor: blue
 
 fontfamily: mathpazo
 fontfamilyoptions: sc, osf
 fontsize: 10pt
-geometry: margin=1in
 urlcolor: blue
 
 params:

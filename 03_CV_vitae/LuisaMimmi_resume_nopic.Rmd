@@ -1,0 +1,203 @@
+---
+name: Luisa M. Mimmi
+position: "Policy & Data Analyst"
+address: "EU citizen | US permanent resident"
+#phone: +1 22 3333 4444
+#profilepic: ../foto/LulaSalvador2015.jpg
+www: lulliter.com
+email: "lmm76@georgetown.edu"
+linkedin: luisa-m-mimmi
+twitter: lulliter
+github: lulliter
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my empirical research aims at improving universal access to basic infrastructure services (housing, water and sanitation, energy, education and health).\nAs a life-long learner, I cultivate my passion for data science and machine learning and I am interested in devising and implementing data-driven approaches to improve access and availability of high quality infrastructural services." 
+# I would like to further explore integration of survey data with other sources –including social media, GIS and satellite imagery– to uncover various dimensions of poverty in vulnerable contexts."
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse) # Easily Install and Load the 'Tidyverse'
+library(vitae) # Curriculum Vitae for R Markdown
+library(rorcid) # Interface to the 'Orcid.org' API
+library(lubridate) # Make Dealing with Dates a Little Easier
+library(RefManageR) # Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management
+
+# rorcid_app <- httr::oauth_app(
+#   appname = "rorcid",
+#   key = "APP-7E02XXWNQBFNMG1B",
+#   secret = "74c15780-e323-48a0-9296-ecceaf46e447"
+# )
+
+ORCID_TOKEN <- Sys.getenv("ORCID_TOKEN") 
+```
+
+<!-- # Education -->
+
+```{r education}
+# edu <- rorcid::orcid_works("0000-0002-2244-8282")
+# edu$`0000-0002-2244-8282`$`education-summary` %>%
+#   detailed_entries(
+#     what = `role-title`,
+#     when = glue::glue("{`start-date.year.value`} - {`end-date.year.value`}"),
+#     with = organization.name,
+#     where = organization.address.city
+#   )
+```
+
+# Education
+
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, 
+  "M.P.P. International Policy & Development", "Georgetown University", "Washington D.C., US", "2008", 
+  # "Exchange Student Year (Economics)", "Universidad Autonoma de Madrid", "Madrid, Spain", "1997/1998" ,
+  "B.Sc. Economics & Business Administration", "Università di Pavia", "Pavia, Italy", "2001" 
+) %>% 
+  detailed_entries(degree, dates, loc ,uni )
+```
+
+# Data Science projects
+
+```{r rpkgs}
+tibble::tribble(~name, ~date, ~description , ~link,
+                "Personal Website with R distill",   '2018/2022', "Portfolio, R code, ideas", "\\href{https://lulliter.com/}{https://lulliter.com/}",
+                "Brazil Water Suppliers", '2018/2019', "Survey data collection and analysis", "\\href{https://lulliter.github.io/BrazilWaterSurvey/}{Project Webpage}" ,
+                "Green Card processing time", "2019", "Analysis of US immigration data",
+                "\\href{https://github.com/Lulliter/GreenCard}{Project Repo}" ,
+                "New York Encounter's Donors", "2019", "Fundraising data analysis", "\\href{https://lulliter.com/data/NYEPresentation_14April2019.pdf}{Presentation}",
+                "Life expectancy over time",   "2018", "Analysis of WB's WDI indicator", "\\href{https://raw.githubusercontent.com/Lulliter/DECdatascience/master/Part_1_Output.pdf}{Short Study}",
+                "Job Migrants and Competitive Cities", "2017", "Analysis of LinkedIn data", "\\href{https://raw.githubusercontent.com/Lulliter/Linkedin/master/LinkedInPresentation-R_01Dec2017.pdf}{Presentation}") %>%
+detailed_entries(
+    what = name, 
+    when =  date,
+    with = description,
+    where = link,
+        .protect = FALSE, # to turn link in LATEX, but error
+  )
+
+
+```
+
+# Employment history
+
+```{r employment, results='asis'}
+tribble(
+  ~Years, ~Position, ~Company,
+  '2020:2021', "Sr. Advisor (G20 task force)", "Italian Ministry of Economy & Finance, (Rome)",
+  '2018:2019', "Research Fellow", "Inter-American Development Bank, (Washington DC)",
+  '2018:2021', "Fundraising Data Analyst (Pro bono)", "New York Encounter, (remote)",
+  '2009:2018', "Senior M&E Specialist", "World Bank, Sustainable Development VP, (Washington DC)",
+  '2008:2009' , "Policy Analyst", "Inter-American Development Bank, (Washington DC)",
+  '2007' , "Summer Intern", "AVSI International (Brazil)",
+  '2001:2006', "Business Intelligence Analyst", "Value Partners (Italy)",
+   ) %>%
+  # arrange(-Years) %>%
+   #filter(Start > 2000) %>%
+  # mutate(End = replace_na(End, "")) %>%
+  # mutate(Years = paste(Start, "--", End, sep = "")) %>%
+  select(Years, Position, Company ) %>%
+  detailed_entries(
+    when = Years, 
+    what = Position, 
+    where = Company )
+
+
+```
+
+# Software
+
+**Statistics** (R, Stata, MS Excel)  
+**Databases** (SQL Server, MS Access, Salesforce)  
+**Misc. Development tools** (Markdown, Git, Github, Unix Shell, AWS)  
+**GIS** - *basic* (ArcGIS, QGis, GeoDa)
+
+# Languages
+
+**Italian** (native), **English** (fluent), **Spanish** (fluent), **Portuguese** (conversational)
+
+```{r talks, eval=FALSE, include=FALSE}
+# tibble::tribble(
+#   ~name, ~event, ~location, ~year,
+#   "Empowering people with community, software, and peer review", "**RUCK: R Users Conference Korea (Invited Keynote speaker)**", "Seoul, Korea", 2018,
+#   "Now you see it?  Now you don’t?  The role of graphics in identifying MCMC convergence (Awarded Runner up Pitman Prize for Young Statistician)", "ISCB-ASC", "Melbourne, Australia", 2018,
+#   "Find the best locations for facilities using `maxcovr`", "UseR! 2018", "Brisbane, Australia", 2018
+# ) %>%
+#   detailed_entries(
+#     what = name,
+#     when = year,
+#     with = event,
+#     where = location
+#   )
+```
+
+<!-- # Articles in Public Media -->
+
+<!-- Mimmi, Luisa M. and Fabiana Machado. 2019. "*Technological disruption: a look into the future innovation in water and sanitation.*" January 21, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/) -->
+
+<!-- Mimmi, Luisa M., Borja-Vega Christian, and Amit Patel. 2017. "*Predicting Slum Dwellers' Deprivations from Space: A Pilot Study on Dhaka.*" November 15, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka) -->
+
+<!-- Mimmi, Luisa M. 2016. "*Open Spatial Data for Resilience in Tanzania: Lessons Learned from 'Dar Ramani Huria.'*" November 15, 2016. [Personal Blog](https://lulliter.github.io/post/2016-11-15_ramani-huria/) -->
+
+<!-- Mimmi, Luisa M. 2009. "*Sussidiarietà e Sviluppo: L'elettricità nelle Favelas* dell'America Latina." February 28, 2009. (in Italian) [Personal Blog](https://lulliter.github.io/post/sussidiariet%C3%A0-e-sviluppo/). -->
+
+# Peer-Reviewed & Technical Publications
+
+[Selected publications on my **personal website**](https://lulliter.com/publications.html)  
+
+[Extensive list on my **Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)
+
+```{=tex}
+\endfirstpage
+```
+```{r publicationsGOOGSCHOLAR}
+# 
+# scholar::get_publications("OBYla5gAAAAJ&hl") %>%
+#   detailed_entries(
+#     what = title,
+#     when = year,
+#     with = author,
+#     where = journal,
+#     why = glue::glue("citations: {cites}")
+#   )
+```
+
+```{r bibfiles}
+# Read any bib files
+# pubs <- ReadBib("rjhpubs.bib", check = FALSE)
+# reports <- ReadBib("rjhreports.bib", check = FALSE)
+# packages <- ReadBib("Rpackages.bib", check = FALSE)
+
+#  ReadBib("Lula-4CV.bib", check = FALSE)
+
+```
+
+```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}
+# here::here()
+# 
+# # ObjectiFY SubDirs	
+# from.dir <- "./content/cv/cv_making/resume_twentysecond"
+# fs::path_abs(from.dir)
+# 
+# to.dir   <- "./content/cv"
+# fs::path_abs(to.dir)
+# 
+# # List Files 
+# files <- list.files(path = from.dir, 
+# 						  pattern='\\.pdf$', # an optional regular expression. (ends with
+# 						  full.names = TRUE, # If TRUE, the directory path is prepended to the file names 
+# 						  recursive = FALSE) # Should the listing recurse into directories?
+# 	
+# # all_munge <- list.files(path = "./03_Munge/", pattern = '\\.R$' , 
+# #                         all.files = FALSE,  # def (= only visible)
+# #                         full.names = FALSE, # def (= no dir name prepended)
+# #                         recursive = FALSE,  # def  (= no inside sub-dir )
+# #                         ignore.case = TRUE, #    (= pattern-matching be case-insensitive)
+# #                         include.dirs = FALSE, # def (subdirectory names NOT be included in recursive listings)
+# #                         no.. = FALSE) # def (both "." and ".." be excluded also from non-recursive listings)
+# class(files) 
+# 
+# # function to MOVE
+# for (f in files) file.copy(from = f, to = to.dir,	 overwrite = T, copy.date = T)
+
+```
