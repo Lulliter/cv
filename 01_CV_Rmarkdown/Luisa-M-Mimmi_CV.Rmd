@@ -17,8 +17,8 @@ fontawesome: yes
 
 email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
-#github: Lulliter
-#twitter: Lulliter
+github: Lulliter
+twitter: Lulliter
 web: lulliter.com
 updated: TRUE
 rdateformat: "`r format(Sys.time(), '%d %b %Y')`"
