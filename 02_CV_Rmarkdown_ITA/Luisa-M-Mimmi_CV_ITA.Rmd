@@ -9,7 +9,7 @@ fontawesome: yes
 
 email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
-#github: Lulliter
+github: Lulliter
 #twitter: Lulliter
 web: lulliter.com
 updated: TRUE
@@ -27,18 +27,19 @@ params:
     label: cv_code
     value: econ
     input: select
-    choices: ["econ","journ"]  
+    choices: ["econ","journ", "data"]  
   jobtitle:
     label: Job Title
     value: "Esperta in economia e politiche pubbliche"
     input: select
-    choices: ["Esperta in economia e politiche pubbliche", "Esperta in giornalismo economico"]
+    choices: ["Esperta in economia e politiche pubbliche", "Esperta in giornalismo economico", "Economista e Data Scientist"]
   blurb:
       label: Short Bio
       value: "Economista dello sviluppo con Master in Politiche Pubbliche da Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo.<br><br> **Area di specializzazione**: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base -abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.. Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030."
       input: select
       choices: ["Economista dello sviluppo con Master in Politiche Pubbliche da Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo.<br><br> **Area di specializzazione**: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base: abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.. Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030.", 
-      "Analista di Politiche Pubbliche con Master presso la Georgetown University e solida formazione in economia e politiche per lo sviluppo sostenibile, con focus nell'accesso universale alle infrastrutture ed oltre 15 anni di esperienza professionale di presso Banche Multilaterali di Sviluppo e Pubblica Amministrazione.<br><br> Ottima padronanza della lingua inglese (scritta e parlata) e eccellenti capacità di comunicazione, comprovate da svariate pubblicazioni tecniche - dal _blog post_ di carattere divulgativo fino ad articoli di carattere accademico."]
+      "Analista di Politiche Pubbliche con Master presso la Georgetown University e solida formazione in economia e politiche per lo sviluppo sostenibile, con focus nell'accesso universale alle infrastrutture ed oltre 15 anni di esperienza professionale di presso Banche Multilaterali di Sviluppo e Pubblica Amministrazione.<br><br> Ottima padronanza della lingua inglese (scritta e parlata) e eccellenti capacità di comunicazione, comprovate da svariate pubblicazioni tecniche - dal _blog post_ di carattere divulgativo fino ad articoli di carattere accademico.",
+      "Economista di formazione con comprovata esperienza nella progettazione e implementazione di strumenti diagnostici, analisi avanzate e visualizzazioni di dati applicati allo sviluppo economico. La maggior parte della mia ricerca empirica mira a migliorare l'accesso universale ai servizi infrastrutturali di base (acqua e servizi igienico-sanitari, energia, abitazione, istruzione e salute). Per lavoro e per passione, seguo costantemente lo sviluppo di tecniche e strumenti di data science. Sono interessata a opportunità lavorative che mi consentano di ideare e implementare approcci basati sui dati per migliorare l'accesso e la disponibilità di servizi infrastrutturali di alta qualità."]
   it_skills: 
     label: it_skills
     value: "**Software development** _livello base_ (Git, Github, Unix Shell, GNU make, AWS)"
@@ -184,7 +185,7 @@ jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 
 **Mimmi L. M.**. 2022 (in revisione) *‘Caution: road work ahead’: Italy in front of the challenge of infrastructure maintenance: existing issues and promising responses*.
 
-Patel, A. Christian Borja-Vega, **Mimmi L. M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2021 (in revisione) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
+Patel, A. Christian Borja-Vega, **Mimmi L.M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2022 (Under Review) *Predicting Housing Deprivation from Space in the Slums of Dhaka*. Environment and Planning B: Urban Analytics and City Science<!-- , Vol. 21, pages 66-80. -->
 
 **Mimmi L. M.** 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
 

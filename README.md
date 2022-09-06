@@ -11,15 +11,15 @@ In this this R project I created 3 (+1 old) versions of my CV
 
 -   & version flavor "data/journalist" thanks to `params:` :star2:
 
-3.  **A short resume (Eng)** based on Mitchell O'Hara-Wild's [R package `vitae`](https://github.com/mitchelloharawild/vitae)
+3.  **A short resume (Eng)** ("03_CV_vitae/awesomeCV.Rmd") based on Mitchell O'Hara-Wild's [R package `vitae`](https://github.com/mitchelloharawild/vitae)
 
--   & version flavor "data/journalist"
+-   & version flavor "data/journalist" ("03_CV_vitae/resume_journ.Rmd")
 
 ## NOTES
 
 -   on CV \# 1. & 2.: This method requires only a single **.Rmd** and a formatted **.tex** file. This has been kindly Another evolution of it is in [Julie Jung](https://www.jungjulie.com/2020/01/12/update-your-cv-in-r-markdown/)
 
--   on CV \# 3.: here the major "gotcha" was the possibility to insert Publications & Talks exploiting the Zotero collections in the `....bib` format that can be entered direclty via the function `vitae::bibliography_entries`. All the other information is saved in `./data/data_Lula.r` in the form of tribble
+-   on CV \# 3.: here the major "gotcha" was the possibility to insert Publications & Talks exploiting the Zotero collections in the `....bib` format that can be entered directly via the function `vitae::bibliography_entries`. All the other information is saved in `./data/data_Lula.r` in the form of tribble
 
     -   (\*) When exporting from Zotero better to select BetterBibLaTeX
     -   (\*) Data are on a separate file called in the .Rmd `("./data/data_Lula.r")`

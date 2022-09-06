@@ -84,6 +84,7 @@ detailed_entries(
 ```{r employment, results='asis'}
 tribble(
   ~Years, ~Position, ~Company,
+  '2022', "Policy Analyst & Data Scientist", "Independent Consulting, (Pavia)",
   '2020:2021', "Sr. Advisor (G20 task force)", "Italian Ministry of Economy & Finance, (Rome)",
   '2018:2019', "Research Fellow", "Inter-American Development Bank, (Washington DC)",
   '2018:2021', "Fundraising Data Analyst (Pro bono)", "New York Encounter, (remote)",

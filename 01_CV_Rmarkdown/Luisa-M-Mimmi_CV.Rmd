@@ -47,7 +47,7 @@ params:
       value: "Experienced Policy Analyst with a strong background in statistical and econometric analysis applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health). <br><br> My **core technical skills** are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges."
       input: select
       choices: ["Experienced Policy Analyst with a strong background in statistical and econometric analysis applied to economic development -- especially focused on policies to alleviate poverty and promote universal access to basic services (housing, water and sanitation, energy, education and health). <br><br> My **core technical skills** are: designing and implementing surveys, advanced analytics and impact evaluations, but I have also demonstrated effective leadership and resourcefulness in project management roles. As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges.", 
-      "I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations, especially applied to economic development and  access to infrastructure. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health). As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges."]
+      "I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations, especially applied to economic development and access to infrastructure. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health). As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges."]
   it_skills: 
     label: it_skills
     value: "**Misc. development tools** _basic knowledge_ (Git, Github, Unix Shell, GNU make, AWS)"
@@ -75,6 +75,12 @@ jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 
 
 # WORK
+•	*Independent Consulting - based in Italy*
+
+ > **Policy Analyst & Data Scientist** \hfill Jan2022-Present
+ 
+ >  Currently providing consultancy services to the Italian government (on resilient infrastructure policies) and to a Milan-based think-tank (on water scarcity issues and regulation).
+
 •	*Ministry of Economics and Finance (Treasury, G7/G20 office) - Rome:*
 
  > **Sr. Economic Advisor** \hfill Feb2020-Dec2021
@@ -182,7 +188,7 @@ jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 
 **Mimmi L.M.**. 2022 (Under Review) *‘Caution: road work ahead’: Italy in front of the challenge of infrastructure maintenance: existing issues and promising responses*.
 
-Patel, A. Christian Borja-Vega, **Mimmi L.M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2021 (Under Review) *Predicting Deprivations in Housing and Basic Services from Space in the Slums of Dhaka*.
+Patel, A. Christian Borja-Vega, **Mimmi L.M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2022 (Under Review) *Predicting Housing Deprivation from Space in the Slums of Dhaka*. Environment and Planning B: Urban Analytics and City Science<!-- , Vol. 21, pages 66-80. -->
 
 **Mimmi L.M.** 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
 
