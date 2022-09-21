@@ -35,11 +35,12 @@ params:
     choices: ["Esperta in economia e politiche pubbliche", "Esperta in giornalismo economico", "Economista e Data Scientist"]
   blurb:
       label: Short Bio
-      value: "Economista dello sviluppo con Master in Politiche Pubbliche da Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo.<br><br> **Area di specializzazione**: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base -abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.. Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030."
+      value: "Economista dello sviluppo con Master in Politiche Pubbliche alla Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici e congiunturali, monitoraggio e valutazione di impatto per progetti di sviluppo.<br><br> **Area di specializzazione**: valutazione di politiche per favorire l'accesso equo e sostenibile a servizi infrastrutturali di base -abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti. Comprovate capacità come _project manager_ e nell'avvio e coordinamento di collaborazioni internazionali e multi-settoriali."
       input: select
-      choices: ["Economista dello sviluppo con Master in Politiche Pubbliche da Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici, monitoraggio e valutazione di impatto per progetti di sviluppo.<br><br> **Area di specializzazione**: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base: abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.. Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030.", 
+      choices: ["Economista dello sviluppo con Master in Politiche Pubbliche alla Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici e congiunturali, monitoraggio e valutazione di impatto per progetti di sviluppo.<br><br> **Area di specializzazione**: valutazione di politiche per favorire l'accesso equo e sostenibile a servizi infrastrutturali di base -abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti. Comprovate capacità come _project manager_ e nell'avvio e coordinamento di collaborazioni internazionali e multi-settoriali.", 
       "Analista di Politiche Pubbliche con Master presso la Georgetown University e solida formazione in economia e politiche per lo sviluppo sostenibile, con focus nell'accesso universale alle infrastrutture ed oltre 15 anni di esperienza professionale di presso Banche Multilaterali di Sviluppo e Pubblica Amministrazione.<br><br> Ottima padronanza della lingua inglese (scritta e parlata) e eccellenti capacità di comunicazione, comprovate da svariate pubblicazioni tecniche - dal _blog post_ di carattere divulgativo fino ad articoli di carattere accademico.",
-      "Economista di formazione con comprovata esperienza nella progettazione e implementazione di strumenti diagnostici, analisi avanzate e visualizzazioni di dati applicati allo sviluppo economico. La maggior parte della mia ricerca empirica mira a migliorare l'accesso universale ai servizi infrastrutturali di base (acqua e servizi igienico-sanitari, energia, abitazione, istruzione e salute). Per lavoro e per passione, seguo costantemente lo sviluppo di tecniche e strumenti di data science. Sono interessata a opportunità lavorative che mi consentano di ideare e implementare approcci basati sui dati per migliorare l'accesso e la disponibilità di servizi infrastrutturali di alta qualità."]
+      "Economista di formazione con comprovata esperienza nella progettazione e implementazione di strumenti diagnostici, analisi avanzate e visualizzazioni di dati applicati allo sviluppo economico. La maggior parte della mia ricerca empirica mira a migliorare l'accesso universale ai servizi infrastrutturali di base (acqua e servizi igienico-sanitari, energia, abitazione, istruzione e salute). Per lavoro e per passione, seguo costantemente lo sviluppo di tecniche e strumenti di _data science_. Sono interessata a opportunità lavorative che mi consentano di ideare e implementare approcci basati sui dati per migliorare l'accesso e la disponibilità di servizi infrastrutturali di alta qualità."]
+      # Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030.
   it_skills: 
     label: it_skills
     value: "**Software development** _livello base_ (Git, Github, Unix Shell, GNU make, AWS)"
@@ -71,7 +72,12 @@ jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
  
 
 # ESPERIENZA PROFESSIONALE
+•	*Consulenza Indipendente in ambito economico - Pavia:*
 
+ > **Analista di Politiche Pubbliche e Settoriali** \hfill Jan2022-Present
+ 
+ >  Servizi di consulenza ad enti pubblici del governo italiano e a centri studi (con focus su politiche per la sostenibilita delle infrastrutture, e su temi regolatori) 
+ 
 •	*Ministero dell'Economia e delle Finanze (MEF, Dir. III) - Roma:*
 
  > **Sr. Economic Advisor - dossier infrastrutture** \hfill Feb2020-Dic2021
@@ -88,7 +94,7 @@ jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 
  > **Sr. Monitoring & Evaluation Specialist** \hfill Mar2009-Apr2018
  
- > Coordinazione tecnica di prestiti e sovvenzioni per l’accesso inclusivo e sostenibile a servizi di base (abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti) in vari paesi in via di sviluppo | Supervisione di un portafoglio di valutazioni di impatto condotte con analisi sul campo a Mumbai (India), Nairobi (Kenya), Kampala (Uganda) e di villaggi rurali della periferia di Dhaka (Bangladesh) | Redazione di vari rapport periodici, articoli e presentazioni per i finanziatori Europei dei Fondi Fiduciari Multilaterali
+ > Coordinamento tecnico di prestiti e sovvenzioni per l’accesso inclusivo e sostenibile a servizi di base (abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti) in vari paesi in via di sviluppo | Supervisione di un portafoglio di valutazioni di impatto condotte con analisi sul campo a Mumbai (India), Nairobi (Kenya), Kampala (Uganda) e di villaggi rurali della periferia di Dhaka (Bangladesh) | Redazione di vari rapport periodici, articoli e presentazioni per i finanziatori Europei dei Fondi Fiduciari Multilaterali
 
 •	*Banca Inter-Americana dello Sviluppo (Div. Promozione Sociale, Washington, DC):*
 
@@ -96,13 +102,13 @@ jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 
 >	Supporto a cooperazione tecnica con il Municipio di Fortaleza (Brasile) sul “Programma Integrato di Inclusione Sociale per i Giovani” e preparazione di successivo prestito finalizzato | Analisi comparata di 8 casi internazionali di promozione della imprenditorialità giovanile e microcredito in contesti svantaggiati
 
+\newpage
+
 •	*AVSI (Nonprofit per Inclusione Sociale - Rio de Janeiro e Belo Horizonte, Brasile):*
 
  > **Summer Intern** \hfill Estate 2007 
  
  >  Partecipazione ad attività sul campo e compilazione dei dati sul progetto _“Conviver”_ promosso da AVSI e dalla locale utilità CEMIG per l'accesso legale e sostenibile all’energia elettrica dei residenti in varie _favelas_ (baraccopoli) di Belo Horizonte 
-
-\newpage
 
 •	*Value Partners S.p.A - (Milano):*
 
@@ -185,7 +191,7 @@ jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 
 **Mimmi L. M.**. 2022 (in revisione) *‘Caution: road work ahead’: Italy in front of the challenge of infrastructure maintenance: existing issues and promising responses*.
 
-Patel, A. Christian Borja-Vega, **Mimmi L.M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2022 (Under Review) *Predicting Housing Deprivation from Space in the Slums of Dhaka*. Environment and Planning B: Urban Analytics and City Science<!-- , Vol. 21, pages 66-80. -->
+Patel, A. Borja-Vega C., **Mimmi L.M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2022 [*Predicting Housing Deprivation from Space in the Slums of Dhaka*](https://doi.org/10.1177/23998083221123589). Environment and Planning B: Urban Analytics and City Science, September.
 
 **Mimmi L. M.** 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
 

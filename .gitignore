@@ -11,7 +11,7 @@ cv.rmd
 data/
 foto/
 zzz_scarto/
-
+.vscode/
 
 # Output files from R CMD build
 /*/*.log

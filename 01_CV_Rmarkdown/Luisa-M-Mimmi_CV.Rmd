@@ -112,6 +112,8 @@ jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
  
  >  Initiated empirical study of slum electrification project _“Conviver”_ (Belo Horizonte) | Advised on data sharing among AVSI inter-city operations
 
+\newpage
+
 •	*Value Partners S.p.A - Milan, Italy:*
 
  > **Business Intelligence Analyst** \hfill Oct2001-Jun2006
@@ -188,7 +190,7 @@ jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 
 **Mimmi L.M.**. 2022 (Under Review) *‘Caution: road work ahead’: Italy in front of the challenge of infrastructure maintenance: existing issues and promising responses*.
 
-Patel, A. Christian Borja-Vega, **Mimmi L.M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2022 (Under Review) *Predicting Housing Deprivation from Space in the Slums of Dhaka*. Environment and Planning B: Urban Analytics and City Science<!-- , Vol. 21, pages 66-80. -->
+Patel, A. Borja-Vega C., **Mimmi L.M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2022 [*Predicting Housing Deprivation from Space in the Slums of Dhaka*](https://doi.org/10.1177/23998083221123589). Environment and Planning B: Urban Analytics and City Science, September.
 
 **Mimmi L.M.** 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
 
