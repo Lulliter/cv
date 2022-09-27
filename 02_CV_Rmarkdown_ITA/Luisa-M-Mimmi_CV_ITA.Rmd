@@ -74,7 +74,7 @@ jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 # ESPERIENZA PROFESSIONALE
 •	*Consulenza Indipendente in ambito economico - Pavia:*
 
- > **Analista di Politiche Pubbliche e Settoriali** \hfill Jan2022-Present
+ > **Analista di Politiche Pubbliche e Settoriali** \hfill Gen2022-Present
  
  >  Servizi di consulenza ad enti pubblici del governo italiano e a centri studi (con focus su politiche per la sostenibilita delle infrastrutture, e su temi regolatori) 
  

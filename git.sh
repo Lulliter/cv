@@ -11,7 +11,7 @@ git add '02_CV_Rmarkdown_ITA/Luisa-M-Mimmi_CV_ITA_no_id.pdf'
 git add helper.R
 
 # commit changes 
-git commit -m "New CV_ITA_no_id + small fixes"
+git commit -m "  small fixes"
 
 
 # push 

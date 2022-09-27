@@ -151,6 +151,7 @@ tribble(
 ```{=tex}
 \endfirstpage
 ```
+
 ```{r publicationsGOOGSCHOLAR}
 # 
 # scholar::get_publications("OBYla5gAAAAJ&hl") %>%
