@@ -259,6 +259,7 @@ Johannes, L, **Mimmi L.M.**, Mumssen Y. 2010. ["*A Snapshot of the OBA Universe*
 **Mimmi, L.M.**  “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” February 28, 2009. (in Italian) [Personal Website](https://lulliter.com/posts/2009-02-21-sussidiar/)
 
 ```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}
+# outdated because new website takes from here on its own
 here::here()
 
 # ObjectiFY SubDirs	
@@ -266,7 +267,7 @@ from.dir <- "./01_CV_Rmarkdown"
 fs::path_abs(from.dir)
 
  # sporca ma OK!
-to.dir   <- "/Users/luisamimmi/My Drive/Github/blog/static/cv_files" # "/Users/luisamimmi/GoogleDrive/source/content/cv",
+to.dir <- "/Users/luisamimmi/My Drive/Github/blog/static/cv_files" # "/Users/luisamimmi/GoogleDrive/source/content/cv",
 
 fs::path_abs(to.dir)
 

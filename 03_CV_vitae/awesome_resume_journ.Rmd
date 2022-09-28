@@ -284,13 +284,13 @@ languages %>%
 <!-- ```{r} -->
 <!-- #courses <- tribble( ~area, ~accomplishment, ~year, [~where], [~detail], -->
 
-<!-- courses %>%  -->
+<!-- courses %>% -->
 <!--   vitae::detailed_entries( -->
-<!--     why = area , -->
+<!--     #why = area , -->
 <!--     what = accomplishment, -->
-<!--     when = year#, -->
-<!--     #why = detail -->
-
+<!--     when = year , -->
+<!--     why = detail, # certificate  -->
+<!--     .protect = FALSE # allows links in column -->
 <!--   ) -->
 
 <!-- ``` -->

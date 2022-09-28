@@ -76,7 +76,6 @@ detailed_entries(
         .protect = FALSE, # to turn link in LATEX, but error
   )
 
-
 ```
 
 # Employment history

@@ -14,6 +14,7 @@ In this this R project I created 3 (+1 old) versions of my CV
 3.  **A short resume (Eng)** ("03_CV_vitae/awesomeCV.Rmd") based on Mitchell O'Hara-Wild's [R package `vitae`](https://github.com/mitchelloharawild/vitae)
 
 -   & version flavor "data/journalist" ("03_CV_vitae/resume_journ.Rmd")
+-   & version flavor "shorter + europrogettista" "03_CV_vitae/resume_europrogettista.Rmd"
 
 ## NOTES
 

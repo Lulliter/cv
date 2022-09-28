@@ -260,6 +260,7 @@ Johannes, L, **Mimmi L. M.**, Mumssen Y. 2010. ["*A Snapshot of the OBA Universe
 
 
 ```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}
+# outdated because new website takes from here on its own
 here::here()
 
 # ObjectiFY SubDirs	
