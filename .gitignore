@@ -12,6 +12,8 @@ data/
 foto/
 zzz_scarto/
 .vscode/
+04_CV_vitae_LONG/[Lorena]awesome_longCV.Rmd
+04_CV_vitae_LONG/[Lorena]awesome-cv.cls
 
 # Output files from R CMD build
 /*/*.log

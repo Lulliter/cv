@@ -1,29 +1,36 @@
-# CV
+# Purpose
 
-In this this R project I created 3 (+1 old) versions of my CV
+In this this R project I created different versions of my CV/resume following 2 different methods.
 
-0.  (A long academic style CV (Eng) + .bib) [added like in bookdown]
-1.  **A long academic style CV (Eng)** [based on *Steven V. Miller*'s example](http://svmiller.com/stevetemplates/)
+The content in the main folders:
 
--   & version flavor "data/journalist" thanks to `params:` :star2:
+1.  `00_CV_bib/` **(A long academic style CV (Eng) + .bib) [added like in bookdown]**
 
-2.  **A long academic style CV (ITA)** [based on *Steven V. Miller*'s example](http://svmiller.com/stevetemplates/)
+    -   :warning: this is out-of-date :warning:
+    -   this has `html` and `pdf` outputs
 
--   & version flavor "data/journalist" thanks to `params:` :star2:
+2.  `01_CV_Rmarkdown/` **A long academic style CV (Eng)** based on [*Steven V. Miller*'s example](http://svmiller.com/stevetemplates/)
 
-3.  **A short resume (Eng)** ("03_CV_vitae/awesomeCV.Rmd") based on Mitchell O'Hara-Wild's [R package `vitae`](https://github.com/mitchelloharawild/vitae)
+    -   flavor "data/journalist" thanks to `params:` :star2:
 
--   & version flavor "data/journalist" ("03_CV_vitae/resume_journ.Rmd")
--   & version flavor "shorter + europrogettista" "03_CV_vitae/resume_europrogettista.Rmd"
+3.  `02_CV_Rmarkdown_ITA/` **A long academic style CV (ITA)** based on [*Steven V. Miller*'s example](http://svmiller.com/stevetemplates/)
+
+    -   flavor "data/journalist" thanks to `params:` :star2:
+
+4.  `03_CV_vitae/` A few **long & short versions (Eng)** in `./03_CV_vitae/...` based on Mitchell O'Hara-Wild's [R package `vitae`](https://github.com/mitchelloharawild/vitae)
+
+    -   flavor "data/journalist"  
+    -   flavor "shorter + europrogettista"
+    -   flavor "flashy Data Science resume"
 
 ## NOTES
 
--   on CV \# 1. & 2.: This method requires only a single **.Rmd** and a formatted **.tex** file. This has been kindly Another evolution of it is in [Julie Jung](https://www.jungjulie.com/2020/01/12/update-your-cv-in-r-markdown/)
+-   on CV \# 1. & 2.: This method requires only a single **.Rmd** and a formatted **.tex** file. An evolution of it is in [Julie Jung](https://www.jungjulie.com/2020/01/12/update-your-cv-in-r-markdown/)
 
--   on CV \# 3.: here the major "gotcha" was the possibility to insert Publications & Talks exploiting the Zotero collections in the `....bib` format that can be entered directly via the function `vitae::bibliography_entries`. All the other information is saved in `./data/data_Lula.r` in the form of tribble
+-   on CV \# 3.: here the major "gotcha" was the possibility to insert Publications & Talks exploiting my **Zotero** collections in the `....bib` format that can be entered directly via the function `vitae::bibliography_entries`. All the other information is saved in `./data/data_Lula.R` in the form of tribble
 
     -   (\*) When exporting from Zotero better to select BetterBibLaTeX
-    -   (\*) Data are on a separate file called in the .Rmd `("./data/data_Lula.r")`
+    -   (\*) Data are on a separate file called in the .Rmd `("./data/data_Lula.R")`
 
 ## Acknowledgements
 
@@ -38,9 +45,11 @@ In this this R project I created 3 (+1 old) versions of my CV
       \RequirePackage[default,opentype]{sourcesanspro}
 ```
 
-# Figure Out
+# To do / To figure out
 
--   In `data/data_Lula.r` I use `RefManageR::ReadBib` to extract my Zotero collection in the form of dataframes, BUT record remain inaccurate (e.g. Infrastructure Maintenance: Among {{G20}} Top Priorities)
+-   Eventually, I could pull info from `data/...` also for `/01_CV_Rmarkdown/` and `/02_CV_Rmarkdown_ITA/` otherwise the info here must be manually added...
+
+-   ~~In `data/data_Lula.R` I use `RefManageR::ReadBib` to extract my Zotero collection in the form of dataframes, BUT record remain inaccurate (e.g. Infrastructure Maintenance: Among {{G20}} Top Priorities)~~
 
 -   In `/02_CV_Rmarkdown_ITA/Luisa-M-Mimmi_CV_ITA.Rmd`, I figured out how to use `params:` but I prefer not to change the output file name accordingly. See this issue at:
 

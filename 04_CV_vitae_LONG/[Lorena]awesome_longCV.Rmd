@@ -4,11 +4,13 @@ surname: Mimmi
 position: Public Policy & Data Analysis
 address: EU citizen (Italy) | Green card holder
 www: lulliter.com
+phone: +39 348 9528360 
 email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
-twitter: lulliter
-github: lulliter
 researchgate: Luisa-Mimmi
+orcid: 0000-0002-2244-8282
+github: lulliter
+twitter: lulliter
 headcolor: 0088cc #cc0066 # 0088cc #0073e6 #990000
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: |-
@@ -28,8 +30,9 @@ header-includes:
   \arrayrulecolor{white}
   \usepackage{hhline}
   \definecolor{light-gray}{gray}{0.95}
+editor_options: 
+  chunk_output_type: console
 ---
-
 
 
 ```{r setup, include=FALSE}
@@ -56,19 +59,6 @@ p_load('vitae'     # The CV's LaTeX Template
        ,'gridExtra'
 )
 
-        # library(vitae)
-        # library(ggplot2)
-        # library(dplyr)
-        # library(sf)
-        # library(rworldmap)
-        # library(stplanr)
-        # library(ggrepel)
-        # library(emojifont)
-        # library(fontawesome)
-        # library(kableExtra)
-        # library(huxtable)
-        # library(gridExtra)
-
 p_load_gh("rstudio", "fontawsome")
 
  # MODO ALTERNATIVO -----------------------
@@ -87,10 +77,8 @@ p_load_gh("rstudio", "fontawsome")
 #              )
 # xfun::pkg_attach2(packages, message = FALSE)
  
-# data input (in "./data/data_Lula.r")
-source(file = here("data", "data_Lula.r")) # "data.r"
-
-
+# data input (in "./data/data_Lula.R")
+source(file = here::here("data", "data_Lula.R")) # "data.r"
 
 # rorcid_app <- httr::oauth_app(
 #   appname = "rorcid",
@@ -133,18 +121,18 @@ work %>%
     what = title,
      why = detail,
     when = glue::glue("{startMonth} {startYear}-{endMonth} {endYear}",.na = ""),
-    where = where #scambiati x spazio
-  )
+    where = where, #scambiati x spazio
+    .protect = TRUE)
 
 ```
 
 \faIcon{lightbulb}  Other Professional Service
 ===================================== 
+
 ```{r}
 # service <- tribble( ~what, ~when, ~with,
 #   "Peer Reviewer",                "ongoing",                   "Energy Policy & Journal of the Association of Environmental 
-  
-  service %>%
+service %>%
   vitae::detailed_entries(
   what = what, 
   when =  when,
@@ -155,8 +143,9 @@ work %>%
 
 \bigskip
 
-\faIcon{r-project}  Data Science Projects
+\faIcon{r-project}  Data Science Projects  
 ===================================== 
+
 ```{r PROJECTS}
 # ~area,  ~year, ~accomplishment, ~where, ~link,
 # projects %>%
@@ -172,7 +161,7 @@ work %>%
 
 #projects2 <- tibble::tribble(~name,  ~year, ~explain,
 projects2 %>%
-vitae::detailed_entries(
+  vitae::detailed_entries(
     what = name,
     when = year,
     #with = NA_character_,
@@ -241,31 +230,51 @@ honors %>%
 =============================== 
 <!-- \faIcon{file-code} -->
   
-```{r}
-# software %>%
-#    vitae::detailed_entries(
-#    what  = skills ,
-#     with =  area,
-#     where = detail #
-#   )
-#  
-software %>%
-   vitae::detailed_entries(
-   what  = glue::glue("  {area}: [{skills}]")
-    #,where = detail #
-  )
 
-# software %>%
-#    vitae::brief_entries(
-#    what  = area ,
-#     with =  skills
-#      
-#   )
+<!-- ```{r sw_opt1} -->
+<!-- # software %>% -->
+<!-- #    vitae::detailed_entries( -->
+<!-- #    what  = skills , -->
+<!-- #     with =  area, -->
+<!-- #     where = detail # -->
+<!-- #   ) -->
+<!-- #   -->
+<!-- software %>% -->
+<!--    vitae::detailed_entries( -->
+<!--    what  = glue::glue("  {area}: [{skills}]") -->
+<!--     #,where = detail # -->
+<!--   ) -->
+
+<!-- # software %>% -->
+<!-- #    vitae::brief_entries( -->
+<!-- #    what  = area , -->
+<!-- #     with =  skills -->
+<!-- #       -->
+<!-- #   ) -->
+<!-- ``` -->
+
+
+```{r  sw_opt2, results='markup'}
+# Lorena Abad, ma non viene !
+# https://github.com/loreabad6/R-CV/blob/master/CV.Rmd
+
+tribble(
+   ~`Statistics / Databases`, ~`GIS`, ~`Other`,
+  "R, RStudio, Stata, SQL, Salesforce, MS Excel",
+  "ArcGIS, QGIS, GeoDa, OpenStreetMap",
+  "Git, Github, Unix Shell, CSS, HTML, LaTeX, Markdown"
+)  %>%
+  kable(booktabs = T, align = 'c', escape = F, format = "latex")  %>%
+  kable_styling(full_width = F, font_size = 9, latex_options = "HOLD_position") %>%
+  row_spec(0, bold = T, color = "#009acd") |>
+  row_spec(1, bold = F, color = "#7f7f7f") |>
+  column_spec(column = 1:3, width = '4.75cm')
 ```
 
 
 \faIcon{globe} Languages
 ==================================
+
 ```{r}
 languages %>% 
   vitae::detailed_entries(
@@ -293,7 +302,7 @@ courses %>%
 ```
 
 
-<!-- FOR THESE I AM NOT ACTUALLY USING data_Lula.r [I extract from .bib directly using `vitae::bibliography_entries` own function ] -->
+<!-- FOR THESE I AM NOT ACTUALLY USING data_Lula.R [I extract from .bib directly using `vitae::bibliography_entries` own function ] -->
 
 \faIcon*{calendar} Talks
 ===========================
@@ -305,6 +314,7 @@ courses %>%
   vitae::bibliography_entries(file = here::here("data", "Lula-MyTalks.bib")
                              # ,sorting="ydnt"
                               ) %>% 
+  select(-genre) %>%  
   arrange(desc(issued))
 
 ```
@@ -313,9 +323,15 @@ courses %>%
 
 \faBook[regular] Publications
 ===========================
+
+\bigskip
+
 [_See detailed list on [**my Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)_]
 
-\faBookOpen[regular] Peer-Reviewed Articles & Technical Reports
+\bigskip
+<!-- \medskip -->
+
+\faBookmark[regular] Peer-Reviewed Articles
 ---------------------------
 
 ```{r PUBgooglesch}
@@ -338,11 +354,35 @@ courses %>%
  vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
                              # ,sorting="ydnt"
                               ) %>% 
+  filter(genre == "Peer-reviewed" ) %>% 
+  select(-genre) %>% 
   arrange(desc(issued)) %>% 
   filter( stringr::str_detect(type ,"webpage" , negate = TRUE)  )
  
 ```
 
+
+\bigskip
+<!-- \medskip -->
+
+\faBookOpen[regular] Technical Reports
+---------------------------
+
+```{r TECzotero}
+# # from Synched Lula-MyPublications-Narrow.bib (in Zotero)
+# author, title, type, issued, journal
+ 
+ vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
+                             # ,sorting="ydnt"
+                              ) %>% 
+  filter(genre != "Peer-reviewed" ) %>% 
+  select(-genre) %>% 
+  arrange(desc(issued)) %>% 
+  filter( stringr::str_detect(type ,"webpage" , negate = TRUE)  )
+ 
+```
+
+\bigskip
 
 \faIcon{rss} Other Media
 ---------------------------
@@ -357,6 +397,7 @@ vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow
                              # ,sorting="ydnt"
                               ) %>% 
      arrange(desc(issued)) %>% 
+  select(-genre) %>% 
   filter( stringr::str_detect(type ,"webpage" )  )
  
 
@@ -367,12 +408,6 @@ vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow
 # "webpage" "webpage" "report" "webpage" "webpage" "article-journal" "report"         
 #  [8] "report"          "report"          "article-journal" "report"          "webpage"     
 ```
-
-
-
-
-
-
 
 
 ```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}

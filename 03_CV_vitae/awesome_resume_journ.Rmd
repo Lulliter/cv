@@ -87,8 +87,8 @@ p_load_gh("rstudio", "fontawsome")
 #              )
 # xfun::pkg_attach2(packages, message = FALSE)
  
-# data input (in "./data/data_Lula.r")
-source(file = here("data", "data_Lula.r")) # "data.r"
+# data input (in "./data/data_Lula.R")
+source(file = here("data", "data_Lula.R")) # "data.r"
 
 
 
@@ -296,7 +296,7 @@ languages %>%
 <!-- ``` -->
 
 
-<!-- FOR THESE I AM NOT ACTUALLY USING data_Lula.r [I extract from .bib directly using `vitae::bibliography_entries` own function ] -->
+<!-- FOR THESE I AM NOT ACTUALLY USING data_Lula.R [I extract from .bib directly using `vitae::bibliography_entries` own function ] -->
 
 <!-- \faIcon*{calendar} Talks -->
 <!-- =========================== -->

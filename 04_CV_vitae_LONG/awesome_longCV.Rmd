@@ -1,21 +1,22 @@
 ---
 name: Luisa M.
 surname: Mimmi
-position: Economist & Public Policy Advisor #"Economista & Analista di Politiche Pubbliche"
-#address: EU citizen (Italy) | Green card holder
-#www: lulliter.com
+position: Public Policy & Data Analysis
+address: EU citizen (Italy) | Green card holder
+www: lulliter.com
+phone: +39 348 9528360 
 email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
-#twitter: lulliter
-github: lulliter
 researchgate: Luisa-Mimmi
+orcid: 0000-0002-2244-8282
+github: lulliter
+twitter: lulliter
 headcolor: 0088cc #cc0066 # 0088cc #0073e6 #990000
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: |-
-  Experienced policy analyst with a strong background in statistical and econometric analysis applied to economic development. I have evaluated policies and financial instruments pursuing equitable and sustainable access to infrastructure services (housing, mobility, water and sanitation, energy, education and health).  
-  I am currently pursuing opportunities to apply my policy analysis and project management skills in the field of national/EU Structural and Investment Funds (ERDF, ESF, CF, Next Generatin EU, PNRR, etc).
-  
-# profilepic: ../foto/LulaSalvador2015.jpg
+  I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my research revolves around different policies improving universal access to basic infrastructure services (housing, water and sanitation, energy, education and health). 
+    I am passionate about using data from different sources –including social media, GIS and satellite imagery– to understand and tackle complex public policy issues. 
+profilepic: ../foto/LulaSalvador2015.jpg
 docname: Curriculum Vitae
 output:
   vitae::awesomecv: 
@@ -29,7 +30,10 @@ header-includes:
   \arrayrulecolor{white}
   \usepackage{hhline}
   \definecolor{light-gray}{gray}{0.95}
+editor_options: 
+  chunk_output_type: console
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
@@ -48,27 +52,14 @@ p_load('vitae'     # The CV's LaTeX Template
        ,'RefManageR'
        ,'scholar'
        , 'emojifont'
-       #, 'fontawesome'
+       , 'fontawesome'
        , 'ggrepel' 
        ,'kableExtra'
        ,'huxtable'
        ,'gridExtra'
 )
 
-        # library(vitae)
-        # library(ggplot2)
-        # library(dplyr)
-        # library(sf)
-        # library(rworldmap)
-        # library(stplanr)
-        # library(ggrepel)
-        # library(emojifont)
-        # library(fontawesome)
-        # library(kableExtra)
-        # library(huxtable)
-        # library(gridExtra)
-
-p_load_gh("rstudio", "fontawsome")
+p_load_gh("rstudio" )
 
  # MODO ALTERNATIVO -----------------------
 # require(xfun)
@@ -87,8 +78,7 @@ p_load_gh("rstudio", "fontawsome")
 # xfun::pkg_attach2(packages, message = FALSE)
  
 # data input (in "./data/data_Lula.R")
-source(file = here("data", "data_Lula.R")) # "data.r"
-
+source(file = here::here("data", "data_Lula.R")) # "data.r"
 
 # rorcid_app <- httr::oauth_app(
 #   appname = "rorcid",
@@ -97,10 +87,6 @@ source(file = here("data", "data_Lula.R")) # "data.r"
 # )
 
 # ORCID_TOKEN <- Sys.getenv("ORCID_TOKEN") 
-
-## -------- SPAZI 
-# \bigskip
-# \newpage
 ```
 
 <!-- # Employment history -->
@@ -128,59 +114,20 @@ source(file = here("data", "data_Lula.R")) # "data.r"
 #     what = Position, 
 #     where = Company )
 
+
 work %>%
   vitae::detailed_entries(
     with =  unit , #scambiati x spazio
     what = title,
      why = detail,
     when = glue::glue("{startMonth} {startYear}-{endMonth} {endYear}",.na = ""),
-    where = where #scambiati x spazio
-  )
+    where = where, #scambiati x spazio
+    .protect = TRUE)
+
 ```
 
-<!-- \faIcon{lightbulb}  Other Professional Service -->
-<!-- =====================================  -->
-<!-- ```{r} -->
-<!-- # service <- tribble( ~what, ~when, ~with, -->
-<!-- #   "Peer Reviewer",                "ongoing",                   "Energy Policy & Journal of the Association of Environmental  -->
+\newpage
 
-<!--   service %>% -->
-<!--   vitae::detailed_entries( -->
-<!--   what = what,  -->
-<!--   when =  when, -->
-<!--   why = why   -->
-<!--   ) -->
-
-<!-- ``` -->
-
-<!-- \faIcon{r-project}  Data Science Projects -->
-<!-- =====================================  -->
-```{r PROJECTS, eval=FALSE, include=FALSE}
-# ~area,  ~year, ~accomplishment, ~where, ~link,
-# projects %>%
-# detailed_entries(
-#     with = area,
-#     when =  year,
-#     what = accomplishment, 
-#     # where = where,
-#         why = link,
-#         .protect = FALSE, # to turn link in LATEX 
-#   )
-
-
-#projects2 <- tibble::tribble(~name,  ~year, ~explain,
-projects2 %>%
-vitae::detailed_entries(
-    what = name,
-    when = year,
-    #with = NA_character_,
-    why = explain,
-    #where = NA_character_,
-    .protect = FALSE
-  )
-
- 
-```
 
 
 <!-- # Education -->
@@ -195,12 +142,6 @@ vitae::detailed_entries(
 #   )
 ```
 
-<!-- \newpage -->
-
-\endfirstpage
-
-
-
 \faIcon{graduation-cap} Education
 ==================================
 <!--  \faIcon{university} -->
@@ -213,7 +154,6 @@ edu %>%
                    endYear, glue::glue("{startYear}-{endYear}",.na = "")),
     where = where)
 ```
-
 
 
 \faIcon{medal} Academic Honors
@@ -241,95 +181,10 @@ honors %>%
 ```
 
 
-<!-- FOR THESE I AM NOT ACTUALLY USING data_Lula.R [I extract from .bib directly using `vitae::bibliography_entries` own function ] -->
-
-\faBook[regular] Publications  
-===========================
-<!-- [_See detailed list on [**my Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)_] -->
-
-\bigskip
-
-\faBookOpen[regular] Peer-Reviewed Articles & Technical Reports
----------------------------
-[_See detailed list on [**Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)_]
-
-```{r PUBgooglesch}
-# # from Google Scholar | not needed
-
-# publicationsGSL  %>%
-#   vitae::detailed_entries(
-#     what = title,
-#     when = year,
-#     with = author,
-#     where = journal #,
-#     #why = glue::glue("citations: {cites}")
-#   )
-#     
-```
-
-```{r PUBzotero}
-#not needed
-# # from Synched Lula-MyPublications-Narrow.bib (in Zotero)
-# author, title, type, issued, journal
- 
- # vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
- #                             # ,sorting="ydnt"
- #                              )  %>% 
-#  select(-genre) %>%  
- #  arrange(desc(issued)) %>% 
- #  filter( stringr::str_detect(type ,"webpage" , negate = TRUE)  )
- 
-```
-
-<!-- \medskip -->
-
-\faIcon{rss} Other Media
----------------------------
-[_See detailed list on [**Personal Website**](https://lulliter.com/publications.html#misc.-divulgative-pieces)_]
-
-<!-- \faIcon{file-signature} -->
-```{r BLOGzotero, eval=FALSE, include=FALSE}
-# # from Synched Lula-MyPublications-Narrow.bib (in Zotero)
-# author, title, type, issued, journal
- 
-#print<-  
-vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
-                            # ,sorting="ydnt"
-)  %>% 
-  select(-genre) %>%  
-  arrange(desc(issued)) %>% 
-  filter( stringr::str_detect(type ,"webpage" )  )
- 
-
-# --------- names(print)
-#   "URL" "author"  "genre" "id" "issued" "keyword" "language"  "publisher"  "title"            "title-short"  "type" "DOI" "ISSN" "accessed" "container-title"  "issue""page" "volume"           "abstract"  "collection-title" "number" "publisher-place"  "annote"  
-
-# --------- print$type
-# "webpage" "webpage" "report" "webpage" "webpage" "article-journal" "report"         
-#  [8] "report"          "report"          "article-journal" "report"          "webpage"     
-```
-
-
-<!-- \faIcon*{calendar} Talks -->
-<!-- =========================== -->
-
-<!-- ```{r TALKzotero} -->
-<!-- # # from Synched Lula-MyTalks.bib (in Zotero) -->
-<!-- # author, title, type, issued, journal -->
-
-<!--   vitae::bibliography_entries(file = here::here("data", "Lula-MyTalks.bib") -->
-<!--                              # ,sorting="ydnt" -->
-<!--                               )  %>% -->
-<!--   select(-genre) %>% -->
-<!--   arrange(desc(issued)) -->
-
-<!-- ``` -->
-
-
-
-\faIcon{laptop-code} Software <!-- \faIcon{file-code} -->
+\faIcon{laptop-code} Software
 =============================== 
-
+<!-- \faIcon{file-code} -->
+  
 
 <!-- ```{r sw_opt1} -->
 <!-- # software %>% -->
@@ -365,7 +220,7 @@ tribble(
   "Git, Github, Unix Shell, CSS, HTML, LaTeX, Markdown"
 )  %>%
   kable(booktabs = T, align = 'c', escape = F, format = "latex")  %>%
-  kable_styling(full_width = F, font_size = 10, latex_options = "HOLD_position") %>%
+  kable_styling(full_width = F, font_size = 9, latex_options = "HOLD_position") %>%
   row_spec(0, bold = T, color = "#009acd") |>
   row_spec(1, bold = F, color = "#7f7f7f") |>
   column_spec(column = 1:3, width = '4.75cm')
@@ -392,7 +247,7 @@ data.frame(
   #French = cell_spec(c("A2","A1","A1","A1"), 'latex', color = '#7fcce6') 
 )  %>% 
   kable(booktabs = T, align = 'c', escape = F, format = "latex")  %>% 
-  kable_styling(full_width = F, font_size = 10, latex_options = "HOLD_position") %>%  
+  kable_styling(full_width = F, font_size = 9, latex_options = "HOLD_position") %>%  
   footnote(
     footnote_as_chunk = T,
     general_title = " ",
@@ -405,42 +260,167 @@ data.frame(
 ```
 
 
-<!-- \newpage -->
+
 
 \faIcon*{pencil} Professional Development
 ===========================
-<!-- No certificates to make it all fit 2 pages  -->
+ 
 ```{r}
-# # ---- OPTION 1 - with CERTIFICATES links
-# # courses <- tribble(~accomplishment,      ~year,     ~detail)
-# courses %>% 
-#   filter(year > 2014) %>% # mainly to stick to 2 pg 
-#   vitae::detailed_entries(
-#     what = accomplishment,
-#     when = year ,
-#     why = detail, # certificate 
-#     .protect = FALSE # allows links in column
-#   ) 
+#courses <- tribble( ~area, ~accomplishment, ~year, [~where], [~detail],
 
-
-# ---- OPTION 2 - withOUT CERTIFICATES links
-# courses <- tribble(~accomplishment,      ~year,     ~detail)
-courses %>% 
-  filter(year > 2014) %>% # mainly to stick to 2 pg 
+courses %>%
   vitae::detailed_entries(
+    #why = area ,
     what = accomplishment,
     when = year ,
-   # why = detail, # certificate 
+    why = detail, # certificate 
     .protect = FALSE # allows links in column
-  ) 
+  )
+    
+```
+
+\newpage
+
+\faIcon{lightbulb}  Other Professional Service
+===================================== 
+
+```{r}
+# service <- tribble( ~what, ~when, ~with,
+#   "Peer Reviewer",                "ongoing",                   "Energy Policy & Journal of the Association of Environmental 
+service %>%
+  vitae::detailed_entries(
+  what = what, 
+  when =  when,
+  why = why  
+  )
+  
+```
+
+<!-- \bigskip -->
+
+\faIcon{r-project}  Data Science Projects  
+===================================== 
+
+```{r PROJECTS}
+# ~area,  ~year, ~accomplishment, ~where, ~link,
+# projects %>%
+# detailed_entries(
+#     with = area,
+#     when =  year,
+#     what = accomplishment, 
+#     # where = where,
+#         why = link,
+#         .protect = FALSE, # to turn link in LATEX 
+#   )
+
+
+#projects2 <- tibble::tribble(~name,  ~year, ~explain,
+projects2 %>%
+  vitae::detailed_entries(
+    what = name,
+    when = year,
+    #with = NA_character_,
+    why = explain,
+    #where = NA_character_,
+    .protect = FALSE
+  )
+
+```
+
+<!-- \endfirstpage -->
+
+<!-- FOR THESE I AM NOT ACTUALLY USING data_Lula.R [I extract from .bib directly using `vitae::bibliography_entries` own function ] -->
+
+\newpage
+
+\faBook[regular] Publications
+===========================
+
+\medskip
+
+[_See detailed list on my [**Google Scholar Profile**](https://scholar.google.com/citations?user=OBYla5gAAAAJ&hl=en&oi=ao)_]
+
+\bigskip
+<!-- \medskip -->
+
+\faBookmark[regular] Peer-Reviewed Articles
+---------------------------
+
+```{r PUBgooglesch}
+# # from Google Scholar
+# publicationsGSL  %>%
+#   vitae::detailed_entries(
+#     what = title,
+#     when = year,
+#     with = author,
+#     where = journal #,
+#     #why = glue::glue("citations: {cites}")
+#   )
+#     
+```
+
+```{r PUBzotero}
+# # from Synched Lula-MyPublications-Narrow.bib (in Zotero)
+# author, title, type, issued, journal
+ 
+ vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
+                             # ,sorting="ydnt"
+                              ) %>% 
+  filter(genre == "Peer-reviewed" ) %>% 
+  select(-genre) %>% 
+  arrange(desc(issued)) %>% 
+  filter( stringr::str_detect(type ,"webpage" , negate = TRUE)  )
+ 
 ```
 
 
+\bigskip
+<!-- \medskip -->
 
-```{r eval=FALSE, include=FALSE}
-# To update CV on my website, run the following code in the console:
-rmarkdown::render(here::here("03_CV_vitae", "awesome_resume_europrogettista.Rmd"), output_file = "../../../Documents/04_JOB/04_1_JobAppli/ShortCV_LMM.pdf")
+\faBookOpen[regular] Technical Reports
+---------------------------
+
+```{r TECzotero}
+# # from Synched Lula-MyPublications-Narrow.bib (in Zotero)
+# author, title, type, issued, journal
+ 
+ vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
+                             # ,sorting="ydnt"
+                              ) %>% 
+  filter(genre != "Peer-reviewed" ) %>% 
+  select(-genre) %>% 
+  arrange(desc(issued)) %>% 
+  filter( stringr::str_detect(type ,"webpage" , negate = TRUE)  )
+ 
 ```
+
+\bigskip
+
+\faIcon{rss} Other Media
+---------------------------
+
+<!-- \faIcon{file-signature} -->
+```{r BLOGzotero}
+# # from Synched Lula-MyPublications-Narrow.bib (in Zotero)
+# author, title, type, issued, journal
+ 
+#print<-  
+vitae::bibliography_entries(file = here::here("data", "Lula-MyPublication-Narrow.bib")
+                             # ,sorting="ydnt"
+                              ) %>% 
+     arrange(desc(issued)) %>% 
+  select(-genre) %>% 
+  filter( stringr::str_detect(type ,"webpage" )  )
+ 
+
+# --------- names(print)
+#   "URL" "author"  "genre" "id" "issued" "keyword" "language"  "publisher"  "title"            "title-short"  "type" "DOI" "ISSN" "accessed" "container-title"  "issue""page" "volume"           "abstract"  "collection-title" "number" "publisher-place"  "annote"  
+
+# --------- print$type
+# "webpage" "webpage" "report" "webpage" "webpage" "article-journal" "report"         
+#  [8] "report"          "report"          "article-journal" "report"          "webpage"     
+```
+
 
 ```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}
 # here::here()
@@ -472,3 +452,19 @@ rmarkdown::render(here::here("03_CV_vitae", "awesome_resume_europrogettista.Rmd"
 ```
 
 
+\faIcon*{microphone} Talks & Lectures
+===========================
+  <!-- \faIcon*{calendar} Talks  -->
+```{r TALKzotero}
+# # from Synched Lula-MyTalks.bib (in Zotero)
+# author, title, type, issued, journal
+ 
+  vitae::bibliography_entries(file = here::here("data", "Lula-MyTalks.bib")
+                             # ,sorting="ydnt"
+                              ) %>% 
+  select(-genre) %>%  
+  arrange(desc(issued))
+
+```
+
+ 
