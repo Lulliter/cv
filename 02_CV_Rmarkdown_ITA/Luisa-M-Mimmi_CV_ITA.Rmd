@@ -4,203 +4,464 @@ geometry: margin=1in
 
 title: "Curriculum Vitae"
 author: "Luisa M. Mimmi"
-# address: "Guinness Brewery · Park Royal · London NW10 7RR, UK"
-fontawesome: yes
 
+# jobtitle: "Chief Brewer, Arthur Guinness & Son"  #param
+# address: "Guinness Brewery · Park Royal · London NW10 7RR, UK" # no
+
+fontawesome: yes
+# output:
+#   pdf_document:
+#     template: rap-latex-cv.tex
+#   html_document:
+#     df_print: paged
+phone: "+39 348 9528360"
 email: lmm76@georgetown.edu
-linkedin: luisa-m-mimmi
-github: Lulliter
-#twitter: Lulliter
+linkedin: luisa-m-mimmi # non viene
+# github: Lulliter
+# twitter: Lulliter
 web: lulliter.com
 updated: TRUE
 rdateformat: "`r format(Sys.time(), '%d %b %Y')`"
+
 keywords: RMarkdown, academic CV, template
+linkcolor: blue
 
 fontfamily: mathpazo
 fontfamilyoptions: sc, osf
 fontsize: 10pt
-linkcolor: blue
 urlcolor: blue
 
 params:
   cv_code: 
     label: cv_code
-    value: econ
+    value: pol
     input: select
-    choices: ["econ","journ", "data"]  
+    choices: ["pol","data"]  
   jobtitle:
     label: Job Title
-    value: "Esperta in economia e politiche pubbliche"
+    value: "Esperta di Economia e Politiche Pubbliche"
     input: select
-    choices: ["Esperta in economia e politiche pubbliche", "Esperta in giornalismo economico", "Economista e Data Scientist"]
+    choices: ["Esperta di Economia e Politiche Pubbliche", "Policy & Data Analyst"]
   blurb:
       label: Short Bio
-      value: "Economista dello sviluppo con Master in Politiche Pubbliche alla Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici e congiunturali, monitoraggio e valutazione di impatto per progetti di sviluppo.<br><br> **Area di specializzazione**: valutazione di politiche per favorire l'accesso equo e sostenibile a servizi infrastrutturali di base -abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti. Comprovate capacità come _project manager_ e nell'avvio e coordinamento di collaborazioni internazionali e multi-settoriali."
+      value: "Economista con una solida esperienza nell'analisi statistica ed econometrica applicata allo sviluppo economico. In oltre 15 anni di esperienza in Italia e all'estero, ho valutato la fattibilità e l'impatto di politiche e strumenti finanziari finalizzati all'accesso inclusivo e sostenibile ai servizi infrastrutturali (abitazione, mobilità, acqua e servizi igienico-sanitari, energia, istruzione e salute).<br><br> Cerco opportunità per applicare le mie competenze analitiche e di _project management_ all'implementazione e alla valutazione dei fondi strutturali e di investimento in ambito nazionale/UE (PNRR, Next Generation EU, FESR, FSE, Fondi di Coesione, Horizon Europe, ecc.)."
       input: select
-      choices: ["Economista dello sviluppo con Master in Politiche Pubbliche alla Georgetown University e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU in studi diagnostici e congiunturali, monitoraggio e valutazione di impatto per progetti di sviluppo.<br><br> **Area di specializzazione**: valutazione di politiche per favorire l'accesso equo e sostenibile a servizi infrastrutturali di base -abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti. Comprovate capacità come _project manager_ e nell'avvio e coordinamento di collaborazioni internazionali e multi-settoriali.", 
-      "Analista di Politiche Pubbliche con Master presso la Georgetown University e solida formazione in economia e politiche per lo sviluppo sostenibile, con focus nell'accesso universale alle infrastrutture ed oltre 15 anni di esperienza professionale di presso Banche Multilaterali di Sviluppo e Pubblica Amministrazione.<br><br> Ottima padronanza della lingua inglese (scritta e parlata) e eccellenti capacità di comunicazione, comprovate da svariate pubblicazioni tecniche - dal _blog post_ di carattere divulgativo fino ad articoli di carattere accademico.",
-      "Economista di formazione con comprovata esperienza nella progettazione e implementazione di strumenti diagnostici, analisi avanzate e visualizzazioni di dati applicati allo sviluppo economico. La maggior parte della mia ricerca empirica mira a migliorare l'accesso universale ai servizi infrastrutturali di base (acqua e servizi igienico-sanitari, energia, abitazione, istruzione e salute). Per lavoro e per passione, seguo costantemente lo sviluppo di tecniche e strumenti di _data science_. Sono interessata a opportunità lavorative che mi consentano di ideare e implementare approcci basati sui dati per migliorare l'accesso e la disponibilità di servizi infrastrutturali di alta qualità."]
-      # Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030.
+      choices: ["Economista con una solida esperienza nell'analisi statistica ed econometrica applicata allo sviluppo economico. In oltre 15 anni di esperienza in Italia e all'estero, ho valutato la fattibilità e l'impatto di politiche e strumenti finanziari finalizzati all'accesso inclusivo e sostenibile ai servizi infrastrutturali (abitazione, mobilità, acqua e servizi igienico-sanitari, energia, istruzione e salute).<br><br> Cerco opportunità per applicare le mie competenze analitiche e di _project management_ all'implementazione e alla valutazione dei fondi strutturali e di investimento in ambito nazionale/UE (PNRR, Next Generation EU, FESR, FSE, Fondi di Coesione, Horizon Europe, ecc.).", 
+      "I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations, especially applied to economic development and access to infrastructure. Most of my research aims at improving universal access to basic services (housing, water and sanitation, energy, education and health). As a life-long learner, I am passionate about exploring new data sources and analytical tools to tackle various public policy challenges."]
   it_skills: 
     label: it_skills
-    value: "**Software development** _livello base_ (Git, Github, Unix Shell, GNU make, AWS)"
+    value: "**Misc. development tools** _basic knowledge_ (Git, Github, Unix Shell, GNU make, AWS)"
     input: select
-    choices: ["**Software development** _livello base_ (Git, Github, Unix Shell, GNU make, AWS)","**Web design** _livello base_ (HTML, CSS, JavaScript)"] 
+    choices: ["**Misc. development tools** _basic knowledge_ (Git, Github, Unix Shell, GNU make, AWS)","**Web design** _basic knowledge_ (HTML, CSS, JavaScript)"] 
 jobtitle: "`r params$jobtitle`" # must come AFTER the params declaration
 ---
 
-```{r title, include=FALSE}
-# render_report = function(cv_code) {
-#   rmarkdown::render(
-#     input = here::here("02_CV_Rmarkdown_ITA", "Luisa-M-Mimmi_CV_ITA.Rmd"),
-#     params = list(
-#       cv_code = list("econ", "journ")
-#     ),
-#     output_file = paste0("Luisa-M-Mimmi_", params$cv_code, "_ITA.pdf")
-#   )
-# }
 
-# call with function ...
+ 
+<!-- -----------------
+ - Based on Steven Miller Markdown style CV http://svmiller.com/blog/2016/03/svm-r-markdown-cv/
+ - Ideally wanted to make it all automatic like in https://github.com/Jaeoc/CV-template-rmarkdown (basically uses only R custom functions), but I want more details and cannot modify accordingly 
++ So far I created the updated .xlxs file with input data in Italian
+- but I still input everything manually... 
++ another example could be https://github.com/natbprice/cv
+----------------- -->
+
+<!-- \arrayrulecolor{white} -->
+
+<!-- This makes all lines in the tables invisible (white), when combined with adding the package \usepackage{colortbl} to the .tex preamble. See https://stackoverflow.com/questions/53868409/is-there-a-way-to-make-a-kable-without-lines-borders-for-pdf -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE)
+
+if(!require(dplyr)){install.packages("dplyr")}  
+if(!require(stringr)){install.packages("stringr")}  
+
+if(!require(readxl)){install.packages("readxl")}  
+if(!require(here)){install.packages("here")} 
+if(!require(tibble)){install.packages("tibble")} #for data input
+if(!require(glue)){install.packages("glue")}  
+if(!require(kableExtra)){install.packages("kableExtra")} #for formatting output
+if(!require(huxtable)){install.packages("huxtable")} #for formatting output
+
+library(kableExtra) #for more table options when printing
 ```
 
+<!-- ## Loading & transforming data -->
 
->  `r params$blurb`
+```{r data_ITA, message=FALSE, warning=FALSE}
+# From file  "02_CV_Rmarkdown_ITA/cv-data_ITA.xlsx" ------------------------------------------------
+edu <- read_excel(here("02_CV_Rmarkdown_ITA", "cv-data_ITA.xlsx"),
+                  sheet = "education") %>% 
+  select(institution, loc, title, end_month, end_year ) %>%  
+  mutate(where = glue::glue("{institution} - {loc}"),
+         # qui non mi serve la durata --> extract portion before "("
+         what = str_extract(string = title, pattern =  "^[^\\(]+" ) ,
+         when = glue::glue("{end_month}-{end_year}" )
+  ) %>% select( where, what, when )
 
-<!-- > Economista dello sviluppo con Master in Politiche Pubbliche (Georgetown University) e solida formazione in econometria e statistica. Esperienza professionale di oltre 15 anni per Banche Multilaterali di Sviluppo e fondi fiduciari EU [con specializzazione nel disegno e implementazione di in studi diagnostici], monitoraggio e valutazione di impatto per progetti di sviluppo [in America Latina, Africa e Sud-Est Asiatico]. -->
+employment <- read_excel(here("02_CV_Rmarkdown_ITA", "cv-data_ITA.xlsx"),
+                         sheet = "employment") %>% 
+  mutate(what = title,
+         where = glue::glue("{org} - {division} {loc}" ,.na = ""),
+         
+         when = glue::glue("{start} --> {end}",.na = ""), 
+         tasks = glue::glue("{description_1} 
+                             {description_2}
+                             {description_3}",.na = "")
+  ) %>% select( what, where, when, tasks)
 
-<!-- > Area di specializzazione: valutazione di politiche innovative per favorire l'accesso universale a servizi infrastrutturali di base (abitazione, elettricità, acqua e servizi igienico-sanitari, mobilità, etc.). Conoscenza approfondita e competenza nell'uso di dati aperti, software open source, e modelli di inferenza statistica applicati a studi econometrici nel campo dello sviluppo economico e degli obiettivi dell'Agenda 2030.   -->
+
+
+grants <- read_excel(here("02_CV_Rmarkdown_ITA", "cv-data_ITA.xlsx"),
+                     sheet = "grants_awards") %>% 
+  mutate(what = title,
+         where = sponsor,
+         when = glue::glue("{start}/{end}",.na = "") ) %>% 
+  select( what, where, when )
+
+
+lang <- read_excel(here("02_CV_Rmarkdown_ITA", "cv-data_ITA.xlsx"),
+                      sheet = "skills") %>% 
+  filter(section == "Languages") %>% 
+  select(skill, level_EU)
+  
+soft <- read_excel(here("02_CV_Rmarkdown_ITA", "cv-data_ITA.xlsx"),
+                      sheet = "skills") %>% 
+  filter(section == "Software") %>% 
+  select(skill, description, level)
+
+memberships <- read_excel(here("02_CV_Rmarkdown_ITA", "cv-data_ITA.xlsx"),
+                      sheet = "memberships")
+
+# Manual ------------------------------------------------------------
+courses <- tribble(#  ~area,
+        ~accomplishment,      ~year,     ~detail,
+"LINKEDIN Learning -- Git Essential Training (3 hours)",  "2022" ,"\\href{https://www.linkedin.com/learning/certificates/c207f0b4f40a6dd1672177c10c397d6451bc43b3ab9c128bc28c014e61efe704?trk=share_certificate}{Certificate}",
+# "LINKEDIN Learning -- Git: Branches, Merges, and Remotes” (3 hours)",  "2022" ,"\\href{https://www.linkedin.com/learning/certificates/a4d6be5bfeef0b43f9a9ebfe84193d38c9786e40b7aa1688648089754acd07df?trk=share_certificate}{Certificate}",
+        
+"STATISTICAL HORIZONS -- Multilevel and Mixed Effects Models Using R (4 days)", "2021", NA_character_,
+# 
+# "LINKEDIN Learning -- The Data Science of Nonprofit Service Organizations (1 hour)",  "2019" ,"\\href{https://www.linkedin.com/learning/certificates/d5b3dfcf34679d5f00fe660bb078d2d8f3909494def819fb086c88ec433e4d27?trk=share_certificate}{Certificate}",
+
+"BANCA INTER-AMERICANA DELLO SCILUPPO -- Machine Learning with R (7 weeks)", "2019", NA_character_, 
+"BANCA MONDIALE -- Household Surveys in the Post-2015 Development Agenda (2 days)", "2018", NA_character_, 
+"MIT-JPAL (on EdX) -- Evaluating Social Programs (4 weeks)", "2017", NA_character_, 
+"DUKE (on Coursera) -- Managing Big Data with MySQL (5 weeks)",  "2017" ,"\\href{https://coursera.org/share/8efe0e981dc578581dd5f775be6f22e8}{Certificate}",#  Certificate https://coursera.org/share/8efe0e981dc578581dd5f775be6f22e8
+"MIT-JPAL (on EdX) -- The Analytics Edge (9 weeks)",  "2016", NA_character_, 
+"UC-DAVIS (on Coursera) -- Fundamentals of GIS (4 weeks)", "2016",  "\\href{https://coursera.org/share/6d81d059f2ecf658aea30b76d14fa44f}{Certificate}",  #  Certificate https://coursera.org/share/6d81d059f2ecf658aea30b76d14fa44f
+"IRES (Kenya) -- GIS Analysis for WASH Programs (5 days)",  "2016" , NA_character_, 
+"GENERAL ASSEMBLY -- SQL Bootcamp (1 day)",  "2016" , NA_character_, 
+"DUKE (on Coursera) -- Data Analysis and Statistical Inference (10 weeks)", "2015", NA_character_, # didnt pass :-( 
+"JOHNS HOPKINS (on Coursera) -- The Data Scientist Toolbox (4 weeks)", "2014",  "\\href{https://coursera.org/share/bc85f7c36bad5b97f2c99ac59616737e}{Certificate}"
+ )
+  
+
+# From Zotero  ------------------------------------------------------------
+
+# PUBLICATIONS (I split COLLECTIONS in Zotero) --------------------------------------------------------
+lula_pub <- RefManageR::ReadBib(
+  file = here::here("data", "Lula-MyPublication-Narrow.bib"),
+  .Encoding ="UTF-8") %>%   
+    as.data.frame() %>% 
+  dplyr::filter(bibtype != "Online")  
+
+
+pub_peer <- lula_pub %>% 
+  filter(type == "Peer-reviewed") %>% 
+  #mutate(date  =  as.Date(date, format = "%Y-%m") ) %>% 
+  mutate(date2  =  lubridate::ym(date)) %>%  # aggiunge giorno
+  mutate(year  =  lubridate::year(date2)) %>%   
+  mutate(month  =  lubridate::month(date2)) %>%   
+    select( author, year, title,    journaltitle,   doi)
  
+pub_tech <- lula_pub %>% 
+  filter(type != "Peer-reviewed") %>% 
+  #mutate(date  =  as.Date(date, format = "%Y-%m") ) %>% 
+  mutate(date2  =  lubridate::ym(date)) %>%  # aggiunge giorno
+  mutate(year  =  lubridate::year(date2)) %>%   
+  mutate(month  =  lubridate::month(date2)) %>%   
+    select( author, year, title,    url) 
+  
+# filter blogs [Online] 
+lula_blog <- RefManageR::ReadBib(
+        file = here::here("data", "Lula-MyPublication-Narrow.bib"),
+        .Encoding ="UTF-8")  %>%   
+         as.data.frame() %>% 
+         dplyr::filter(bibtype  == "Online")
+      
+pub_blog <- lula_blog %>% 
+  mutate(date2  =  lubridate::ym(date)) %>%  # aggiunge giorno
+  mutate(year  =  lubridate::year(date2)) %>%   
+  mutate(month  =  lubridate::month(date2)) %>%   
+    select( author, year, title, organization,   url) 
+   
 
-# ESPERIENZA PROFESSIONALE
-•	*Consulenza Indipendente in ambito economico - Pavia:*
+# TALKS (I split COLLECTIONS in Zotero) --------------------------------------------------------
+lula_talks <- RefManageR::ReadBib(file = here::here("data", "Lula-MyTalks.bib"),
+                                  .Encoding ="UTF-8"
+) %>% 
+  as.data.frame()
 
- > **Analista di Politiche Pubbliche e Settoriali** \hfill Gen2022-Present
+talk <- lula_talks %>% 
+  mutate(date2  =  substr(date, 1,7)) %>%  # aggiunge giorno
+  mutate(date3  =  lubridate::ym(date2 )) %>%  # aggiunge giorno
+  mutate(year  =  lubridate::year(date3)) %>%   
+  mutate(month  =  lubridate::month(date3)) %>%   
+    select( year, month,  title, eventtitle, venue, url) 
+
  
- >  Servizi di consulenza ad enti pubblici del governo italiano e a centri studi (con focus su politiche per la sostenibilita delle infrastrutture, e su temi regolatori) 
+rm("lula_pub", "lula_talks", "lula_blog")
+#list_unnecessary <-  ls(pattern =  '^lula_', all.names = TRUE)
+```
+
+<!-- WOULD NEED TO RE-THINK FOR THESE TO WORK  -->
+
+```{r table_functions, eval=FALSE, include=FALSE}
+
+# Needed if used... 
+input <- list(employment = employment,
+              
+              education = edu,
+              courses = courses,
+              grants = grants,
+              # awards = awards, 
+              # memberships = memberships, 
+              lang = lang, 
+              soft = soft ,
+              pub_peer = pub_peer,
+              pub_tech = pub_tech,
+              pub_blog = pub_blog,
+              talks = talk)
+
  
-•	*Ministero dell'Economia e delle Finanze (MEF, Dir. III) - Roma:*
+#Function to format the input data and make it ready for printing
+format_output <- function(input){
+  # Make text until first ';' bold
+  text_to_bold <- unlist(
+    lapply(
+      strsplit(input$what, split = ";"), 
+      function(x) x[[1]])
+  ) #extract until first ';' for each data point
+  text_to_bold <- gsub("\\(", "\\\\(", text_to_bold) #any left parentheses must be escaped so gsub works two lines down 
+  input$what <- gsub("&", "\\\\&", input$what) #& must be escaped
+  input$what <- mapply(gsub, text_to_bold, paste0("\\\\textbf{", text_to_bold, "}"), input$what) #replace by (latex) bold version, mapply loops over each data point
+  
+  
+ #make a linebreak after each ';' when printing table (linebreak function adds some latex code)
+  input$what <- kableExtra::linebreak(input$what, linebreaker = ";")
+  
+  input
+}
 
- > **Sr. Economic Advisor - dossier infrastrutture** \hfill Feb2020-Dic2021
+#function to create tables
+CV_table <- function(x){
+  knitr::kable(x, booktabs = TRUE, 
+               col.names = NULL, 
+               escape= FALSE, 
+               linesep = "\\addlinespace") %>% 
+  column_spec(1,"2.5cm", bold = TRUE) %>% 
+  column_spec(2, "13.3cm")}
  
- >  Supporto alla preparazione della Presidenza Italiana del G20 (2021) - Gruppo di Lavoro Infrastrutture - e coordinamento del lavoro su resilienza e manutenzione delle infrastrutture, culminata con l'approvazione (_endorsement_) della [_"G20 Policy Agenda on Infrastructure Maintenance"_](http://www.g20.utoronto.ca/2021/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf).
- 
-•	*Banca Inter-Americana dello Sviluppo (Div. Infrastruttura - Washington, DC):*
+# -------------- format-data, 
+#Formatting, if changing names of data vectors, remember to change here and in tables later. NB! Change 'student' in the gsub call below to your own last name to bold it in the article section
 
- > **Research Fellow** \hfill Mag2018-Ott2019
- 
- >  Indagini statistiche multi-paese ed analisi sui dati relativi a offerta e domanda di acqua e servizi igienico-sanitari in America Latina | Contributo alla preparazione del Rapporto Annuale 2020 di IADB sulle Infrastrutture: [*"From Structures to Services - The Path to Better Infrastructure in Latin America and the Caribbean"*](https://publications.iadb.org/publications/english/document/From-Structures-to-Services-The-Path-to-Better-Infrastructure-in-Latin-America-and-the-Caribbean.pdf)
+input <- lapply(input, format_output)
 
-•	*Banca Mondiale (presso 2 Fondi Fiduciari, Settore Sviluppo Sostenibile - Washington, DC):*
+#For education and institutional responsibilites, add empty row after each row so that there is space between entries in the output
+input[c("education", "employment")] <- lapply(input[c("education", "employment")], function(x) sapply(x, rbind, ""))
 
- > **Sr. Monitoring & Evaluation Specialist** \hfill Mar2009-Apr2018
- 
- > Coordinamento tecnico di prestiti e sovvenzioni per l’accesso inclusivo e sostenibile a servizi di base (abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti) in vari paesi in via di sviluppo | Supervisione di un portafoglio di valutazioni di impatto condotte con analisi sul campo a Mumbai (India), Nairobi (Kenya), Kampala (Uganda) e di villaggi rurali della periferia di Dhaka (Bangladesh) | Redazione di vari rapport periodici, articoli e presentazioni per i finanziatori Europei dei Fondi Fiduciari Multilaterali
+#add papers to list, which needs different formatting
+input$papers <- papers
+input$papers$what <- gsub("Student", "\\\\textbf{Student}", input$papers$what) #bold NB! change 'Student' to your own name
+input$papers$what <- gsub("&", "\\\\&", input$papers$what) #& must be escaped
+```
 
-•	*Banca Inter-Americana dello Sviluppo (Div. Promozione Sociale, Washington, DC):*
+> `r params$blurb`
 
- >  **Research Assistant** \hfill Ott2008-Feb2009
+# ISTRUZIONE
 
->	Supporto a cooperazione tecnica con il Municipio di Fortaleza (Brasile) sul “Programma Integrato di Inclusione Sociale per i Giovani” e preparazione di successivo prestito finalizzato | Analisi comparata di 8 casi internazionali di promozione della imprenditorialità giovanile e microcredito in contesti svantaggiati
+```{r eval=FALSE, include=FALSE}
+edu %>% print()
+```
+
+*Georgetown University (Washington DC, USA)*, **Master in Politiche Pubbliche** \hfill Maggio 2008\
+*Università degli Studi di Pavia (Italia)*, **Laurea in Economia e Commercio** \hfill Aprile 2001\
+*Universidad Autonoma de Madrid (Spagna)*, **Programma Erasmus EU** \hfill Luglio 1998\
+*Liceo Scientifico T. Olivelli (Pavia, Italia)*, **Maturità Scientifica** \hfill Giugno 1994
+
+<!-- ```{r  eval=FALSE, include=FALSE, results='asis'} -->
+<!-- edu %>% knitr::kable(booktabs = T, -->
+<!--                       align = 'c', -->
+<!--                       format = "latex", -->
+<!--                       col.names = NULL, -->
+<!--                       escape = FALSE) %>%  -->
+<!--   kable_styling(full_width = F, font_size = 10, latex_options = "HOLD_position") %>% -->
+<!--   #row_spec(0, bold = T, color = "#009acd") |> -->
+<!--   column_spec(2, bold = T, color = "#7f7f7f")  %>%  -->
+<!--   column_spec(column = 1:3, width = '4.75cm') -->
+<!-- ``` -->
+
+# PERCORSO PROFESSIONALE
+
+<!-- ```{r eval=FALSE, include=FALSE, results='asis'} -->
+<!-- employment %>% knitr::kable(  -->
+<!--                       booktabs = T, -->
+<!--                       align = 'c', -->
+<!--                       format = "latex", -->
+<!--                       col.names = NULL, -->
+<!--                       escape = FALSE) %>% -->
+<!--   kable_styling(full_width = F, font_size = 10, latex_options = "HOLD_position") -->
+<!-- ``` -->
+
+```{r eval=FALSE, include=FALSE}
+employment %>% view()
+```
+
+• *Consulenza Indipendente in ambito economico - Pavia -* \hfill Gen2022-Oggi
+
+-   **Analista di Politiche Pubbliche e Settoriali**
+    -   \- Focus su politiche per la sostenibilita delle infrastrutture e temi regolatori
+    -   \- Servizi di consulenza ad enti pubblici del governo italiano e a centri studi
+
+• *Ministero dell'Economia e delle Finanze (MEF) - Roma -* \hfill Feb2020-Dic2021
+
+-   **Sr. Economic Advisor - dossier infrastrutture**
+    -   \- Supporto alla preparazione della Presidenza Italiana del G20 (2021) nel Gruppo di Lavoro Infrastrutture
+    -   \- Coordinamento del lavoro su resilienza e manutenzione delle infrastrutture
+    -   \- Redazione bozza della [*"G20 Policy Agenda on Infrastructure Maintenance"*](http://www.g20.utoronto.ca/2021/G20-Policy-Agenda-on-Infrastructure-Maintenance.pdf) approvata dai Ministri delle Finanze del G20
+
+• *Banca Inter-Americana dello Sviluppo - Washington, DC -* \hfill Mag2018-Ott2019
+
+-   **Research Fellow**
+    -   \- Indagini statistiche multi-paese ed analisi sui dati relativi a offerta e domanda di acqua e servizi igienico-sanitari in America Latina
+    -   \- Contributo alla preparazione del Rapporto Annuale 2020 di IADB sulle Infrastrutture: [*"From Structures to Services - The Path to Better Infrastructure in Latin America and the Caribbean"*](https://flagships.iadb.org/en/DIA2020/from-structures-to-services)
 
 \newpage
 
-•	*AVSI (Nonprofit per Inclusione Sociale - Rio de Janeiro e Belo Horizonte, Brasile):*
+• *Banca Mondiale - Washington, DC:* \hfill Mar2009-Apr2018
 
- > **Summer Intern** \hfill Estate 2007 
- 
- >  Partecipazione ad attività sul campo e compilazione dei dati sul progetto _“Conviver”_ promosso da AVSI e dalla locale utilità CEMIG per l'accesso legale e sostenibile all’energia elettrica dei residenti in varie _favelas_ (baraccopoli) di Belo Horizonte 
+-   **Sr. Monitoring & Evaluation Specialist**
+    -   \- Coordinamento tecnico di prestiti e sovvenzioni per l'accesso inclusivo e sostenibile a servizi di base (abitazione, elettricità, acqua e servizi igienico-sanitari, trasporti) in vari paesi in via di sviluppo
+    -   \- Supervisione di alcune valutazioni di impatto condotte con analisi sul campo a Mumbai (India), Nairobi (Kenya), Kampala (Uganda) e di villaggi rurali della periferia di Dhaka (Bangladesh)
+    -   \- Redazione di 3 articoli "peer-reviewed", vari rapport periodici, e presentazioni per i finanziatori Europei dei Fondi Fiduciari Multilaterali
 
-•	*Value Partners S.p.A - (Milano):*
+• *Banca Inter-Americana dello Sviluppo - Washington, DC -* \hfill Ott2008-Feb2009
 
- > **Business Intelligence Analyst** \hfill Ott2001-Giu2006
+-   **Research Assistant**
+    -   \- Supporto a cooperazione tecnica con il Municipio di Fortaleza (Brasile) sul "Programma Integrato di Inclusione Sociale per i Giovani" e preparazione di successivo prestito finalizzato
+    -   \- Analisi comparata di 8 casi internazionali di promozione della imprenditorialità giovanile e microcredito in contesti svantaggiati
 
- >  Valutazione posizionamento competitivo e business intelligence per clienti pubblici e privati attivi in Italia, Europa, America Latina, Asia Sud-Orientale e Nord Africa  | Analisi della fattibilità e profittabilità di iniziative di Corporate Social Responsability per vari clienti in diversi settori
+• *AVSI (Nonprofit) - Rio e Belo Horizonte, Brasile -* \hfill Estate 2007
 
+-   **Stagista**
+-   \- Partecipazione ad attività sul campo e raccolta dati sul progetto *"Conviver"* promosso da AVSI e CEMIG per l'accesso legale e sostenibile all'energia elettrica dei residenti in alcune *favelas* di Belo Horizonte
 
-# ALTRE ESPERIENZE PROFESSIONALI 
+• *Value Partners S.p.A. - Milano -* \hfill Ott2001-Giu2006
 
-**Revisore** per riviste specializzate: _"Energy Policy"_; _"Journal of the Association of Environmental and Resource Economists"_
+-   **Business Intelligence Analyst**
+-   \- Valutazione posizionamento competitivo e business intelligence per clienti pubblici e privati attivi in Italia, Europa, America Latina, Asia Sud-Orientale e Nord Africa
+-   \- Analisi della fattibilità e profittabilità di iniziative di Corporate Social Responsability per vari clienti in diversi settori
 
-**Relatore** alla conferenza: "The Regulation of Public Utilities of the Future in Latin America and the Caribbean" - Banca Inter-Americana dello Sviluppo. 5-6 Settembre, 2018
+# ALTRE ESPERIENZE PROFESSIONALI
 
-**Coordinatore per la Global Water Practice** nella preparazione del primo "Geospatial Day" alla Banca Mondiale - 1 Novembre, 2016
+• **Revisore** per riviste specializzate: *"Energy Policy"*; *"Journal of the Association of Environmental and Resource Economists"*\
+• **Advisor** nella preparazione di una proposta di ricerca su *"EU Lagging Regions: state of play and future challenges"* finanziata dal Parlamento Europeo *Committee on Regional Development (REGI)* con CSIL -- 2020\
+• **Analista dati di fundraising (pro bono)** per Organizzazione Nonprofit [*New York Encounter*](http://www.newyorkencounter.org/) -- 2017-2020 <!-- > Analisi ETL --usando programmazione in SQL e R-- volti ad integrare informazioni relative al fundraising contenute in varie piattaforme di dati (Salesforce, Square, e SendGrid)    -->
+<!-- **Relatore** alla conferenza: "The Regulation of Public Utilities of the Future in Latin America and the Caribbean" - Banca Inter-Americana dello Sviluppo. 5-6 Settembre, 2018 -->
+<!-- **Coordinatore per la Global Water Practice** nella preparazione del primo "Geospatial Day" alla Banca Mondiale - 1 Novembre, 2016 -->
+<!-- **Delegato** per il Water Partnership Program alla conferenza "World Water Week" - Stoccolma, Svezia. 26-31 Agosto, 2012 -->
+<!-- **Moderatore Esperto** al "Workshop Regional sulla Valuatazione d'Impatto *Turning Promises into Evidence*" co-organizzato da organized by Banca Mondiale e Spanish Impact Evaluation Fund (SIEF) - Dhaka, Bangladesh. Ottobre 2011 -->
 
-**Delegato** per il Water Partnership Program alla conferenza "World Water Week" - Stoccolma, Svezia. 26-31 Agosto, 2012
+\newpage
 
-**Moderatore Esperto** al "Workshop Regional sulla Valuatazione d'Impatto _Turning Promises into Evidence_" co-organizzato da organized by Banca Mondiale e Spanish Impact Evaluation Fund (SIEF) - Dhaka, Bangladesh. Ottobre 2011 
+# LINGUE 
 
-**Analista di dati di Fundraising (pro bono)** per Organizzazione Nonprofit *[New York Encounter](http://www.newyorkencounter.org/)*
- <!-- > Analisi ETL --usando programmazione in SQL e R-- volti ad integrare informazioni relative al fundraising contenute in varie piattaforme di dati (Salesforce, Square, e SendGrid)    -->
+• **Italiano**(Native) • **Inglese**(C2) • **Spagnolo**(C1) • **Portoghese**(B1) 
+\begin{footnotesize} \href{https://europa.eu/europass/it/common-european-framework-reference-language-skills}{[Quadro di riferimento Europeo per le lingue: A = basic; B = indipendent; C = proficient]}  \end{footnotesize}
 
+```{r lan_opt2, eval=FALSE, include=FALSE}
+lang %>% 
+  filter(skill != "Francese") %>% view()
+```
 
-# ISTRUZIONE E FORMAZIONE
-
-*Georgetown University (Washington DC, USA)*, **Master in Politiche Pubbliche** - 2 anni \hfill Maggio 2008
-
-*Università degli Studi di Pavia (Italia)*, **Laurea in Economia e Commercio** - 4 anni  \hfill Aprile 2001
-
-*Lice Scientifico T. Olivelli (Pavia, Italia)*, **Maturità Scientifica** \hfill Giugno 1994
-
-
-# CORSI E CERTIFICAZIONI
-
-•	Statistical Horizons: **Multilevel and Mixed Models Using R** (4 days) \hfill 2021
-
-•	Banca Inter-Americana dello Sviluppo: **Machine Learning (ML)** (7 weeks) \hfill 2019
-
-•	Banca Mondiale: **Household Surveys in the Post-2015 Development Agenda** (2 days) \hfill 2018
-
-•	MIT-JPAL (_online_ EdX): **Evaluating Social Programs** (4 weeks) \hfill 2017
-
-•	Duke (_online_ Coursera): **Managing Big Data with MySQL** (5 weeks) \hfill 2017
-
-•	MIT-JPAL (_online_ EdX): **The Analytics Edge** (9 weeks) \hfill 2016
-
-•	UC-Davis (_online_ Coursera): **Fundamentals of GIS** (4 weeks) \hfill 2016
-
-•	General Assembly: **SQL Bootcamp** (1 day) \hfill 2016
-
-•	Duke (_online_ Coursera): **Data Analysis and Statistical Inference** (10 weeks) \hfill 2015
-
-
-
-#  CAPACITÀ LINGUISTICHE
-**Italiano** (madrelingua), **Inglese** (C2), **Spagnolo** (C1), **Portoghese** (B2)  
-
-
-#  CAPACITÀ INFORMATICHE
+# INFORMATICA
+<!-- ```{r  sw_opt2, results='markup'} -->
+<!-- # Lorena Abad, ma non viene ! -->
+<!-- # https://github.com/loreabad6/R-CV/blob/master/CV.Rmd -->
+<!-- tribble( -->
+<!--    ~`Statistics / Databases`, ~`GIS`, ~`Other`, -->
+<!--   "R, RStudio, Stata, SQL, Salesforce, MS Excel", -->
+<!--   "ArcGIS, QGIS, GeoDa, OpenStreetMap", -->
+<!--   "Git, Github, Unix Shell, CSS, HTML, LaTeX, Markdown" -->
+<!-- )  %>% -->
+<!--   kable(booktabs = T, align = 'c', escape = F, format = "latex")  %>% -->
+<!--   kable_styling(full_width = F, font_size = 9, latex_options = "HOLD_position") %>% -->
+<!--   row_spec(0, bold = T, color = "#009acd") |> -->
+<!--   row_spec(1, bold = F, color = "#7f7f7f") |> -->
+<!--   column_spec(column = 1:3, width = '4.75cm') -->
+<!-- ``` -->
 <!-- to break the line 2 trailing spaces then enter  -->
-**Analisi Dati e Statistica** (R, Stata, SAS, MS Excel)  
-**Gestione Database** (MS SQL Server, Salesforce)  
-**GIS** _livello base_ (ArcGIS, QGis, GeoDa)  
-`r params$it_skills`
+```{r  eval=FALSE, include=FALSE}
+soft %>% 
+   view()
+```
 
-# BORSE DI STUDIO
+**Statistica/Database** (R, RStudio, Stata, SQL, Salesforce, MS Excel)\
+**GIS** *livello base* (ArcGIS, QGIS, GeoDa, OpenStreetMap )\
+`r params$it_skills` <!-- Software development --> 
 
-**2007/2008**	  Borsa di studio “Ingenio” per ricercatori all'estero - Regione Lombardia (Italy)
+# BORSE DI STUDIO & FONDI PER LA RICERCA
 
-**2006/2007**	  Borsa di studio "Ambassadors of Goodwill" per studi post-grado - Rotary Foundation International
+```{r  eval=FALSE, include=FALSE}
+grants %>% 
+   view()
+```
 
-**1997/98**   Borsa di studio “Socrates-Erasmus” per anno accademico alla Universidad Autonoma de Madrid (Spagna) - European Union (EU)
-
-
+• ESA e Banca Mondiale: **Co-finanziamento per progetto pilota nel programma \newline
+“Earth Observation for Sustainable Development” (EO4SD)** \hfill 2017-2020\
+• Regione Lombardia: **Borsa di studio "Ingenio" per ricercatori all'estero**  \hfill 2007/2008\
+• Rotary Foundation International: **Borsa di studio "Ambassadors of Goodwill" \newline
+per studi post-laurea** \hfill 2006/2007\
+• Unione Europea: **Borsa di studio "Socrates-Erasmus" per interscambio universitario** \hfill 1997/98\
+<!-- # CORSI E CERTIFICAZIONI -->
+<!-- ```{r  eval=FALSE, include=FALSE} -->
+<!-- courses %>%  -->
+<!--    view() -->
+<!-- ``` -->
+<!-- • LINKEDIN Learning: **Git Essential Training** (3 hours)  \hfill 2022\ -->
+<!-- • STATISTICAL HORIZONS: **Multilevel and Mixed Models Using R** (4 days) \hfill 2021\ -->
+<!-- • Banca Inter-Americana dello Sviluppo: **Machine Learning (ML)** (7 weeks) \hfill 2019\ -->
+<!-- • Banca Mondiale: **Household Surveys in the Post-2015 Development Agenda** (2 days) \hfill 2018\ -->
+<!-- • MIT-JPAL (*online* EdX): **Evaluating Social Programs** (4 weeks) \hfill 2017\ -->
+<!-- • DUKE (*online* Coursera): **Managing Big Data with MySQL** (5 weeks) \hfill 2017\ -->
+<!-- • MIT (*online* EdX): **The Analytics Edge** (9 weeks) \hfill 2016\ -->
+<!-- • IRES (Kenya) -- **GIS Analysis for WASH Programs** (5 days) \hfill 2016\ -->
+<!-- • UC-Davis (*online* Coursera): **Fundamentals of GIS** (4 weeks) \hfill 2016\ -->
+<!-- • GENERAL ASSEMBLY: **SQL Bootcamp** (1 day) \hfill 2016\ -->
+<!-- • DUKE (*online* Coursera): **Data Analysis and Statistical Inference** (10 weeks) \hfill 2015 -->
+<!-- • JOHNS HOPKINS (*online* Coursera): **The Data Scientist Toolbox** (4 weeks) \hfill 2015 -->
 
 # PUBBLICAZIONI
+```{r eval=FALSE, include=FALSE}
+pub_peer %>% 
+   view()
+pub_tech %>% 
+   view()
+```
 
-## **Riviste Scientifiche**
+## **RIVISTE SCIENTIFICHE**
 
-**Mimmi L. M.**. 2022 (in revisione) *‘Caution: road work ahead’: Italy in front of the challenge of infrastructure maintenance: existing issues and promising responses*.
+**Mimmi L. M.**. 2022 (in revisione). *'Caution: road work ahead': Italy in front of the challenge of infrastructure maintenance: existing issues and promising responses*.
 
-Patel, A. Borja-Vega C., **Mimmi L.M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2022 [*Predicting Housing Deprivation from Space in the Slums of Dhaka*](https://doi.org/10.1177/23998083221123589). Environment and Planning B: Urban Analytics and City Science, September.
+Patel, A. Borja-Vega C., **Mimmi L.M.**, Soukup, T., Kolomaznik, J., Marcia, M., Lee, H. Bhan, T. 2022. [*Predicting Housing Deprivation from Space in the Slums of Dhaka*](https://doi.org/10.1177/23998083221123589). Environment and Planning B: Urban Analytics and City Science, September.
 
 **Mimmi L. M.** 2014. [*From informal to authorized electricity service in urban slums: Findings from a household level survey in Mumbai*](http://linkinghub.elsevier.com/retrieve/pii/S0973082614000507). Energy for Sustainable Development, Vol. 21, pages 66-80.
 
 **Mimmi L. M.**, and S. Ecer. 2010. [*An econometric study of illegal electricity connections in the urban favelas of Belo Horizonte, Brazil*](http://linkinghub.elsevier.com/retrieve/pii/S0301421510003113). Energy Policy, Vol. 38(9), pages 5081-5097.
 
+## **REPORT TECNICI**
 
-## **Report Tecnici**
-
-**Mimmi, L. M.**, Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2018. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank.
+<!-- **Mimmi, L. M.**, Borja-Vega, C., Patel, A., Bhan, T., Mundt, M., Lee, H. Y., Soukup, T. and Kolomaznik, J. 2018. ["*Predicting Deprivations in Housing and Basic Services from Space: A Pilot Study in Slums of Dhaka, Bangladesh. Working Paper*"](https://www.researchgate.net/publication/325090468_Predicting_Deprivations_in_Housing_and_Basic_Services_from_Space_A_Pilot_Study_in_Slums_of_Dhaka_Bangladesh) (pre-print). Washington DC, World Bank. -->
 
 Rodriguez, D. J.; Suardi, M. A.; Ham, M.; **Mimmi L. M.**; Goksu, A. J. 2014. ["*Applying results-based financing in water investments*"](http://documents.worldbank.org/curated/en/862681468326999086/pdf/893260WP0Box380ng0Water0Investments.pdf). Water partnership program (WPP); Water papers. Washington DC, World Bank.
 
@@ -208,86 +469,64 @@ Rodriguez, D. J.; Suardi, M. A.; Ham, M.; **Mimmi L. M.**; Goksu, A. J. 2014. ["
 
 **Mimmi L. M.** 2012. ["*Should we re-evaluate what to evaluate (and how)?*"](http://documents.worldbank.org/curated/en/252381468317944978/pdf/831740NWP0P1040Box0382076B00PUBLIC0.pdf) GPOBA evaluation notes; no. 1. Washington DC, World Bank.
 
-Johannes, L, **Mimmi L. M.**, Mumssen Y. 2010. ["*A Snapshot of the OBA Universe*"](https://openknowledge.worldbank.org/bitstream/handle/10986/10934/548520BRI0OBA010Box349431B01PUBLIC1.pdf?sequence=1&isAllowed=y). World Bank, April 2010. 
+<!-- Johannes, L, **Mimmi L. M.**, Mumssen Y. 2010. ["*A Snapshot of the OBA Universe*"](https://openknowledge.worldbank.org/bitstream/handle/10986/10934/548520BRI0OBA010Box349431B01PUBLIC1.pdf?sequence=1&isAllowed=y). World Bank, April 2010. -->
 
 **Mimmi L. M.** 2009. ["*Youth Employment and Entrepreneurship Programs: A Review of Eight Best Practices*"](https://www.researchgate.net/publication/320044319_Youth_Employment_and_Entrepreneurship_Programs_A_Review_of_Eight_Best_Practices). Washington DC, Social Protection and Health Division, IADB.
 
-**Mimmi L. M.** 2008. ["*Demand-driven solutions to illegal electricity connections - A preliminary evaluation of the “Conviver” program in the urban favelas of Belo Horizonte, Brazil (Master’s Thesis)*"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.4369&rep=rep1&type=pdf). Georgetown Public Policy Institute; Washington, DC.
+<!-- **Mimmi L. M.** 2008. ["*Demand-driven solutions to illegal electricity connections - A preliminary evaluation of the "Conviver" program in the urban favelas of Belo Horizonte, Brazil (Master's Thesis)*"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.4369&rep=rep1&type=pdf). Georgetown Public Policy Institute; Washington, DC. -->
+<!-- **Mimmi L. M.** 2001. "*L’internazionalizzazione delle piccole e medie imprese italiane nell’Area Euro-Mediterranea*". (Tesi di Laurea). Università di Pavia, Italy. -->
 
-**Mimmi L. M.** 2001. "*Italian SMEs internationalization patterns within the Euro-Mediterranean Partnership. (Tesi di Laurea)*". Università di Pavia, Italy.
+## **PRESENTAZIONI E SEMINARI**
+```{r eval=FALSE, include=FALSE}
+talk %>% 
+   view()
+```
 
+**2021, Novembre** *Infrastructure maintenance among G20 top priorities*, Lezione per corso online di Banca Mondiale su: ["QII and green, resilient and inclusive development"](https://www.edx.org/course/investing-in-quality-infrastructure-for-a-green-inclusive-and-resilient-recovery?index=product&queryID=a9e2b434945673bf39977fc059573b96&position=1).
 
-## **Presentazioni e Seminari**
+**2021, Ottobre 27** *Building a more resilient future: Quality Infrastructure for all*, Intervento alla sessione 2 su *"Resilient infrastructure for the recovery"*. OECD 6th Forum on the Governance of infrastructure. Online.
 
-**2021, Novembre** *Infrastructure maintenance among G20 top priorities*, Lezione per Corso online di Banca Mondiale su [“QII and green, resilient and inclusive development”](https://www.edx.org/course/investing-in-quality-infrastructure-for-a-green-inclusive-and-resilient-recovery?index=product&queryID=a9e2b434945673bf39977fc059573b96&position=1).
+**2021, Ottobre 6** *Remarks on the IWG's work under the Italian Presidency*, Presentazione al *"C20 Summit ‐ Reclaiming sustainable infrastructure as a public good"*. Online.
 
-**2021, Ottobre 27** *Building a more resilient future: Quality Infrastructure for all*, intervento alla  Sessione 2 su _"Resilient infrastructure for the recovery"_. OECD 6th Forum on the Governance of infrastructure. Online. 
+**2020, Dicembre 15** *Introducing the 2021 G20 Infrastructure priorities* Intervento alla sessione I/Giorno I *"Infrastructure resilience in light of Covid-19"*. OECD High-level Seminar on Quality Infrastructure Investment. Milano.
 
-**2021, Ottobre 6** *Remarks on the IWG’s work under the Italian Presidency*, presentazione al _"C20 Summit ‐ Reclaiming sustainable infrastructure as a public good"_. Online. 
+**2020, Giugno 26** *"Predicting deprivations in housing and basic services from space in slums of Dhaka"*, Presentazione alla sessione *"Case Studies on the impact of Earth Observation"*. XVIII Milan European Economy Workshop. Milano.
 
-**2020, Dicembre 15** *“Introducing the 2021 G20 Infrastructure priorities"* intervento durante la Sessione I/Giorno I _"Infrastructure resilience in light of Covid-19"_. OECD High-level Seminar on Quality Infrastructure Investment. Milano. 
+**2020, Maggio 25** *Priorities and Major Challenges for Italy's G20 Presidency in 2021 in the Infrastructure Working Group*. Presentazione alla dirigenza MEF. Roma.
 
-**2020, Giugno 26** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, presentato durante la sessione _"Case Studies on the impact of Earth Observation"_. XVIII Milan European Economy Workshop. Milano. 
+**2019, Marzo 25-29** *"Predicting deprivations in housing and basic services from space in slums of Dhaka"*, durante la sessione *"Drawing policy advice from land data analysis"*. Annual Conference on Land and Poverty. Banca Mondiale. Washington D.C.
 
-**2019, Marzo 25-29** *“Predicting deprivations in housing and basic services from space in slums of Dhaka”*, durante la sessione _"Drawing policy advice from land data analysis"_. Annual Conference on Land and Poverty. Banca Mondiale. Washington D.C.
+**2017, Settembre 14** *"Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums"*. Banca Mondiale. Washington D.C.
 
-**2017, Settembre 14** *“Integrating Multi-Dimensional Data for Inclusive and Sustainable Development of Urban Slums”*. Banca Mondiale. Washington D.C.
+**2015, Maggio 27** *"The Water Partnership Program M&E Framework: Lessons Learned"*. Banca Mondiale. Washington, D.C.
 
-**2015, Maggio 27** *“The Water Partnership Program M&E Framework: Lessons Learned”*. Banca Mondiale. Washington, D.C.  
+**2012, Aprile 11** *"Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai."*. Banca Mondiale. Washington, D.C.
 
-**2012, Aprile 11**  *“Sampling, WTP and Demand Assessment: Findings from a Household Survey in 3 Urban Slums of Mumbai.”*. Banca Mondiale. Washington, D.C.  
+**2011, Gennaio 26** *"OBAdata Website Launch."*. Banca Mondiale. Washington, D.C.
 
-**2011, Gennaio 26**  *“OBAdata Website Launch.”*. Banca Mondiale. Washington, D.C.  
+**2011, Aprile 18-19** *"Result-Based Financing: energy applications around the world"*. EnergyLab. Milano, Italia.
 
-**2011, Aprile 18-19** *“Result-Based Financing: energy applications around the world”*. EnergyLab. Milano, Italia. 
+**2009, Marzo 17** *"Youth Employment and Entrepreneurship Programs: Eight Best Practices."*. Banca Inter-Americana dello Sviluppo. Washington, D.C.
 
-**2009, Marzo 17** *“Youth Employment and Entrepreneurship Programs: Eight Best Practices.”*. Banca Inter-Americana dello Sviluppo. Washington, D.C.
+## **ARTICOLI DIVULGATIVI**
+```{r eval=FALSE, include=FALSE}
+pub_blog %>% 
+  view()
+```
 
+[Lista completa accessibile su [**sito web personale**](https://lulliter.com/publications.html#misc.-divulgative-pieces)]
 
-## **Articoli Divulgativi**
+<!-- **Mimmi, Luisa M.** "*Infrastructure maintenance among G20 top priorities*" [G20 website, ripreso da World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT) Settembre 2021. -->
 
-[**Mimmi, Luisa M.**] *Infrastructure maintenance among G20 top priorities* [G20 website, ripreso da World Bank Blogs](https://blogs.worldbank.org/ppps/infrastructure-maintenance-among-g20-top-priorities?CID=WBW_AL_BlogNotification_EN_EXT/?cid=SHR_BlogSiteTweetable_EN_EXT)
+<!-- **Mimmi, Luisa M.** and Fabiana Machado. "*Technological disruption: a look into the future innovation in water and sanitation.*" Gennaio, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/) -->
 
-**Mimmi, Luisa M.** “*Is President Trump holding on to his electoral promiseto“hire American”?*” Luglio, 2019. [GiHub page](https://raw.githubusercontent.com/Lulliter/GreenCard/master/05_Analysis.pdf) 
+<!-- **Mimmi, Luisa M.**, Borja-Vega Christian, and Amit Patel. "*Predicting Slum Dwellers' Deprivations from Space: A Pilot Study on Dhaka.*" Novembre, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka) -->
 
-**Mimmi, Luisa M.** and Fabiana Machado. “*Technological disruption: a look into the future innovation in water and sanitation.*” Gennaio, 2019. [IADB Water Blog](https://blogs.iadb.org/agua/en/technological-disruption-a-look-into-the-future-innovation-in-water-and-sanitation/)
+<!-- **Mimmi, Luisa M.** "*Open Spatial Data for Resilience in Tanzania: Lessons Learned from 'Dar Ramani Huria.'*" Novembre, 2016. [Personal Website](https://lulliter.com/posts/2016-11-15-ramani-huria/) -->
 
-**Mimmi, Luisa M.**, Borja-Vega Christian, and Amit Patel. “*Predicting Slum Dwellers’ Deprivations from Space: A Pilot Study on Dhaka.*” Novembre, 2017. [World Bank Water Blog](https://blogs.worldbank.org/water/predicting-slum-dwellers-deprivations-space-pilot-study-dhaka)
+<!-- **Mimmi, Luisa M.** "*Sussidiarietà e Sviluppo: L'elettricità nelle Favelas* dell'America Latina." Febbraio, 2009. [Personal Website](https://lulliter.com/posts/2009-02-21-sussidiar/) -->
 
-**Mimmi, Luisa M.** “*Open Spatial Data for Resilience in Tanzania: Lessons Learned from ‘Dar Ramani Huria.’*" Novembre, 2016. [Personal Website](https://lulliter.com/posts/2016-11-15-ramani-huria/) 
-
-**Mimmi, Luisa M.** “*Sussidiarietà e Sviluppo: L’elettricità nelle _Favelas_ dell’America Latina.*” Febbraio, 2009. [Personal Website](https://lulliter.com/posts/2009-02-21-sussidiar/)
-
-
-```{r copyTOCVDIR, message=FALSE, warning=FALSE, include=FALSE}
-# outdated because new website takes from here on its own
-here::here()
-
-# ObjectiFY SubDirs	
-from.dir <- "./02_CV_Rmarkdown_ITA"
-fs::path_abs(from.dir)
-
-# sporca ma OK!
-to.dir   <- "/Users/luisamimmi/My Drive/Github/blog/static/cv_files" # "/Users/luisamimmi/GoogleDrive/source/content/cv",
-
-fs::path_abs(to.dir)
-
-# List Files 
-files <- list.files(path = from.dir, 
-						  pattern='\\.pdf$', # an optional regular expression. (ends with
-						  full.names = TRUE, # If TRUE, the directory path is prepended to the file names 
-						  recursive = FALSE) # Should the listing recurse into directories?
-	
-# all_munge <- list.files(path = "./03_Munge/", pattern = '\\.R$' , 
-#                         all.files = FALSE,  # def (= only visible)
-#                         full.names = FALSE, # def (= no dir name prepended)
-#                         recursive = FALSE,  # def  (= no inside sub-dir )
-#                         ignore.case = TRUE, #    (= pattern-matching be case-insensitive)
-#                         include.dirs = FALSE, # def (subdirectory names NOT be included in recursive listings)
-#                         no.. = FALSE) # def (both "." and ".." be excluded also from non-recursive listings)
-class(files) 
-
-# function to MOVE
-for (f in files) file.copy(from = f, to = to.dir,	 overwrite = T, copy.date = T)
-
+```{r eval=FALSE, include=FALSE}
+# To update CV on my website, run the following code in the console:
+rmarkdown::render(here::here("02_CV_Rmarkdown_ITA", "Luisa-M-Mimmi_CV_ITA.Rmd"), output_file = "../../../Documents/04_JOB/04_1_JobAppli/CV_LMM_ITA.pdf")
 ```

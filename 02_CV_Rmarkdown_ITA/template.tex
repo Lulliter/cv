@@ -205,6 +205,20 @@ $if(fontawesome)$\usepackage{fontawesome}$endif$
 \cfoot{\scriptsize  $author-meta$ - $title$$if(updated)$$else$ - $if(rdateformat)$$rdateformat$$else$\apstylekinda\today$endif$$endif$}
 \rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
 
+% ---- mods by https://github.com/Jaeoc/CV-template-rmarkdown -----------------
+%add pckages or kableExtra tables don't work [Anton]
+\usepackage{float}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{tabu}
+\usepackage{colortbl} %used to remove colors of lines in kable
+\usepackage{titlesec} %control lines under sections
+% ---- mods by https://github.com/Jaeoc/CV-template-rmarkdown -----------------
+%line under each header section [Anton]
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+
+
 % Always load hyperref last.
 \usepackage{hyperref}
 $if(colorlinks)$

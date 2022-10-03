@@ -12,11 +12,12 @@ researchgate: Luisa-Mimmi
 headcolor: 0088cc #cc0066 # 0088cc #0073e6 #990000
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: |-
-  Experienced policy analyst with a strong background in statistical and econometric analysis applied to economic development. I have evaluated policies and financial instruments pursuing equitable and sustainable access to infrastructure services (housing, mobility, water and sanitation, energy, education and health).  
-  I am currently pursuing opportunities to apply my policy analysis and project management skills in the field of national/EU Structural and Investment Funds (ERDF, ESF, CF, Next Generatin EU, PNRR, etc).
+  Experienced policy advisor with a strong background in statistical and econometric analysis applied to economic development. In over 15 years of experience in Italy and abroad, I have evaluated the feasibility and impact of policies and financial instruments promoting inclusive and sustainable access to infrastructure services (housing, mobility, water and sanitation, energy, education and health).  
+  I am currently pursuing opportunities to apply my policy analysis and project management skills towards the implementation and evaluation of national & EU Structural and Investment Funds (PNRR, Next Generation EU, ERDF, ESF, CF, etc).
   
 # profilepic: ../foto/LulaSalvador2015.jpg
 docname: Curriculum Vitae
+csl: apa6-cv.csl # no numbering in bib
 output:
   vitae::awesomecv: 
   keep_tex: false
@@ -48,7 +49,7 @@ p_load('vitae'     # The CV's LaTeX Template
        ,'RefManageR'
        ,'scholar'
        , 'emojifont'
-       #, 'fontawesome'
+       , 'fontawesome'
        , 'ggrepel' 
        ,'kableExtra'
        ,'huxtable'
@@ -68,7 +69,7 @@ p_load('vitae'     # The CV's LaTeX Template
         # library(huxtable)
         # library(gridExtra)
 
-p_load_gh("rstudio", "fontawsome")
+#p_load_gh("rstudio", "fontawsome")
 
  # MODO ALTERNATIVO -----------------------
 # require(xfun)
@@ -138,21 +139,6 @@ work %>%
   )
 ```
 
-<!-- \faIcon{lightbulb}  Other Professional Service -->
-<!-- =====================================  -->
-<!-- ```{r} -->
-<!-- # service <- tribble( ~what, ~when, ~with, -->
-<!-- #   "Peer Reviewer",                "ongoing",                   "Energy Policy & Journal of the Association of Environmental  -->
-
-<!--   service %>% -->
-<!--   vitae::detailed_entries( -->
-<!--   what = what,  -->
-<!--   when =  when, -->
-<!--   why = why   -->
-<!--   ) -->
-
-<!-- ``` -->
-
 <!-- \faIcon{r-project}  Data Science Projects -->
 <!-- =====================================  -->
 ```{r PROJECTS, eval=FALSE, include=FALSE}
@@ -216,7 +202,7 @@ edu %>%
 
 
 
-\faIcon{medal} Academic Honors
+\faIcon{medal} Honors & Awards
 =============================== 
 ```{r}
 # ~area, ~accomplishment, ~year, ~where, [~detail],
@@ -405,35 +391,54 @@ data.frame(
 ```
 
 
+<!-- \faIcon{lightbulb}  Other Professional Service -->
+<!-- ===================================== -->
+<!-- ```{r} -->
+<!-- # service <- tribble( ~what, ~when, ~with, -->
+<!-- #   "Peer Reviewer",                "ongoing",                   "Energy Policy & Journal of the Association of Environmental -->
+
+<!--   service %>% -->
+<!--   vitae::detailed_entries( -->
+<!--   what = what, -->
+<!--   when =  when, -->
+<!--   why = why -->
+<!--   ) -->
+
+<!-- ``` -->
+
+
 <!-- \newpage -->
 
-\faIcon*{pencil} Professional Development
-===========================
-<!-- No certificates to make it all fit 2 pages  -->
-```{r}
-# # ---- OPTION 1 - with CERTIFICATES links
-# # courses <- tribble(~accomplishment,      ~year,     ~detail)
-# courses %>% 
-#   filter(year > 2014) %>% # mainly to stick to 2 pg 
-#   vitae::detailed_entries(
-#     what = accomplishment,
-#     when = year ,
-#     why = detail, # certificate 
-#     .protect = FALSE # allows links in column
-#   ) 
+<!-- \faIcon*{pencil} Professional Development -->
+<!-- =========================== -->
+
+<!-- ```{r corsi_opt1} -->
+<!-- # ---- OPTION 1 - with CERTIFICATES links -->
+<!-- # courses <- tribble(~accomplishment,      ~year,     ~detail) -->
+<!-- courses %>% -->
+<!--   filter(year > 2014) %>% # mainly to stick to 2 pg -->
+<!--   vitae::detailed_entries( -->
+<!--     what = accomplishment, -->
+<!--     when = year , -->
+<!--     why = detail, # certificate -->
+<!--     .protect = FALSE # allows links in column -->
+<!--   ) -->
+
+<!-- ``` -->
 
 
-# ---- OPTION 2 - withOUT CERTIFICATES links
-# courses <- tribble(~accomplishment,      ~year,     ~detail)
-courses %>% 
-  filter(year > 2014) %>% # mainly to stick to 2 pg 
-  vitae::detailed_entries(
-    what = accomplishment,
-    when = year ,
-   # why = detail, # certificate 
-    .protect = FALSE # allows links in column
-  ) 
-```
+<!-- ```{r corsi_opt2} -->
+<!-- # ---- OPTION 2 - withOUT CERTIFICATES links -->
+<!-- # courses <- tribble(~accomplishment,      ~year,     ~detail) -->
+<!-- courses %>%  -->
+<!--   filter(year > 2014) %>% # mainly to stick to 2 pg  -->
+<!--   vitae::detailed_entries( -->
+<!--     what = accomplishment, -->
+<!--     when = year , -->
+<!--    # why = detail, # certificate  -->
+<!--     .protect = FALSE # allows links in column -->
+<!--   )  -->
+<!-- ``` -->
 
 
 

@@ -8,16 +8,17 @@ phone: +39 348 9528360
 email: lmm76@georgetown.edu
 linkedin: luisa-m-mimmi
 researchgate: Luisa-Mimmi
-orcid: 0000-0002-2244-8282
+#orcid: 0000-0002-2244-8282
 github: lulliter
 twitter: lulliter
 headcolor: 0088cc #cc0066 # 0088cc #0073e6 #990000
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: |-
-  I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my research revolves around different policies improving universal access to basic infrastructure services (housing, water and sanitation, energy, education and health). 
+  I am an economist by training with demonstrated expertise designing and implementing diagnostic tools, advanced analytics and data visualizations applied to economic development. Most of my research revolves around different policies improving universal access to basic infrastructure services (housing, water and sanitation, energy, education and health).  
     I am passionate about using data from different sources –including social media, GIS and satellite imagery– to understand and tackle complex public policy issues. 
 profilepic: ../foto/LulaSalvador2015.jpg
 docname: Curriculum Vitae
+csl: apa6-cv.csl # apa-annotated-bibliography.csl
 output:
   vitae::awesomecv: 
   keep_tex: false
@@ -77,9 +78,10 @@ p_load_gh("rstudio" )
 #              )
 # xfun::pkg_attach2(packages, message = FALSE)
  
-# data input (in "./data/data_Lula.R")
+# data input (in "./data/data_Lula.R")   -----------------------
 source(file = here::here("data", "data_Lula.R")) # "data.r"
 
+ 
 # rorcid_app <- httr::oauth_app(
 #   appname = "rorcid",
 #   key = "APP-7E02XXWNQBFNMG1B",
@@ -156,7 +158,7 @@ edu %>%
 ```
 
 
-\faIcon{medal} Academic Honors
+\faIcon{medal} Honors & Awards
 =============================== 
 ```{r}
 # ~area, ~accomplishment, ~year, ~where, [~detail],
@@ -260,7 +262,25 @@ data.frame(
 ```
 
 
+\faIcon{lightbulb}  Other Professional Service
+===================================== 
 
+```{r}
+# service <- tribble( ~what, ~when, ~with,
+#   "Peer Reviewer",                "ongoing",                   "Energy Policy & Journal of the Association of Environmental 
+service %>%
+  vitae::detailed_entries(
+  what = what, 
+  when =  when,
+  why = why  
+  )
+  
+```
+
+<!-- \bigskip -->
+
+
+\newpage
 
 \faIcon*{pencil} Professional Development
 ===========================
@@ -279,24 +299,7 @@ courses %>%
     
 ```
 
-\newpage
 
-\faIcon{lightbulb}  Other Professional Service
-===================================== 
-
-```{r}
-# service <- tribble( ~what, ~when, ~with,
-#   "Peer Reviewer",                "ongoing",                   "Energy Policy & Journal of the Association of Environmental 
-service %>%
-  vitae::detailed_entries(
-  what = what, 
-  when =  when,
-  why = why  
-  )
-  
-```
-
-<!-- \bigskip -->
 
 \faIcon{r-project}  Data Science Projects  
 ===================================== 

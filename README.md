@@ -4,24 +4,30 @@ In this this R project I created different versions of my CV/resume following 2 
 
 The content in the main folders:
 
-1.  `00_CV_bib/` **(A long academic style CV (Eng) + .bib) [added like in bookdown]**
++  `00_CV_bib/` **(A long academic style CV (Eng) + .bib) [added like in bookdown]**
 
     -   :warning: this is out-of-date :warning:
     -   this has `html` and `pdf` outputs
 
-2.  `01_CV_Rmarkdown/` **A long academic style CV (Eng)** based on [*Steven V. Miller*'s example](http://svmiller.com/stevetemplates/)
++  `01_CV_Rmarkdown/` **A long academic style CV (Eng)** based on [*Steven V. Miller*'s example](http://svmiller.com/stevetemplates/)
 
     -   flavor "data/journalist" thanks to `params:` :star2:
 
-3.  `02_CV_Rmarkdown_ITA/` **A long academic style CV (ITA)** based on [*Steven V. Miller*'s example](http://svmiller.com/stevetemplates/)
++  `02_CV_Rmarkdown_ITA/` **A long academic style CV (ITA)** based on [*Steven V. Miller*'s example](http://svmiller.com/stevetemplates/)
 
     -   flavor "data/journalist" thanks to `params:` :star2:
 
-4.  `03_CV_vitae/` A few **long & short versions (Eng)** in `./03_CV_vitae/...` based on Mitchell O'Hara-Wild's [R package `vitae`](https://github.com/mitchelloharawild/vitae)
++  `03_CV_vitae/` A few **long & short versions (Eng)** in `./03_CV_vitae/...` based on Mitchell O'Hara-Wild's [R package `vitae`](https://github.com/mitchelloharawild/vitae)
 
     -   flavor "data/journalist"  
     -   flavor "shorter + europrogettista"
     -   flavor "flashy Data Science resume"
+
++  `04_CV_vitae/` Same as in `./03_CV_vitae/...` but long with all sections  
+
+    -   mainly intended for testing...
+ 
+
 
 ## NOTES
 
